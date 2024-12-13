@@ -7,10 +7,8 @@ BeginPackage["Notebook`DemosArchive`", {
 Begin["`Internal`"]
 
 
-<|"Client"->$Client, "Settings"->settings, "Env"->env|>
-
 checkReleaseNotes[assoc_] := With[{client = assoc["Client"], settings = assoc["Settings"], env = assoc["Env"]}, If[env["AppJSON", "version"] =!= settings["CurrentVersion"], With[{version = env["AppJSON", "version"]},
-  With[{files = FileNames["*.wln", FileNameJoin[{AppExtensions`DemosDir (*`*), "Release notes"}] ]},
+  With[{files = FileNames["*.wln", FileNameJoin[{AppExtensions`DemosDir, "Release notes"}] ]},
     With[{
         books = If[StringQ[settings["CurrentVersion"]], 
           Select[files, Function[name, StringMatchQ[FileNameTake[name], version~~__] ] ]
@@ -61,11 +59,11 @@ If[FileExistsQ[FileNameJoin @ {root, ".nosync"}],
 
   MergeDirectories[FileNameJoin[{root, "Demos"}], AppExtensions`DemosDir]; 
   DeleteFile[FileNameJoin @ {root, ".nosync"}];
-  (*DeleteDirectory[FileNameJoin @ {root, "Demos"}]*)
+  DeleteDirectory[FileNameJoin @ {root, "Demos"}, DeleteContents->True];
 ]
 
 
-EventHandler[EventClone[AppExtensions`AppEvent], {
+EventHandler[EventClone[AppExtensions`AppEvents], {
     "AfterUILoad" -> checkReleaseNotes
 }];
 
