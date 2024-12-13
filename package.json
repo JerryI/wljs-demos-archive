@@ -10,7 +10,7 @@
     "wljs-meta": {
       "frontend": "Frontend.wl",
       "priority": 1000,
-      "category": "Misc",
+      "category": "Misc"
     },
     "repository": {
       "type": "git",
