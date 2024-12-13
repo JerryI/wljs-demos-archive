@@ -1,9 +1,36 @@
 BeginPackage["Notebook`DemosArchive`", {
     "JerryI`Notebook`AppExtensions`",
-    "JerryI`Misc`Events`"
+    "JerryI`Misc`Events`",
+    "JerryI`WLX`WebUI`"
 }];
 
 Begin["`Internal`"]
+
+
+<|"Client"->$Client, "Settings"->settings, "Env"->env|>
+
+checkReleaseNotes[assoc_] := With[{client = assoc["Client"], settings = assoc["Settings"], env = assoc["Env"]}, If[env["AppJSON", "version"] =!= settings["CurrentVersion"], With[{version = env["AppJSON", "version"]},
+  With[{files = FileNames["*.wln", FileNameJoin[{AppExtensions`DemosDir (*`*), "Release notes"}] ]},
+    With[{
+        books = If[StringQ[settings["CurrentVersion"]], 
+          Select[files, Function[name, StringMatchQ[FileNameTake[name], version~~__] ] ]
+        ,
+          {Last[SortBy[files, FileDate] ]}
+        ]
+      },
+      Echo[StringJoin["Checking release notes for ", version] ];
+      Echo[books];
+      If[Length[books] > 0,
+        WebUILocation[StringJoin["/", URLEncode[books[[1]] ] ], client, "Target"->_];
+      ];
+
+    
+      
+    ];
+
+    ClearAll[checkReleaseNotes];
+  ]
+] ] ];
 
 
 MergeDirectories[source_String, target_String] := (
@@ -36,6 +63,12 @@ If[FileExistsQ[FileNameJoin @ {root, ".nosync"}],
   DeleteFile[FileNameJoin @ {root, ".nosync"}];
   (*DeleteDirectory[FileNameJoin @ {root, "Demos"}]*)
 ]
+
+
+EventHandler[EventClone[AppExtensions`AppEvent], {
+    "AfterUILoad" -> checkReleaseNotes
+}];
+
 
 End[]
 EndPackage[]
