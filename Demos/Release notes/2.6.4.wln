@@ -1,7 +1,7 @@
-<|"Notebook" -> <|"Controller" -> "a840b48c-901c-4fca-bb96-dc5557654384", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$104], 
+<|"Notebook" -> <|"Controller" -> "e2e98487-49e7-42aa-a176-e8c45716c084", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$188], 
    "HaveToSaveAs" -> False, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "da967d0a-780b-415e-949e-2569953cc729", 
+   "ModalsChannel" -> "41b2c035-88a7-4be7-932a-dfd04eda4030", 
    "Objects" -> <|"d935435c-c070-49da-b160-7822545d2d50" -> 
       <|"Public" -> Hold[Graphics3D[GraphicsComplex[
            {{1.4988533539461, -3.024737011387982, -0.03339703571334336}, 
@@ -53170,7 +53170,40 @@ BV+\"*)(*]VB*)", "ReadOnly" -> True]}, 1]]|>,
              "RotationControl" -> "Globe"}, PlotRange -> {{-2*Pi, 2*Pi}, 
              {-2*Pi, 2*Pi}, {-1307.7496078636693, 1307.7496078636693}}, 
            PlotRangePadding -> {Scaled[0.02], Scaled[0.02], Scaled[0.02]}, 
-           Ticks -> {Automatic, Automatic, Automatic}}]]|>|>, 
+           Ticks -> {Automatic, Automatic, Automatic}}]]|>, 
+     "6f07b81b-dac8-4872-af9f-6233ab175067" -> 
+      <|"Public" -> Hold[Graphics[{FrontInstanceReference[
+            4256407882905463300], {GrayLevel[1], EdgeForm[GrayLevel[0.5]], 
+            {Annotation[Rectangle[{1.5, 0}, {2.5, 1}], 0, 1], 
+             Annotation[Rectangle[{2.5, 0}, {3.5, 1}], 0, 3], 
+             Annotation[Rectangle[{3.5, 0}, {4.5, 1}], 0, 5], 
+             Annotation[Rectangle[{4.5, 0}, {5.5, 1}], 0, 6], 
+             Annotation[Rectangle[{5.5, 0}, {6.5, 1}], 0, 8], 
+             Annotation[Rectangle[{6.5, 0}, {7.5, 1}], 0, 10], 
+             Annotation[Rectangle[{7.5, 0}, {8.5, 1}], 0, 12], 
+             Annotation[Rectangle[{8.5, 0}, {9.5, 1}], 0, 13], 
+             Annotation[Rectangle[{9.5, 0}, {10.5, 1}], 0, 15], 
+             Annotation[Rectangle[{10.5, 0}, {11.5, 1}], 0, 17], 
+             Annotation[Rectangle[{11.5, 0}, {12.5, 1}], 0, 18], 
+             Annotation[Rectangle[{12.5, 0}, {13.5, 1}], 0, 20], 
+             Annotation[Rectangle[{13.5, 0}, {14.5, 1}], 0, 22], 
+             Annotation[Rectangle[{14.5, 0}, {15.5, 1}], 0, 24], 
+             Annotation[Rectangle[{15.5, 0}, {16.5, 1}], 0, 25]}, 
+            RGBColor[0.3333333333333333, 0.3333333333333333, 
+             0.3333333333333333], {Annotation[Rectangle[{2.2, 0.5}, {2.8, 
+                1}], 1, 2], Annotation[Rectangle[{3.2, 0.5}, {3.8, 1}], 1, 
+              4], Annotation[Rectangle[{5.2, 0.5}, {5.8, 1}], 1, 7], 
+             Annotation[Rectangle[{6.2, 0.5}, {6.8, 1}], 1, 9], 
+             Annotation[Rectangle[{7.2, 0.5}, {7.8, 1}], 1, 11], 
+             Annotation[Rectangle[{9.2, 0.5}, {9.8, 1}], 1, 14], 
+             Annotation[Rectangle[{10.2, 0.5}, {10.8, 1}], 1, 16], 
+             Annotation[Rectangle[{12.2, 0.5}, {12.8, 1}], 1, 19], 
+             Annotation[Rectangle[{13.2, 0.5}, {13.8, 1}], 1, 21], 
+             Annotation[Rectangle[{14.2, 0.5}, {14.8, 1}], 1, 23]}}, 
+           {RGBColor[1, 1, 0], Opacity[0.3]}, {GrayLevel[0], {}}, 
+           EventListener[Graphics`Canvas[], 
+            {"click" -> "d79725bb-3d1a-4b79-a77d-a5876beac7c3"}]}, 
+          ImageSize -> {500, 200}, "Controls" -> False]]|>|>, 
    "Path" -> "/Users/kirill/Github/wolfram-js-frontend/wljs_packages/wljs-dem\
 os-archive/Demos/Release notes/2.6.4.wln", "Quick" -> True, 
    "Storage" -> <|"onionskin-2fa" -> "1:eJycnXn4D3X3/weJLCFCEkOUJKSS3RBZC6FkH\
@@ -57363,28 +57396,28 @@ convcrVMzSp+TEf51vOPF+nSpm9S/xgeP/O870rzt7aRaH+MSh8UZ894w3ZO91VFa/4L4u5f6Q+p3\
          "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
          "RangePadding" -> Scaled[0.05]}]|>, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Release notes *2.6.4*", 
-      CellObj[JerryI`Notebook`CellObj`$40]], 
+      CellObj[JerryI`Notebook`CellObj`$156]], 
      Notebook`Editor`TOC`Private`heading[2, 
       "Improved support for SummaryBox and special symbols", 
-      CellObj[JerryI`Notebook`CellObj`$42]], 
+      CellObj[JerryI`Notebook`CellObj`$158]], 
      Notebook`Editor`TOC`Private`heading[2, 
       "Improved support for primitives Graphics3D", 
-      CellObj[JerryI`Notebook`CellObj`$48]], 
+      CellObj[JerryI`Notebook`CellObj`$163]], 
      Notebook`Editor`TOC`Private`heading[3, 
       "Tubes, Spheres inside `GraphicsComplex`", 
-      CellObj[JerryI`Notebook`CellObj`$48]], 
+      CellObj[JerryI`Notebook`CellObj`$163]], 
      Notebook`Editor`TOC`Private`heading[2, 
       "Tube supports variable radius and dynamics!", 
-      CellObj[JerryI`Notebook`CellObj`$54]], 
+      CellObj[JerryI`Notebook`CellObj`$167]], 
      Notebook`Editor`TOC`Private`heading[2, "New export feature", 
-      CellObj[JerryI`Notebook`CellObj`$65]], 
+      CellObj[JerryI`Notebook`CellObj`$178]], 
      Notebook`Editor`TOC`Private`heading[2, 
       "Experimental: Import WLN notebook", 
-      CellObj[JerryI`Notebook`CellObj`$67]], 
+      CellObj[JerryI`Notebook`CellObj`$224]], 
      Notebook`Editor`TOC`Private`heading[2, "TabView implemented!", 
-      CellObj[JerryI`Notebook`CellObj`$81]], 
+      CellObj[JerryI`Notebook`CellObj`$192]], 
      Notebook`Editor`TOC`Private`heading[2, "ChoiceDialog and MessageDialog", 
-      CellObj[JerryI`Notebook`CellObj`$102]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$205]]}|>, 
  "Cells" -> {<|"Data" -> ".html\n\n<style>\n  .balloon {\n  height: 125px;\n  \
 width: 105px;\n  border-radius: 75% 75% 70% 70%;\n  position: \
 relative;\n}\n\n.balloon:before {\n  content: \"\";\n  height: 75px;\n  \
@@ -57400,10 +57433,10 @@ position:fixed;\n  bottom: 0;\n  z-index: -99;  \n  padding: 1em;\n  \
 box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  overflow: \
 hidden;\n  transition: opacity 500ms;\n}\n</style>\n\n<div \
 id=\"balloon-container\">\n</div>", "Display" -> "codemirror", 
-    "Hash" -> "ba1566e6-faa6-493a-8496-69c2406b1333", "Invisible" -> False, 
+    "Hash" -> "7f6a8d1c-c33c-4dd8-9e1d-5fffbc8cf0c6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Locked" -> True, "Hidden" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+    "Notebook" -> "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "\n<style>\n  .balloon {\n  height: 125px;\n  width: 105px;\n  \
 border-radius: 75% 75% 70% 70%;\n  position: relative;\n}\n\n.balloon:before \
 {\n  content: \"\";\n  height: 75px;\n  width: 1px;\n  padding: 1px;\n  \
@@ -57418,10 +57451,10 @@ translateY(-300vh);\n  opacity: 0;}\n}\n#balloon-container {\n  height: \
 padding: 1em;\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: \
 wrap;\n  overflow: hidden;\n  transition: opacity 500ms;\n}\n</style>\n\n<div \
 id=\"balloon-container\">\n</div>", "Display" -> "html", 
-    "Hash" -> "8d7b735d-ef69-4a84-bc17-0bf687bf2f6e", "Invisible" -> False, 
+    "Hash" -> "d2ac0e91-acd6-4151-b519-cf37a24524b0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".js\n\nconst balloonContainer = \
 document.getElementById(\"balloon-container\");\n\nfunction random(num) {\n  \
 return Math.floor(Math.random() * num);\n}\n\nfunction getRandomStyles() {\n  \
@@ -57439,10 +57472,10 @@ balloonContainer.style.opacity = 0;\n  setTimeout(() => {\n    \
 balloonContainer.remove()\n  }, \
 500)\n}\n\ncreateBalloons(10);\nsetTimeout(removeBalloons, 7000);\n\nreturn \
 '';\n", "Display" -> "codemirror", "Hash" -> 
-     "529dbbae-a0ed-486c-8c7e-82a48a80d237", "Invisible" -> True, 
+     "2313130d-cddb-4b92-adcf-89d8eec67b89", "Invisible" -> True, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "\nconst balloonContainer = \
 document.getElementById(\"balloon-container\");\n\nfunction random(num) {\n  \
 return Math.floor(Math.random() * num);\n}\n\nfunction getRandomStyles() {\n  \
@@ -57459,40 +57492,40 @@ balloonContainer.append(balloon);\n  }\n}\n\nfunction removeBalloons() {\n  \
 balloonContainer.style.opacity = 0;\n  setTimeout(() => {\n    \
 balloonContainer.remove()\n  }, \
 500)\n}\n\ncreateBalloons(10);\nsetTimeout(removeBalloons, 15000);\n\nreturn \
-'';\n", "Display" -> "js", "Hash" -> "802fe0a4-befb-4cc2-9ea0-412063c2e73a", 
+'';\n", "Display" -> "js", "Hash" -> "6bd56203-5c75-45a6-82a7-c89c5244c960", 
     "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
     "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
-    "Notebook" -> "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+    "Notebook" -> "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n# Release notes *2.6.4*\n\n", "Display" -> "codemirror", 
-    "Hash" -> "ac5718db-f1c9-498c-a4e2-90c107193e25", "Invisible" -> False, 
+    "Hash" -> "ff1d4b1d-ed94-48e1-9407-6e4d05d3c56b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "# Release notes *2.6.4*\n\n", "Display" -> "markdown", 
-    "Hash" -> "a64ae6ce-b610-4854-a724-970d60d06159", "Invisible" -> False, 
+    "Hash" -> "86abf22e-1da8-4cb4-851a-1f5bc13bd829", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## Improved support for SummaryBox and special \
 symbols\nNow `ResourceFunction` has its representation, and many other from \
 the function repository can render correctly", "Display" -> "codemirror", 
-    "Hash" -> "aa47efb1-5d97-430a-ab6d-1f9ecc6c6ac2", "Invisible" -> False, 
+    "Hash" -> "50b56b05-6c1c-48c8-bc94-11f8b9406ebf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "## Improved support for SummaryBox and special symbols\nNow \
 `ResourceFunction` has its representation, and many other from the function \
 repository can render correctly", "Display" -> "markdown", 
-    "Hash" -> "19103d57-840f-4740-a7de-90007ea6145c", "Invisible" -> False, 
+    "Hash" -> "c47ef2bb-35bc-4893-af62-4146bd7b5137", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "metric = ResourceFunction[\"MetricTensor\"]", 
     "Display" -> "codemirror", "Hash" -> 
-     "b3477d21-9d3d-4325-a9d0-321f0467b533", "Invisible" -> False, 
+     "d0cb28dc-2a92-48f0-8032-96ed3b9ca5f4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "metric = ResourceFunction[(*VB[*) ResourceObject[<|\"Name\" \
 -> \"MetricTensor\", \"ShortName\" -> \"MetricTensor\", \"UUID\" -> \
 \"c6c98873-a3bc-43e4-a1a4-ed6e5dbbaa32\", \"ResourceType\" -> \"Function\", \
@@ -57510,10 +57543,10 @@ CloudObject[\"https://www.wolframcloud.com/obj/841aede1-5fed-4606-91bd-ebe5f6\
 X2gc1iur17oVr8j6AbTX81pO4Jyxs3tLsM6OQOiDFdkqbMo5KGRQyGXPGd1V+QIcS6gWrdZ5/QSDd\
 NeA8EssUFz9S9QbqWSxAyKMzl8FtqAf/FO8SxsM/DdFEIQ==\"*)(*]VB*)][{\"Schwarzschild\
 \", 1}, {t, r, a1, a2}]", "Display" -> "codemirror", 
-    "Hash" -> "81dce38a-c952-4a8d-9f5c-f9196da8244c", "Invisible" -> False, 
+    "Hash" -> "62f4ac07-6496-450a-8eff-8a4071f64957", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "(*VB[*)temporalStorage$126228(*,*)(*\"1:eJxdUsuumlAANLZNmn7F7\
 V35aCIoL5t0AYgKHAUOCMLNXfA4IIq8kcfXV7vsZjIzmcUkMz+9DIZfRqNR9eMJQhDXWWnGqNXH49\
 HogOoy9g2UVln5MZmZ3Mds+jaZ/ZpNJ7N3/DeS+vpUJUo7sBoIq8aIYknArgRLsyJnkbVW7GLhqJ2\
@@ -57525,47 +57558,47 @@ HN3NxVtm33OK4DZKAWEHYnbHWRW5/0pBWmwpwuMGg5TIIwF3kc3UbeiIFESqxEHcJ0gxFmANbqxZD\
 t/L8Qq9y68jzjUW08bAciEx8lnLowDjl9u1WedgWENxcDih2TdXMn/fXvp8mN5t+huPXNb4+ATYJ0\
 r+/CHIDJU36f65RNui/zOtHOkqQX7tegqpvT7l1kwr9BQzswCU=\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "b6175d4d-885a-42f5-995a-8a1b37cb59cf", "Invisible" -> False, 
+     "813c8388-7dd6-47b2-be8c-5ae9d64194b0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## Improved support for primitives Graphics3D\n\n### \
 Tubes, Spheres inside `GraphicsComplex`\n\n`GraphicsComplex` expression is an \
 efficient way of rendering many objects with shared coordinates, vertices, \
 normals and colors. For a long time it was only possible for `Polygon` to \
 work with such structures. Now we added the support for `Tube`, `Sphere`, \
 `Line`  ", "Display" -> "codemirror", 
-    "Hash" -> "45d1c500-3689-4a84-9b68-66dd7aec7c70", "Invisible" -> False, 
+    "Hash" -> "11273311-c28e-42b1-ab31-feba218316b0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "## Improved support for primitives Graphics3D\n\n### Tubes, \
 Spheres inside `GraphicsComplex`\n\n`GraphicsComplex` expression is an \
 efficient way of rendering many objects with shared coordinates, vertices, \
 normals and colors. For a long time it was only possible for `Polygon` to \
 work with such structures. Now we added the support for `Tube`, `Sphere`, \
 `Line`", "Display" -> "markdown", "Hash" -> 
-     "305094cf-11e7-4ac6-b197-a063848ac260", "Invisible" -> False, 
+     "d00303f3-6dea-474f-8d97-c2d9dc73a333", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "decomposition = \
 ResourceFunction[\"DiscreteHypersurfaceDecomposition\"][\n  metric, {t, 0, \
 1}, {r, 0, 4}, {a1, -Pi, Pi}, 200, \
 1.5];\ndecomposition[\"CoordinatizedPolarGraphColored\"] // GraphPlot3D ", 
     "Display" -> "codemirror", "Hash" -> 
-     "8d319bc1-1c1d-4381-8498-3b69b8055eb3", "Invisible" -> False, 
+     "890df978-1c26-43fa-a981-c3b455c1942f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"d935435c-c070-49da-b160-7822545d2d50\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKp1gam\
 5oYmybrJhuYG+iaWKYk6iYZmhnomlsYGZmamKYYpZgaAAB4dhTc\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "a9e92983-0716-49e2-8ee5-ca93e185229c", "Invisible" -> False, 
+     "ea6e9760-c83e-4901-b596-d8516d87f033", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## Tube supports variable radius and dynamics!\n\nThe \
 original implementation of Tube geometry from the standard library of \
 THREE.js was quite limited. We reimplemented `Tube` from scratch in \
@@ -57573,10 +57606,10 @@ Javascript manually generating each vertex, normal and then passing it to a \
 dynamic buffer of GPU.\n\nNow it works much faster and does support dynamic \
 updates of both: coordinates and radius. We don't waste the resources of GPU \
 and heavily reuse the created buffers", "Display" -> "codemirror", 
-    "Hash" -> "f4c7c5aa-a6bd-4c91-bfa6-d1aae21399a8", "Invisible" -> False, 
+    "Hash" -> "3bfcecd3-ce7d-42cd-b6cb-3863b113f7db", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "## Tube supports variable radius and dynamics!\n\nThe \
 original implementation of Tube geometry from the standard library of \
 THREE.js was quite limited. We reimplemented `Tube` from scratch in \
@@ -57584,44 +57617,44 @@ Javascript manually generating each vertex, normal and then passing it to a \
 dynamic buffer of GPU.\n\nNow it works much faster and does support dynamic \
 updates of both: coordinates and radius. We don't waste the resources of GPU \
 and heavily reuse the created buffers", "Display" -> "markdown", 
-    "Hash" -> "d09e2e3a-a368-4364-8358-6d6bc1b56f5e", "Invisible" -> False, 
+    "Hash" -> "9a5d8820-921e-4688-8f96-654a0bda3a22", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> 
      "Tube[{{0,1,0}, {0,0,0}, {0,-1,0}}, {0.2,0.3,0.1}] // Graphics3D ", 
     "Display" -> "codemirror", "Hash" -> 
-     "0347e0a0-526c-45ab-acd2-ced44910de23", "Invisible" -> False, 
+     "df6d43f5-8784-47f3-99ad-2dc55764382d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "(*VB[*)(Graphics3D[Tube[{{0, 1, 0}, {0, 0, 0}, {0, -1, 0}}, \
 {0.2, 0.3, \
 0.1}]])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRAeF5BwL0osyMhMLjZ2SWOCqQgpTUpNY4b\
 xfDKLS1B5mUCaIRNkBJiFTZIBn+R/IMAiWTRrJgictC8yBoPL9lCRnfYA05Irhw==\"*)(*]VB*)"\
 , "Display" -> "codemirror", "Hash" -> 
-     "006dfe96-1573-4d61-b637-8e595417f4b2", "Invisible" -> False, 
+     "3cf7c19f-7b73-4820-abda-a2b68fe8bf04", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nHere is a beautiful example of using tubes to draw \
 scalar fields (taken from \
 [stackoverflow](https://mathematica.stackexchange.com/questions/687/id-like-t\
 o-display-field-lines-for-a-point-charge-in-3-dimensions))", 
     "Display" -> "codemirror", "Hash" -> 
-     "5ac8c0ae-eac9-43b3-8fe8-677a28e6b48b", "Invisible" -> False, 
+     "1586dbd0-279c-4f34-96c7-730b78556034", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "Here is a beautiful example of using tubes to draw scalar \
 fields (taken from \
 [stackoverflow](https://mathematica.stackexchange.com/questions/687/id-like-t\
 o-display-field-lines-for-a-point-charge-in-3-dimensions))", 
     "Display" -> "markdown", "Hash" -> 
-     "a9c48d3b-376c-4fe0-b23f-d74b562286be", "Invisible" -> False, 
+     "268ac305-5be0-428b-8133-48fbbd823ef5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "fieldSolve[field_, varlist_, xi0_, tmax_, debug_: False] := \
 Module[\n  {xiVec, equationSet, t},\n  If[Length[varlist] != Length[xi0], \n  \
  Print[\"Number of variables must equal number of initial \
@@ -57673,36 +57706,36 @@ Epilog->{\n   PointLight[White, 5 {1,1,1}, 100],\n   SpotLight[Red, 5 \
 \"TubeFunction\" -> \n  Function[{x, y, z}, Quiet[Clip[Norm[f2[x, y, z]], {2, \
 40}]/300]], \n Background -> Black, ImageSize->500]", 
     "Display" -> "codemirror", "Hash" -> 
-     "0a1e734d-ee4b-4797-a555-672d390f201b", "Invisible" -> False, 
+     "df44d2ea-64f2-479f-8c29-4dc41aefc3fc", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"730749d0-16d4-41b0-874c-cf9fa7d38b91\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKmxsbm\
 JtYphjoGpqlmOiaGCYZ6FqYmyTrJqdZpiWapxhbJFkaAgB1ZBVM\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "b89ca157-2873-4d3f-82cc-522a60f4535d", "Invisible" -> False, 
+     "157d6ccd-08c9-43d9-9a62-365751655a6b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nThere are still some issues with calculating normals at \
 the ends, but we will fix it later.", "Display" -> "codemirror", 
-    "Hash" -> "2deb8ce3-cae0-4328-adb7-d2e3afee6345", "Invisible" -> False, 
+    "Hash" -> "d3b92e09-3c9f-482c-9dcf-608433623e4c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "There are still some issues with calculating normals at the \
 ends, but we will fix it later.", "Display" -> "markdown", 
-    "Hash" -> "290de651-47dd-46fc-a01b-cef4b15d5af5", "Invisible" -> False, 
+    "Hash" -> "fa7dca6a-c275-459c-a83a-dc91bd1093c5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nThen you can simply delete it", 
     "Display" -> "codemirror", "Hash" -> 
-     "0d4ccd3b-0ca2-4119-b500-c4339abd03d1", "Invisible" -> False, 
+     "d20738b9-f42a-4c31-a849-aae5087f6275", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## New export feature\n\n__Keep the filesystem within \
 the notebook__\n\nIt allows you to compress the whole notebook folder and \
 embed it to a notebook. It uses simple `gzip` and stores the binary data as \
@@ -57711,10 +57744,10 @@ string\n\n\n![](/attachments/Screenshot%202024-12-13%20at%2016.07.40-cce.png)\
 \n\n<br/>\n\nThen you only need to share your `.wln` file and on the first \
 start it will self extract the files maintaining the original folder \
 structure.", "Display" -> "codemirror", 
-    "Hash" -> "33e71dbd-6f40-4c1b-814b-b8d339dd2ff2", "Invisible" -> False, 
+    "Hash" -> "254a6768-4911-4d64-bf3e-0515e6539658", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "## New export feature\n\n__Keep the filesystem within the \
 notebook__\n\nIt allows you to compress the whole notebook folder and embed \
 it to a notebook. It uses simple `gzip` and stores the binary data as Base64 \
@@ -57722,87 +57755,131 @@ string\n\n\n![](/attachments/Screenshot%202024-12-13%20at%2016.07.40-cce.png)\
 <br />\n\nThen you only need to share your `.wln` file and on the first start \
 it will self extract the files maintaining the original folder structure.", 
     "Display" -> "markdown", "Hash" -> 
-     "319212a9-4e69-400a-90b6-99ccaaedd861", "Invisible" -> False, 
+     "dbfe5e26-ea65-4731-9ec3-9aa7579e5f17", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## Experimental: Import WLN notebook\nIt might come \
 handy, if you don't want to create a library, but still like to reuse some \
 functions or templates from the other notebook.\n\nWe have registered the \
 converter for that reason. What it does?\n\n<br/><br/>\n\n1. Evaluate all \
-initialization cells in the isolated context\n2. Evalaute the last input cell \
-in the notebook and return the result\n\nSince it involves breaking the order \
-of  evaluation, `Import` will return `Promise`, that you would need to \
+initialization cells in the isolated context (__can be any kind of \
+cell__)\n2. Evalaute the last input cell in the notebook and return the \
+result (__must be wolfram language cell__)\n\nSince it involves breaking the \
+order of  evaluation, `Import` will return `Promise`, that you would need to \
 resolve. For example I have WLX templates defined in other notebook, that I \
 would like to reuse here", "Display" -> "codemirror", 
-    "Hash" -> "7cb4f1cb-ddc7-4486-83df-f5b09180dca5", "Invisible" -> False, 
+    "Hash" -> "a972d51d-472d-4e60-aa42-adb5b8389a6b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "## Experimental: Import WLN notebook\nIt might come handy, if \
 you don't want to create a library, but still like to reuse some functions or \
 templates from the other notebook.\n\nWe have registered the converter for \
 that reason. What it does?<br /><br />\n\n1. Evaluate all initialization \
-cells in the isolated context\n2. Evalaute the last input cell in the \
-notebook and return the result\n\nSince it involves breaking the order of  \
-evaluation, `Import` will return `Promise`, that you would need to resolve. \
-For example I have WLX templates defined in other notebook, that I would like \
-to reuse here", "Display" -> "markdown", 
-    "Hash" -> "322c2c7b-4d9b-466b-93e6-3eefe2bd1ebf", "Invisible" -> False, 
+cells in the isolated context (__can be any kind of cell__)\n2. Evalaute the \
+last input cell in the notebook and return the result (__must be wolfram \
+language cell__)\n\nSince it involves breaking the order of  evaluation, \
+`Import` will return `Promise`, that you would need to resolve. For example I \
+have WLX templates defined in other notebook, that I would like to reuse \
+here", "Display" -> "markdown", "Hash" -> 
+     "3af5e26d-10a3-43e6-9587-53003b8f1f6f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "p = Import[\n  FileNameJoin[{NotebookDirectory[], \
-\"attachments\", \"detect.wln\"}],\n  \"WLN\"\n];\n\nThen[p, (MyHeader = \
+\"attachments\", \"detect.wln\"}],\n  \"WLN\"\n];\n\nThen[p, (MyBigHeader = \
 #)&];", "Display" -> "codemirror", "Hash" -> 
-     "4a1518c6-ab1b-4975-8598-a9e252c464f7", "Invisible" -> False, 
+     "3b1734f6-f8c0-448c-b22c-d7f01e1f1554", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nNow we can safely use it", "Display" -> "codemirror", 
-    "Hash" -> "61b6e68c-1dda-46ea-ad60-07678a47c72c", "Invisible" -> False, 
+    "Hash" -> "0e1113e3-6bf0-4795-a229-138baaacef0f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "Now we can safely use it", "Display" -> "markdown", 
-    "Hash" -> "4094bc03-49a6-4aa3-a2b6-46e759104f68", "Invisible" -> False, 
+    "Hash" -> "68455b69-65e1-4892-abae-56dbc7c7b8b7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
-   <|"Data" -> ".slide\n\n<MyHeader>Title</MyHeader>", 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
+   <|"Data" -> ".slide\n\n<MyBigHeader>Title</MyBigHeader>", 
     "Display" -> "codemirror", "Hash" -> 
-     "62f5e2e9-8326-4cc6-a712-f2bd71dbfa54", "Invisible" -> False, 
+     "d09225b0-a704-43dd-8839-7f36d05a0f7d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "<dummy ><h2 style=\"\n    white-space: nowrap;\n    display: \
 inline-block;\n    font-size: 400px;\">Title</h2></dummy>", 
-    "Display" -> "slide", "Hash" -> "8eae361f-2ec4-48ee-9d90-dbbc13af4060", 
+    "Display" -> "slide", "Hash" -> "1f671318-edd9-4f4d-9878-5aa4c663da1d", 
     "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
     "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
-    "Notebook" -> "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+    "Notebook" -> "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nYou can see the unique context of the given symbol", 
     "Display" -> "codemirror", "Hash" -> 
-     "a55e9b9b-4b07-4357-adb8-2dfe9663a44a", "Invisible" -> False, 
+     "1137bd88-ca90-4384-afe2-9743d5c515c3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "You can see the unique context of the given symbol", 
     "Display" -> "markdown", "Hash" -> 
-     "2c6f0a8d-43dc-4069-9138-52f0ba38d6a8", "Invisible" -> False, 
+     "f484cc25-951b-47b7-a172-7f6374c30b52", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, <|"Data" -> "MyHeader", 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, <|"Data" -> "MyBigHeader", 
     "Display" -> "codemirror", "Hash" -> 
-     "7fd60592-4442-4408-9b6b-1fe58e9fe4a2", "Invisible" -> False, 
+     "aff7d1ca-2a2f-4ec2-8e9a-47569a10b365", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "bellman311`Header", "Display" -> "codemirror", 
-    "Hash" -> "a64e43b4-0338-41ed-b91e-7fb554dbcf1a", "Invisible" -> False, 
+    "Hash" -> "e4dfe445-dad7-4b01-a266-31fb9669f85a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
+   <|"Data" -> ".md\nOr something even cooller! Let it be a __piano view__", 
+    "Display" -> "codemirror", "Hash" -> 
+     "fef52f8e-dd04-480f-ac8f-0178780717c6", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
+   <|"Data" -> "Or something even cooller! Let it be a __piano view__", 
+    "Display" -> "markdown", "Hash" -> 
+     "f0577d34-211d-4d63-b819-2985da4446ca", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
+   <|"Data" -> "p = Import[\n  FileNameJoin[{NotebookDirectory[], \
+\"attachments\", \"Piano.wln\"}],\n  \"WLN\"\n];\n\nThen[p, (pianoView = \
+#)&];", "Display" -> "codemirror", "Hash" -> 
+     "c9f3f67a-1e3d-484e-b4cd-1297b52cb36b", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
+   <|"Data" -> ".md\nTry to play", "Display" -> "codemirror", 
+    "Hash" -> "218655b0-cf7c-405f-811d-99852e55ba4a", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, <|"Data" -> "Try to play", 
+    "Display" -> "markdown", "Hash" -> 
+     "988380c6-ee27-4d6a-ac15-764252fe4391", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, <|"Data" -> "pianoView[]", 
+    "Display" -> "codemirror", "Hash" -> 
+     "b9cd2c8c-e6ed-4f70-8c70-bb1cbecb4726", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
+   <|"Data" -> "(*VB[*)(FrontEndRef[\"6f07b81b-dac8-4872-af9f-6233ab175067\"]\
+)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm6UZm\
+CdZGCbppiQmW+iaWJgb6SamWabpmhkZGycmGZqbGpiZAwCIGRV5\"*)(*]VB*)", 
+    "Display" -> "codemirror", "Hash" -> 
+     "3e84fa0a-355a-4cf5-8bda-53ab767f87cb", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## Figures export\nThere is a way to embed individual \
 graphs from your notebook to a web. You need just a little knowledge about \
 HTML \
@@ -57816,31 +57893,31 @@ your plots from the head section to reduce the loading time of your website. \
 WLJS cannot guess it automatically.\n\n<br/>\n\nThe code section for the \
 figure can be embedded to any place in your HTML document. Feel free to \
 customize CSS.\n", "Display" -> "codemirror", 
-    "Hash" -> "8691f363-76a8-455a-9872-c63a99de2586", "Invisible" -> False, 
+    "Hash" -> "8607d35e-12bc-4a4e-9321-249009b66c89", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> 
      ".md\n## TabView implemented!\nWe have added the support for `TabView`", 
     "Display" -> "codemirror", "Hash" -> 
-     "ba421346-6e5b-4224-8fca-b45181395755", "Invisible" -> False, 
+     "335f44c7-adbb-42ac-a695-f0ad768c1e7f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> 
      "## TabView implemented!\nWe have added the support for `TabView`", 
     "Display" -> "markdown", "Hash" -> 
-     "d5de8453-5ac8-41b4-a1c5-3ae490e1b082", "Invisible" -> False, 
+     "ec33e3d2-f739-46e0-936a-86b1fe596b0b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "TabView[{\n  Sin->Plot3D[Sin[x] Sin[y], {x,-2Pi,2Pi}, \
 {y,-2Pi,2Pi}], \n  Sinh->Plot3D[Sinh[x] Sinh[y], {x,-2Pi,2Pi}, \
 {y,-2Pi,2Pi}]\n}] ", "Display" -> "codemirror", 
-    "Hash" -> "fa12bc8a-5abe-430d-b0a6-32d872f4a521", "Invisible" -> False, 
+    "Hash" -> "1e7da3f9-b540-45b2-b5e0-07ca1c553e27", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "(*VB[*)(Null)(*,*)(*\"1:eJytUstuglAQta2Lpn9RVkpKwuOC0B0YxIBaC\
 4oB4+ICF0W4XMQX/l8/rFLTdNM2bdPNyZzJOTOTk7kPiB1fNRqNbfMMfZJF8U3N7s4wgYGboKNGqv\
 j6XTFItrsLqxV6lOxIWYuc2uUk+YfS3mfIua0LBKOnPDu9dSflHn3qb178q58P+PaclzNt0a42p9u\
@@ -57849,166 +57926,166 @@ KvGXutM/pKJld5FuakdLLseW0B85grFzdHY/mGbDU5qO3KVuzaoNxjYODO1QGKskKFACDcuDUuL7M\
 3NN8AZ6puX5uEc83EWZqmonvpraVL174Wp0+895fhlAiMJIllmekTpByABeURhFElkmBDwAEMRhEA\
 v/FoAphbjgVp6hrQtcpLmJ9tDoZVDKNhDbJTGLrYf9ZYo3z5kpTX312O0Rbbb9XQBJ/cCvkzS/6g=\
 =\"*)(*]VB*)", "Display" -> "codemirror", 
-    "Hash" -> "35c0af94-16b9-4ab4-91ea-25792e5a34ef", "Invisible" -> False, 
+    "Hash" -> "beb440e2-7c6d-4e0b-8838-a327509deea1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nAnd it will work offline, since the widget prerenders \
 all states and just swap between them using HTML and JS.", 
     "Display" -> "codemirror", "Hash" -> 
-     "514aad62-f55b-4ad9-a65b-a1c3d31afab2", "Invisible" -> False, 
+     "518fb3d4-f6f5-4a30-adff-e47c43519061", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "And it will work offline, since the widget prerenders all \
 states and just swap between them using HTML and JS.", 
     "Display" -> "markdown", "Hash" -> 
-     "813d55c1-649d-49dc-8824-a4035f7ab1b0", "Invisible" -> False, 
+     "c439b32b-f7aa-4f54-a4d7-4b1f47263e97", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> 
      ".md\nIt has `WLXForm` implemented, therefore it can work on slides too"\
 , "Display" -> "codemirror", "Hash" -> 
-     "7308bd05-7131-4697-b752-af939cfcaff5", "Invisible" -> False, 
+     "0687766a-1ca0-411b-b610-1d6e7b1fcf1f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> 
      "It has `WLXForm` implemented, therefore it can work on slides too", 
     "Display" -> "markdown", "Hash" -> 
-     "b0794210-1889-4468-8b81-096125d04e26", "Invisible" -> False, 
+     "ca7e19e7-024b-40a4-8445-614be23977f8", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "TabWidget = TabView[{\n  Sin->Plot3D[Sin[x] Sin[y], \
 {x,-2Pi,2Pi}, {y,-2Pi,2Pi}], \n  Sinh->Plot3D[Sinh[x] Sinh[y], {x,-2Pi,2Pi}, \
 {y,-2Pi,2Pi}]\n}];", "Display" -> "codemirror", 
-    "Hash" -> "6c43289b-3a03-4718-8409-95d473bd3039", "Invisible" -> False, 
+    "Hash" -> "e21f1a71-f807-4385-981a-96e456901161", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".slide\n\n## My Tab Widget\n\n<TabWidget/>", 
     "Display" -> "codemirror", "Hash" -> 
-     "7df05c49-c07f-4297-bd4d-b3ae34b748b0", "Invisible" -> False, 
+     "4eff71ca-1b19-4087-95e9-29772c7e760e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "<dummy >\n## My Tab \
 Widget\n\nFrontEndExecutable[e065d062-f0a0-4f67-8c4c-0abbce0ad31c]</dummy>", 
-    "Display" -> "slide", "Hash" -> "f7b84864-5055-4aeb-8354-5b1e6c462353", 
+    "Display" -> "slide", "Hash" -> "b7709327-00ed-482a-ba10-331ea30f380d", 
     "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
     "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
-    "Notebook" -> "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+    "Notebook" -> "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "d4d1de0c-ed3f-4deb-9bcb-046ef079e505", "Invisible" -> False, 
+    "Hash" -> "d14789f6-3014-4c44-99c3-5229e4eb8e26", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n## ChoiceDialog and MessageDialog\nWe added the support \
 for dialog-tools. For example to show the message", 
     "Display" -> "codemirror", "Hash" -> 
-     "847bddd6-595e-413c-9fcc-93fdcbcc1b5a", "Invisible" -> False, 
+     "f9262ca4-053d-452f-b38a-5584a15fe057", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "## ChoiceDialog and MessageDialog\nWe added the support for \
 dialog-tools. For example to show the message", "Display" -> "markdown", 
-    "Hash" -> "88bca549-57ea-499f-96ff-ce6542802f62", "Invisible" -> False, 
+    "Hash" -> "9bb61d9e-8bd2-455f-8011-a66a0ec5be82", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "MessageDialog[Plot[x, {x,0,1}]]", "Display" -> "codemirror", 
-    "Hash" -> "88946e02-bb3c-4c30-b890-06fd3154b4e2", "Invisible" -> False, 
+    "Hash" -> "f5f234ea-22af-44ba-bc6e-8942d6a68bde", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nIf you want to prompt user to click yes or no, use ", 
     "Display" -> "codemirror", "Hash" -> 
-     "cfdb9256-9ef3-482c-8d58-280da43e3d1e", "Invisible" -> False, 
+     "44cd8dcb-a0e8-4f79-9714-5a93aa6b5fb3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "If you want to prompt user to click yes or no, use ", 
     "Display" -> "markdown", "Hash" -> 
-     "4d694176-f1c1-4f51-a156-1d72940fb220", "Invisible" -> False, 
+     "bf27cc5f-c835-4ca7-a89c-8c4140878394", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "ChoiceDialog[Plot[x, {x,0,1}]]", "Display" -> "codemirror", 
-    "Hash" -> "ce1f813f-6ba5-4b06-94e5-787de6b1a9b7", "Invisible" -> False, 
+    "Hash" -> "39786f15-0d21-4df8-9219-1ffe85b9f4b8", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nOr choose from the options", "Display" -> "codemirror", 
-    "Hash" -> "6ec717fe-5dfa-4fe0-a3f9-cb70666a5520", "Invisible" -> False, 
+    "Hash" -> "7a9a72ca-0aab-4917-ab3a-e8dbf0d76855", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "Or choose from the options", "Display" -> "markdown", 
-    "Hash" -> "2089c24b-eaf2-484c-adae-774a3ce27742", "Invisible" -> False, 
+    "Hash" -> "5aca0267-0c95-41b1-a518-92d5b96ab3fc", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "ChoiceDialog[\"Click on a plot\", {\n  Plot[x^2, {x,0,1}] -> \
 1, \n  Plot[x^3, {x,0,1}] -> 2\n}]", "Display" -> "codemirror", 
-    "Hash" -> "dde50d08-9392-4d20-800c-e9320a5cc8a4", "Invisible" -> False, 
+    "Hash" -> "d5195187-0b21-489d-a41c-9f0fc0e44f40", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\nThere is also async version, which returns a `Promise`", 
     "Display" -> "codemirror", "Hash" -> 
-     "234ecd52-b2c5-455e-822b-98c4079c05e3", "Invisible" -> False, 
+     "0fec3364-019a-4717-bd44-fabbe3df155a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "There is also async version, which returns a `Promise`", 
     "Display" -> "markdown", "Hash" -> 
-     "129c2f0f-43ff-49f0-b816-0f239ec38b2d", "Invisible" -> False, 
+     "29d55c3f-2f10-4f54-a596-f7f963fffd2b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "Then[ChoiceDialogAsync[\"Click on a plot\", {\n  Plot[x^2, \
 {x,0,1}] -> 1, \n  Plot[x^3, {x,0,1}] -> 2\n}], Function[result,\n  \
 Do[Beep[]; Pause[0.2], {result}]\n]];", "Display" -> "codemirror", 
-    "Hash" -> "e7e47d45-8ed4-4c3b-90c5-7e5c567dc463", "Invisible" -> False, 
+    "Hash" -> "f17b37f3-b7da-4e22-bf55-b3e513ba8764", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "130114c5-0496-4e13-9108-293d8148ba5f", "Invisible" -> False, 
+    "Hash" -> "3fb6af4d-4ded-4b63-abb3-de787c9cc288", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".md\n*Ballon animation by Jemima (codepen)*", 
     "Display" -> "codemirror", "Hash" -> 
-     "b5c42b70-f20f-4e5a-8afb-87c3ffdac774", "Invisible" -> False, 
+     "d1ce4e4f-ddd6-4b87-9f6c-333223489673", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ">*Ballon animation by Jemima (codepen)*", 
     "Display" -> "markdown", "Hash" -> 
-     "6c663bd1-64a3-4a91-b151-abbe1b4f2e1c", "Invisible" -> False, 
+     "5300f83d-d1c4-4e81-a7f2-6a99142374c1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> ".html\n\n<style>\n  [transparency=\"false\"] .bg-g-trans {\n  \
   background: transparent !important;\n  }\n\n  [transparency=\"true\"] \
 .bg-g-trans {\n    background: transparent !important;\n  }\n</style>", 
     "Display" -> "codemirror", "Hash" -> 
-     "09934a92-973e-4a09-bff6-baf55b447e5c", "Invisible" -> False, 
+     "f524a749-9ddc-4522-b210-1104358fa98c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> "\n<style>\n  [transparency=\"false\"] .bg-g-trans {\n    \
 background: transparent !important;\n  }\n\n  [transparency=\"true\"] \
 .bg-g-trans {\n    background: transparent !important;\n  }\n</style>", 
-    "Display" -> "html", "Hash" -> "1417c852-d0bf-47f4-b989-b5c41441be73", 
+    "Display" -> "html", "Hash" -> "30c591cc-a246-4a8d-b80c-b60b2962d3ad", 
     "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
     "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
-    "Notebook" -> "70607e32-61cd-483f-9063-a40bbe21b6c4"|>, 
+    "Notebook" -> "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "2beebf09-edf4-4771-9e25-dc1c5f3672a6", "Invisible" -> False, 
+    "Hash" -> "77cd9eca-4558-4d25-b5fc-244e67cacbab", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "70607e32-61cd-483f-9063-a40bbe21b6c4"|>}, "serializer" -> "jsfn4"|>
+     "cf45e2c0-410a-4c03-8d8f-7ac7ea00bd79"|>}, "serializer" -> "jsfn4"|>
