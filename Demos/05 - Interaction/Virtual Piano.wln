@@ -1,0 +1,123 @@
+<|"Notebook" -> <|"Controller" -> "af0803d2-295d-4339-a76b-e67bdd606d65", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$259], 
+   "HaveToSaveAs" -> False, "MessangerChannel" -> Messanger, 
+   "ModalsChannel" -> "d2533c7b-90df-421a-8ffa-b38395644720", 
+   "Objects" -> <|"dcf6b86a-a8e4-4e40-91d8-a1cf2f86cf25" -> 
+      <|"Public" -> Hold[Graphics[{FrontInstanceReference[
+            8928323955936602000], {GrayLevel[1], EdgeForm[GrayLevel[0.5]], 
+            {Annotation[Rectangle[{1.5, 0}, {2.5, 1}], 0, 1], 
+             Annotation[Rectangle[{2.5, 0}, {3.5, 1}], 0, 3], 
+             Annotation[Rectangle[{3.5, 0}, {4.5, 1}], 0, 5], 
+             Annotation[Rectangle[{4.5, 0}, {5.5, 1}], 0, 6], 
+             Annotation[Rectangle[{5.5, 0}, {6.5, 1}], 0, 8], 
+             Annotation[Rectangle[{6.5, 0}, {7.5, 1}], 0, 10], 
+             Annotation[Rectangle[{7.5, 0}, {8.5, 1}], 0, 12], 
+             Annotation[Rectangle[{8.5, 0}, {9.5, 1}], 0, 13], 
+             Annotation[Rectangle[{9.5, 0}, {10.5, 1}], 0, 15], 
+             Annotation[Rectangle[{10.5, 0}, {11.5, 1}], 0, 17], 
+             Annotation[Rectangle[{11.5, 0}, {12.5, 1}], 0, 18], 
+             Annotation[Rectangle[{12.5, 0}, {13.5, 1}], 0, 20], 
+             Annotation[Rectangle[{13.5, 0}, {14.5, 1}], 0, 22], 
+             Annotation[Rectangle[{14.5, 0}, {15.5, 1}], 0, 24], 
+             Annotation[Rectangle[{15.5, 0}, {16.5, 1}], 0, 25]}, 
+            GrayLevel[0], {Annotation[Rectangle[{2.2, 0.5}, {2.8, 1}], 1, 2], 
+             Annotation[Rectangle[{3.2, 0.5}, {3.8, 1}], 1, 4], 
+             Annotation[Rectangle[{5.2, 0.5}, {5.8, 1}], 1, 7], 
+             Annotation[Rectangle[{6.2, 0.5}, {6.8, 1}], 1, 9], 
+             Annotation[Rectangle[{7.2, 0.5}, {7.8, 1}], 1, 11], 
+             Annotation[Rectangle[{9.2, 0.5}, {9.8, 1}], 1, 14], 
+             Annotation[Rectangle[{10.2, 0.5}, {10.8, 1}], 1, 16], 
+             Annotation[Rectangle[{12.2, 0.5}, {12.8, 1}], 1, 19], 
+             Annotation[Rectangle[{13.2, 0.5}, {13.8, 1}], 1, 21], 
+             Annotation[Rectangle[{14.2, 0.5}, {14.8, 1}], 1, 23]}}, 
+           EventListener[Graphics`Canvas[], 
+            {"click" -> "c2d81f55-0589-40e2-af14-eb255312da9a"}]}, 
+          ImageSize -> {500, 200}, "Controls" -> False]]|>|>, 
+   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/wljs_packages/wljs-dem\
+os-archive/Demos/05 - Interaction/Virtual Piano.wln", "Quick" -> True, 
+   "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Virtual Piano", 
+      CellObj[JerryI`Notebook`CellObj`$856]]}|>, 
+ "Cells" -> {<|"Data" -> ".md\n# Virtual Piano\nA demonstration with a \
+working toy-like piano. This covers basic graphics manipulation, sound \
+emission and working with dynamic graphics groups.\n\nSome helper functions", 
+    "Display" -> "codemirror", "Hash" -> 
+     "52a0370c-3b24-4690-aa85-4c2fc4b6a66b", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> "# Virtual Piano\nA demonstration with a working toy-like \
+piano. This covers basic graphics manipulation, sound emission and working \
+with dynamic graphics groups.\n\nSome helper functions", 
+    "Display" -> "markdown", "Hash" -> 
+     "d1d042ce-2c59-40aa-b8a4-a112ff8423f4", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> "keyLevels = {0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, \
+0};\ngenerateKeys[keyCount_] := Module[\n  {index = 1, position = 1, \
+keyWidth, keyOffset},\n  Table[\n    With[\n      {\n        cycleIndex = \
+Mod[index - 1, 12] + 1,\n        level = keyLevels[[Mod[index - 1, 12] + \
+1]]\n      },\n      keyWidth = 0.5 - 0.2 level;\n      keyOffset = 0.5 \
+level;\n      position += 1 - level;\n      index++;\n      Rectangle[\n      \
+  {position - keyWidth + keyOffset, keyOffset},\n        {position + keyWidth \
++ keyOffset, 1}\n      ]\n    ],\n    {keyCount}\n  \
+]\n];\n\nannotateKeys[keys_] := MapIndexed[\n  Annotation[#, \
+keyLevels[[Mod[#2[[1]] - 1, 12] + 1]], #2[[1]]] &,\n  \
+keys\n];\n\nseparateKeys[keys_] := Module[\n  {annotatedKeys = \
+annotateKeys[keys]},\n  {\n    Cases[annotatedKeys, Annotation[_, 0, _]],\n   \
+ Cases[annotatedKeys, Annotation[_, 1, _]]\n  }\n];", 
+    "Display" -> "codemirror", "Hash" -> 
+     "3523561b-9731-4f26-822f-d256bdb20dda", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
+    "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
+    "Notebook" -> "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> ".md\nGenerate 25 keys and build the scene", 
+    "Display" -> "codemirror", "Hash" -> 
+     "4e272fce-d9e5-4ccb-8917-9f925544f630", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> "Generate 25 keys and build the scene", 
+    "Display" -> "markdown", "Hash" -> 
+     "61629954-51c1-4c0c-8d5f-947a933ff6c4", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> "keys = generateKeys[25];\n\nseparated = \
+separateKeys[keys];\n\nscene = \
+FrontInstanceReference[];\n\nGraphics[{scene,\n  {White, EdgeForm[Gray], \
+separated[[1]], Black, separated[[2]]},\n  EventHandler[Graphics`Canvas[], \
+{\"click\" -> clicker[scene, separated, keys]}]\n}, ImageSize->{500,200}, \
+\"Controls\"->False]", "Display" -> "codemirror", 
+    "Hash" -> "5bbdb7f8-4567-4547-9f03-eddfa05b7884", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> ".md\nHandler to emitt notes and draw higlights", 
+    "Display" -> "codemirror", "Hash" -> 
+     "34daf855-8f61-45be-8d37-cec5ca313f04", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> "Handler to emitt notes and draw higlights", 
+    "Display" -> "markdown", "Hash" -> 
+     "bb91a5d1-f6e4-47f2-8bb2-c990bc646a5d", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+   <|"Data" -> "clicker[scene_, separated_, keys_][xy_] := With[{\n  \
+whiteMatch = SelectFirst[separated[[1]], RegionMember[#[[1]], xy]  &],\n  \
+blackMatch = SelectFirst[separated[[2]], RegionMember[#[[1]], xy]  &],\n  \
+group = FrontInstanceGroup[],\n  notes = {\"C\", \"C#\", \"D\", \"Eb\", \
+\"E\", \"F\", \"G\", \"Ab\", \"A\", \"Bb\", \"B\", \"C\"}\n},\n\n  With[{\n   \
+ key = If[!MissingQ[blackMatch], blackMatch[[3]], whiteMatch[[3]]]\n  },\n  \
+\n    FrontSubmit[SoundNote[key + 11] // Sound];\n    FrontSubmit[{\n      \
+Red, Text[notes[[Mod[key - 1, 12] + 1]], \n      Mean[List @@ (keys[[key]])] \
+- {0,0.2}, {0,0}], \n      Opacity[0.3], keys[[key]]\n    } // group, \
+scene];\n  \n    SetTimeout[Delete[group], 200];\n  ]\n]", 
+    "Display" -> "codemirror", "Hash" -> 
+     "262a0c85-7ad5-453b-bfc3-7431c6f8c388", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
+    "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
+    "Notebook" -> "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>}, 
+ "serializer" -> "jsfn4"|>
