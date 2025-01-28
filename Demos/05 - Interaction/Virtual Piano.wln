@@ -1,7 +1,7 @@
-<|"Notebook" -> <|"Controller" -> "af0803d2-295d-4339-a76b-e67bdd606d65", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$259], 
+<|"Notebook" -> <|"Controller" -> "90adfe93-6f2c-4fc4-b370-c787fe253c2a", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$794], 
    "HaveToSaveAs" -> False, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "d2533c7b-90df-421a-8ffa-b38395644720", 
+   "ModalsChannel" -> "d298fae3-a5cf-49b3-9c54-5db4195e6f12", 
    "Objects" -> <|"dcf6b86a-a8e4-4e40-91d8-a1cf2f86cf25" -> 
       <|"Public" -> Hold[Graphics[{FrontInstanceReference[
             8928323955936602000], {GrayLevel[1], EdgeForm[GrayLevel[0.5]], 
@@ -33,26 +33,26 @@
            EventListener[Graphics`Canvas[], 
             {"click" -> "c2d81f55-0589-40e2-af14-eb255312da9a"}]}, 
           ImageSize -> {500, 200}, "Controls" -> False]]|>|>, 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/wljs_packages/wljs-dem\
-os-archive/Demos/05 - Interaction/Virtual Piano.wln", "Quick" -> True, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/05 - \
+Interaction/Virtual Piano.wln", "Quick" -> True, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Virtual Piano", 
-      CellObj[JerryI`Notebook`CellObj`$856]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$789]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Virtual Piano\nA demonstration with a \
 working toy-like piano. This covers basic graphics manipulation, sound \
 emission and working with dynamic graphics groups.\n\nSome helper functions", 
     "Display" -> "codemirror", "Hash" -> 
-     "52a0370c-3b24-4690-aa85-4c2fc4b6a66b", "Invisible" -> False, 
+     "1c31ede0-4a83-4449-8ee8-40293f639644", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> "# Virtual Piano\nA demonstration with a working toy-like \
 piano. This covers basic graphics manipulation, sound emission and working \
 with dynamic graphics groups.\n\nSome helper functions", 
     "Display" -> "markdown", "Hash" -> 
-     "d1d042ce-2c59-40aa-b8a4-a112ff8423f4", "Invisible" -> False, 
+     "553f71ab-4118-493e-8139-31eaea49f9cd", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> "keyLevels = {0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, \
 0};\ngenerateKeys[keyCount_] := Module[\n  {index = 1, position = 1, \
 keyWidth, keyOffset},\n  Table[\n    With[\n      {\n        cycleIndex = \
@@ -67,44 +67,44 @@ keys\n];\n\nseparateKeys[keys_] := Module[\n  {annotatedKeys = \
 annotateKeys[keys]},\n  {\n    Cases[annotatedKeys, Annotation[_, 0, _]],\n   \
  Cases[annotatedKeys, Annotation[_, 1, _]]\n  }\n];", 
     "Display" -> "codemirror", "Hash" -> 
-     "3523561b-9731-4f26-822f-d256bdb20dda", "Invisible" -> False, 
+     "35fdf3e5-0055-4cfa-9ce2-3ca6b9c87ace", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+    "Notebook" -> "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> ".md\nGenerate 25 keys and build the scene", 
     "Display" -> "codemirror", "Hash" -> 
-     "4e272fce-d9e5-4ccb-8917-9f925544f630", "Invisible" -> False, 
+     "c0cfbd42-9479-48de-8941-744d779c73bb", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> "Generate 25 keys and build the scene", 
     "Display" -> "markdown", "Hash" -> 
-     "61629954-51c1-4c0c-8d5f-947a933ff6c4", "Invisible" -> False, 
+     "4901165c-dff7-4b1a-a439-906e2ae0d265", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> "keys = generateKeys[25];\n\nseparated = \
 separateKeys[keys];\n\nscene = \
 FrontInstanceReference[];\n\nGraphics[{scene,\n  {White, EdgeForm[Gray], \
-separated[[1]], Black, separated[[2]]},\n  EventHandler[Graphics`Canvas[], \
-{\"click\" -> clicker[scene, separated, keys]}]\n}, ImageSize->{500,200}, \
+separated[[1]], Black, separated[[2]]},\n  EventHandler[Null, {\"click\" -> \
+clicker[scene, separated, keys]}]\n}, ImageSize->{500,200}, \
 \"Controls\"->False]", "Display" -> "codemirror", 
-    "Hash" -> "5bbdb7f8-4567-4547-9f03-eddfa05b7884", "Invisible" -> False, 
+    "Hash" -> "63948abb-f647-439f-87e6-5e90b570e2f6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> ".md\nHandler to emitt notes and draw higlights", 
     "Display" -> "codemirror", "Hash" -> 
-     "34daf855-8f61-45be-8d37-cec5ca313f04", "Invisible" -> False, 
+     "6c9fa365-cf7d-437b-a301-ff8d3dfd6750", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> "Handler to emitt notes and draw higlights", 
     "Display" -> "markdown", "Hash" -> 
-     "bb91a5d1-f6e4-47f2-8bb2-c990bc646a5d", "Invisible" -> False, 
+     "a3ab4d51-45bb-4dd6-b4a4-404ef0faf6e0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>, 
+     "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>, 
    <|"Data" -> "clicker[scene_, separated_, keys_][xy_] := With[{\n  \
 whiteMatch = SelectFirst[separated[[1]], RegionMember[#[[1]], xy]  &],\n  \
 blackMatch = SelectFirst[separated[[2]], RegionMember[#[[1]], xy]  &],\n  \
@@ -116,8 +116,8 @@ Red, Text[notes[[Mod[key - 1, 12] + 1]], \n      Mean[List @@ (keys[[key]])] \
 - {0,0.2}, {0,0}], \n      Opacity[0.3], keys[[key]]\n    } // group, \
 scene];\n  \n    SetTimeout[Delete[group], 200];\n  ]\n]", 
     "Display" -> "codemirror", "Hash" -> 
-     "262a0c85-7ad5-453b-bfc3-7431c6f8c388", "Invisible" -> False, 
+     "fc9e2252-106e-47b4-8b32-7b2444a2abad", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "d9e0d6a2-dd22-4764-907c-a9c223ebe899"|>}, 
+    "Notebook" -> "cfcba0e7-387d-4b41-b33b-311b8fdcc0bd"|>}, 
  "serializer" -> "jsfn4"|>

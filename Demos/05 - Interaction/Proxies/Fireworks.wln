@@ -1,27 +1,27 @@
-<|"Notebook" -> <|"Controller" -> "688c7f3f-6451-4a8c-affa-b12fd3ec67f7", 
+<|"Notebook" -> <|"Controller" -> "b7606c1c-9148-4762-bc70-0f31ef537621", 
    "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$1917], 
    "HaveToSaveAs" -> True, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "aaabd6f2-6eef-495c-baf1-b5ba0f791f66", 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/Demos/05 - \
+   "ModalsChannel" -> "e816f2cc-8285-4030-a6ad-e5053abd27ca", 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/05 - \
 Interaction/Proxies/Fireworks.wln", "Quick" -> True, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Fireworks", 
-      CellObj[JerryI`Notebook`CellObj`$1916]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$804]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Fireworks\n*Demo demonstrating dynamic \
 creation and removing of proxies*\n\nIt uses a rectangle primitive coupled \
 with controlled opacity and color. It reacts on a user's mouse and spawns \
 more objects.", "Display" -> "codemirror", 
-    "Hash" -> "4d7f663a-6a7f-4c77-a7e2-5a2b94c98625", "Invisible" -> False, 
+    "Hash" -> "58dbf6e4-b47e-4fb6-9385-6519dcbdffcc", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "66c9ec5c-f648-4b55-87b0-63cff9071a3a"|>, 
+     "1774dfa1-80af-45b4-ba58-9c56d6520b22"|>, 
    <|"Data" -> "# Fireworks\n*Demo demonstrating dynamic creation and \
 removing of proxies*\n\nIt uses a rectangle primitive coupled with controlled \
 opacity and color. It reacts on a user's mouse and spawns more objects.", 
     "Display" -> "markdown", "Hash" -> 
-     "2104493d-5ef8-4ffc-8175-b3914491ae80", "Invisible" -> False, 
+     "b3a90218-5a2c-440b-98e3-37754d717355", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "66c9ec5c-f648-4b55-87b0-63cff9071a3a"|>, 
+     "1774dfa1-80af-45b4-ba58-9c56d6520b22"|>, 
    <|"Data" -> "(* Define the rectangle proxy with initial properties \
 *)\nrectangleProxy = FrontProxy[\n  {position, velocity, rotationAngle, \
 lifeSpan}, \n  Translate[\n    {Opacity[lifeSpan], RGBColor[With[{l = \
@@ -58,10 +58,10 @@ lastUpdateTime > 1.0,\n        frameRate = Round[(frameCounter + frameRate) / \
 graphics and event handlers *)\nGraphics[\n  {\n    sceneReference, \n    \
 {Directive[FontSize -> 20], Text[frameRate // Offload, {-80, -80}]}, \n    \
 AnimationFrameListener[frameCounter // Offload, \"Event\" -> \"frame\"], \n   \
- EventHandler[\n      Graphics`Canvas[], \n      {\"mousemove\" -> \
-addProxyAtPosition}\n    ]\n  }, \n  PlotRange -> {{-100, 100}, {-100, 100}}, \
-\n  TransitionType -> None\n]", "Display" -> "codemirror", 
-    "Hash" -> "e2df916d-4c43-4355-a408-77606c233e5c", "Invisible" -> False, 
+ EventHandler[\n      Null, \n      {\"mousemove\" -> addProxyAtPosition}\n   \
+ ]\n  }, \n  PlotRange -> {{-100, 100}, {-100, 100}}, \n  TransitionType -> \
+None\n]", "Display" -> "codemirror", 
+    "Hash" -> "3b43033f-e19e-401d-9ba0-bfa4f70b3b2d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "66c9ec5c-f648-4b55-87b0-63cff9071a3a"|>}, "serializer" -> "jsfn4"|>
+     "1774dfa1-80af-45b4-ba58-9c56d6520b22"|>}, "serializer" -> "jsfn4"|>

@@ -1,10 +1,13 @@
-<|"Notebook" -> <|"FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$286], 
+<|"Notebook" -> <|"Controller" -> "a2b8e522-1fc6-40c1-b207-182039649aaa", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$909], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "64f39c40-2ec2-4f2b-bfc4-096ff6286be5", 
    "Objects" -> <|"4c07138a-72ff-48da-87e5-e1e289a249cb" -> 
       <|"Public" -> Hold[Graphics[{PointSize[0.05], RGBColor[0, 0, 1], 
            Opacity[0.5], Point[Offload[pt]], EventListener[Graphics`Canvas[], 
             {"mousemove" -> "fc5f106a-a5ba-4418-ac8e-f4b8c0b35c48"}]}, 
           PlotRange -> {{-1, 1}, {-1, 1}}]]|>|>, "Path" -> "/Users/kirill/Git\
-hub/wolfram-js-frontend-dev/Demos/07 - User input/Mousemove.wln", 
+hub/wljs-demos-archive/Demos/07 - User input/Mousemove.wln", 
    "Symbols" -> <|"pt" -> {{-0.4424242424242424, 0.946590909090909}, 
        {-0.3212121212121212, 0.7162878787878788}, {-0.24848484848484853, 
         0.46174242424242434}, {-0.23636363636363633, 0.3041666666666667}, 
@@ -67,20 +70,26 @@ hub/wolfram-js-frontend-dev/Demos/07 - User input/Mousemove.wln",
        {-0.8242424242424242, 0.8193181818181818}, {-0.8242424242424242, 
         0.9041666666666666}, {-0.8242424242424242, 0.946590909090909}, 
        {-1.1333333333333333, -1.0776515151515151}, {-0.9515151515151514, 
-        0.9405303030303029}}|>|>, 
- "Cells" -> {<|"Data" -> "pt = {};\nGraphics[{\n\tPointSize[0.05], Blue, \
-Opacity[0.5],\n\tPoint[pt // Offload],\n\tEventHandler[Graphics`Canvas[], \
-{\n\t\t\"mousemove\" -> Function[xy, pt = Append[pt, xy]]\n\t}]\n}, \
-PlotRange->{{-1,1}, {-1,1}}]", "Display" -> "codemirror", 
-    "Hash" -> "36676352-e67b-4a0a-8dc0-ebf8de02aabd", "Invisible" -> False, 
+        0.9405303030303029}}|>, "TOC" -> {}|>, 
+ "Cells" -> 
+  {<|"Data" -> "pt = {};\nEventHandler[Graphics[{\n\tPointSize[0.05], Blue, \
+Opacity[0.5],\n\tPoint[pt // Offload]\n}, PlotRange->{{-1,1}, {-1,1}}], \
+{\n\t\t\"mousemove\" -> Function[xy, pt = Append[pt, xy]]\n}]", 
+    "Display" -> "codemirror", "Hash" -> 
+     "101027b1-4b43-42d6-9f39-1d43321e78f0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6c915dc3-007f-43e2-bc3e-5927adbcea38"|>, 
-   <|"Data" -> "(*VB[*)(FrontEndRef[\"4c07138a-72ff-48da-87e5-e1e289a249cb\"]\
-)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKmyQbm\
-BsaWyTqmhulpemaWKQk6lqYp5rqphqmGllYJhqZWCYnAQCBBhWw\"*)(*]VB*)", 
-    "Display" -> "codemirror", "Hash" -> 
-     "9754fd6a-b47f-4850-8588-7edb42ed6b3c", "Invisible" -> False, 
+     "c6acd588-5256-4d4d-b1f1-5ea32dbe5bd4"|>, 
+   <|"Data" -> "(*VB[*)(Graphics[{PointSize[0.05], RGBColor[0, 0, 1], \
+Opacity[0.5], Point[Offload[pt]]}, PlotRange -> {{-1, 1}, {-1, 1}}, Epilog -> \
+{{}, EventListener[Null, {\"mousemove\" -> \
+\"0147ccd7-e8aa-45bf-9cd6-2070f87cf12a\"}]}])(*,*)(*\"1:eJyFUEtOw0AMnZbyW/QQS\
+GwjpVUhZVUJhMoCAUpOMJ3YZaRpHM1MKsFN4AbcipuAJ6MobVngxZPt52c/+WJFOQ6EEG7E8ECmxK\
+NQnTEsraxftXI46vhH7XycPmd4IV35Qr+D/fwI8bXotfny9o4MWc25iBB0UXzK8FxLpf2bFW18LyJ\
+z3K3dGUQ0JEs35Lz2OOy85I2BaMOQz2W1hp5rfe5V+ocjWvi3324+4eS+1obWB2vF3yPjMLuFyocW\
+VGBb/qkxpn/tvqVwogjmN9Q42NAWikuu0sksU6rMEphLmcyuVpjcqPI6maZZivNM4WQqfwElvWNi\
+\"*)(*]VB*)", "Display" -> "codemirror", 
+    "Hash" -> "58f16e93-0cb4-467e-b510-53136c910ac1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6c915dc3-007f-43e2-bc3e-5927adbcea38"|>}, "serializer" -> "jsfn4"|>
+     "c6acd588-5256-4d4d-b1f1-5ea32dbe5bd4"|>}, "serializer" -> "jsfn4"|>

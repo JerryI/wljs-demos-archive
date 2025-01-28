@@ -1,7 +1,7 @@
-<|"Notebook" -> <|"Controller" -> "22e276c6-a911-474f-ba2c-0b32546d76f9", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$95], 
+<|"Notebook" -> <|"Controller" -> "4ef5f433-a307-4d38-8c64-1115fc9133bd", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$846], 
    "HaveToSaveAs" -> False, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "dce256b3-e800-4b78-9cd0-99836e7d44bb", 
+   "ModalsChannel" -> "85e52953-9f4b-4edf-b99a-2497dcaa5140", 
    "Objects" -> <|"1aeba716-8f71-400c-a5ed-c73bee268d4d" -> 
       <|"Public" -> Hold[Graphics[GraphicsComplex[{{-1, -1}, {-1, -0.9}, 
             {-1, -0.8}, {-1, -0.7}, {-1, -0.6}, {-1, -0.5}, 
@@ -2598,8 +2598,8 @@
             {{-1, 1}, {-1, 1}}, PlotRangeClipping -> True, 
            PlotRangePadding -> {{Scaled[0.02], Scaled[0.02]}, 
              {Scaled[0.02], Scaled[0.02]}}, Ticks -> {Automatic, 
-             Automatic}}]]|>|>, "Path" -> "/Users/kirill/Github/wolfram-js-fr\
-ontend/Demos/05 - Interaction/Proxies/Word Cloud.wln", "Quick" -> True, 
+             Automatic}}]]|>|>, "Path" -> "/Users/kirill/Github/wljs-demos-ar\
+chive/Demos/05 - Interaction/Proxies/Word Cloud.wln", "Quick" -> True, 
    "Symbols" -> <|"color$200695" -> JSObject[0.13756967782606735[
         0.5525817188534067, 0.0587337159524447, 0.292095546806104, 
         0.23358599579228378, 0.20398982583534744, 0.32098135228063285, 
@@ -2842,79 +2842,79 @@ ontend/Demos/05 - Interaction/Proxies/Word Cloud.wln", "Quick" -> True,
          0.02259613024270335], 0.6331540095396644[0.02259613024270335], 
         0.6331540095396644[0.02259613024270335]]]|>, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Word Cloud", 
-      CellObj[JerryI`Notebook`CellObj`$64]], 
+      CellObj[JerryI`Notebook`CellObj`$809]], 
      Notebook`Editor`TOC`Private`heading[2, "Interactive version", 
-      CellObj[JerryI`Notebook`CellObj`$90]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$834]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Word Cloud\n*Utilizing an efficient \
 object-like data structure `FrontProxy` to dynamically render and manage word \
 positions and colors in a word cloud visualization, responding interactively \
 to user input.*", "Display" -> "codemirror", 
-    "Hash" -> "3bc58ffe-2e7f-4047-b838-e49c897fc6f5", "Invisible" -> False, 
+    "Hash" -> "67e16f32-97ab-45e7-97b9-383f3e6ceeb4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "# Word Cloud\n*Utilizing an efficient object-like data \
 structure `FrontProxy` to dynamically render and manage word positions and \
 colors in a word cloud visualization, responding interactively to user \
 input.*", "Display" -> "markdown", "Hash" -> 
-     "d12c08ac-4182-4f64-91da-2e7acc141b44", "Invisible" -> False, 
+     "6fabda68-448a-4e7c-b8c0-3505577188dc", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nCreate a new generator function. Here we expose `color` \
 and `pos` as mutable properties to allow for real-time updates and animations \
 within the word cloud", "Display" -> "codemirror", 
-    "Hash" -> "c5e18a13-4ed2-4960-9c1b-3b436adc7362", "Invisible" -> False, 
+    "Hash" -> "83eaacf2-c942-4561-a207-ecb97610188f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "Create a new generator function. Here we expose `color` and \
 `pos` as mutable properties to allow for real-time updates and animations \
 within the word cloud", "Display" -> "markdown", 
-    "Hash" -> "2d761626-f534-473a-a7fe-0fbd2d9789cf", "Invisible" -> False, 
+    "Hash" -> "b8a7b9ec-a4fc-404c-bce7-9313d0e2e7fb", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "label = FrontProxy[{color, pos, text}, {\n  RGBColor[With[{h \
 = color}, {1-h, 0.2, h}]], \n  Text[text, pos, {0,0}]\n}, {color, pos}];", 
     "Display" -> "codemirror", "Hash" -> 
-     "6bedde4c-1bd5-4e04-b1bd-bc3a7da856c8", "Invisible" -> False, 
+     "e320d4fd-ea63-4fbb-a08e-b1a931638bf5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> False|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nNow we spawn 30 labels using a random word generator to \
 populate the word cloud", "Display" -> "codemirror", 
-    "Hash" -> "027576ba-d7d1-4d22-ade2-d356e955132c", "Invisible" -> False, 
+    "Hash" -> "c75b84d7-f711-4099-93fb-c8fb942ee1b8", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "Now we spawn 30 labels using a random word generator to \
 populate the word cloud", "Display" -> "markdown", 
-    "Hash" -> "3d37c52d-9f0a-401e-9242-52a455769f2c", "Invisible" -> False, 
+    "Hash" -> "050f2ec3-2d4e-4cf9-bc0c-f44590cb20ef", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "labels = Table[\n  label[\n    0.9, \n    RandomReal[{-1,1}, \
 2], \n    RandomWord[]//Capitalize\n  ]\n, {30}];", 
     "Display" -> "codemirror", "Hash" -> 
-     "7757b748-c03b-4f4e-bd80-2e366e006a6b", "Invisible" -> False, 
+     "ab6d60ef-f3d7-434a-8c8c-252662c47897", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> False|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nOne can think of this as a simulation of mass density \
 where gradients of concentration push labels to spread them evenly. For this \
 we define a vectorized gradient function", "Display" -> "codemirror", 
-    "Hash" -> "7cc5cf95-4026-428d-b52d-bde954f5b5e0", "Invisible" -> False, 
+    "Hash" -> "8d573e44-507f-4db7-a82a-aaef05243a4e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "One can think of this as a simulation of mass density where \
 gradients of concentration push labels to spread them evenly. For this we \
 define a vectorized gradient function", "Display" -> "markdown", 
-    "Hash" -> "699a5616-c2bf-4d25-93b6-f43a95d1869c", "Invisible" -> False, 
+    "Hash" -> "bb023860-7816-49e7-8bc3-5603de4f2ef1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "gradient = Function[{x1,y1,x2,y2,\\[Sigma],d},\n  With[{\n    \
 s =  ( \
 (*FB[*)((((*SpB[*)Power[E(*|*),(*|*)-(*FB[*)(((*SpB[*)Power[(x1-x2)(*|*),(*|*\
@@ -2930,142 +2930,142 @@ Function[{x1,y1,x2,y2,\\[Sigma],d},\n  ( \
 )(*,*)/(*,*)(((*SqB[*)Sqrt[2. \\[Pi]](*]SqB*)) \
 ((*SpB[*)Power[\\[Sigma](*|*),(*|*)3](*]SpB*))))(*]FB*) )\n];", 
     "Display" -> "codemirror", "Hash" -> 
-     "1ef865e4-9c42-4cb6-9575-e99d4550c766", "Invisible" -> False, 
+     "d973574d-8c91-46e7-bc96-7fa52b6f0fc8", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nLet us visualize the density of our cloud", 
     "Display" -> "codemirror", "Hash" -> 
-     "5eae664b-c984-4930-bc61-edf0f0ab34ce", "Invisible" -> False, 
+     "eb0682cf-3baf-4ece-b6c5-151124b6bb9e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "Let us visualize the density of our cloud", 
     "Display" -> "markdown", "Hash" -> 
-     "a1105175-bbe5-4120-881f-7a893a812ee6", "Invisible" -> False, 
+     "7a9d11bb-cc19-4c53-8100-c204a00a6bd2", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "With[{positions = FrontProxyBuffer[label, 2]},\n  Table[\n    \
 {x,y, Total @ Table[density[b[[1]], b[[2]], x,y, 0.18, 0.], {b, \
 positions}]}\n  , {x,-1,1,0.1}, \
 {y,-1,1,0.1}]\n];\n\nListDensityPlot[Flatten[%, 1], \n  Epilog->{Show @@ \
 labels },\n  ColorFunction->\"MintColors\"\n]", "Display" -> "codemirror", 
-    "Hash" -> "40d5f40f-7b58-47a5-ae04-a9955863ede4", "Invisible" -> False, 
+    "Hash" -> "8840bad8-9a59-4dca-aca4-783bcc201969", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"1aeba716-8f71-400c-a5ed-c73bee268d4d\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKGyamJ\
 iWaG5rpWqSZG+qaGBgk6yaapqboJpsbJ6WmGplZpJikAACL0hYs\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "ac15c446-e963-4eb6-9f4e-6b5838799a34", "Invisible" -> False, 
+     "2f241e11-6eb9-450b-8276-e8dacad498ab", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nNow let's visualize the gradient", 
     "Display" -> "codemirror", "Hash" -> 
-     "b183ce64-e1fa-4e52-a958-3fc6abd5c1de", "Invisible" -> False, 
+     "23e95b9d-0b71-476d-b66a-6fc7ea9fece7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "Now let's visualize the gradient", "Display" -> "markdown", 
-    "Hash" -> "b86b4722-011d-4f1d-9629-cd930177469a", "Invisible" -> False, 
+    "Hash" -> "b11a7206-a4cb-4b3c-929d-01943bfba56e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "With[{positions = FrontProxyBuffer[label, 2]},\n  Table[\n    \
 {{x,y}, - Total @ Table[gradient[b[[1]], b[[2]], x,y, 0.18,0.], {b, \
 positions}]}\n  , {x,-1,1,0.1}, \
 {y,-1,1,0.1}]\n];\n\nListVectorPlot[Flatten[%, 1], \n  Epilog->{Show @@ \
 labels },\n  ColorFunction->\"MintColors\"\n]", "Display" -> "codemirror", 
-    "Hash" -> "0a6cb682-ce9c-4b65-b140-edaa67362c7e", "Invisible" -> False, 
+    "Hash" -> "32f8d7ea-7f7f-441d-86b3-b06d57563f22", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"1d419c1c-0268-4d21-988b-6f936d5f3289\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKG6aYG\
 FomGybrGhiZWeiapBgZ6lpaWCTpmqVZGpulmKYZG1lYAgB39xT2\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "c322547d-fa65-4bcd-9df4-cc7338cf34ce", "Invisible" -> False, 
+     "ac89cbb8-d301-442e-82fb-076297960730", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nWe can calculate gradient at each point and assign it to \
 the velocity of the given text-label", "Display" -> "codemirror", 
-    "Hash" -> "d6833072-268c-49b5-b2af-a41dbc2b6ccf", "Invisible" -> False, 
+    "Hash" -> "acdc4518-04c5-4be2-857d-b89af42fbf1b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "We can calculate gradient at each point and assign it to the \
 velocity of the given text-label", "Display" -> "markdown", 
-    "Hash" -> "439b35f8-88a5-479f-97ae-2fb22a9651bd", "Invisible" -> False, 
+    "Hash" -> "244ec0e0-d347-449b-b40c-1e09fe28b9cf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "With[{pos = FrontProxyBuffer[label, 2]},\n  With[{\n    v = \
 Map[Total] @ Table[gradient[a[[1]], a[[2]], b[[1]], b[[2]], 0.2,0.1], {a, \
 pos}, {b, pos}]\n  },\n    With[{newpos = pos + 0.01 v},\n      \
 FrontProxyBufferSet[label, 2, newpos]\n    ]\n  \
 ]\n];\n\nFrontProxyDispatch[label];", "Display" -> "codemirror", 
-    "Hash" -> "3cdd223d-f610-4fd7-b8f6-ea4aacb0f954", "Invisible" -> False, 
+    "Hash" -> "34d489a9-5bdd-4c4c-9008-163249584082", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> False|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nWe can automate this process and interact with labels", 
     "Display" -> "codemirror", "Hash" -> 
-     "e2316076-f897-4856-8d90-58ce8957fcb1", "Invisible" -> False, 
+     "46ab5777-6ead-41a2-ae6f-9ccbc7e2db6d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "We can automate this process and interact with labels", 
     "Display" -> "markdown", "Hash" -> 
-     "9fde009e-b1eb-48e0-b2ad-4fc9de01c2da", "Invisible" -> False, 
+     "bdc43b4c-a8b0-4a0f-88e3-904344f4a7af", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> 
      ".md\n## Interactive version\nLet us crank up the number of labels", 
     "Display" -> "codemirror", "Hash" -> 
-     "55cc9ac0-c2e3-4926-a099-212b76250fc6", "Invisible" -> False, 
+     "a4102634-5b87-4c7f-a36d-eb35806eb2a7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> 
      "## Interactive version\nLet us crank up the number of labels", 
     "Display" -> "markdown", "Hash" -> 
-     "b9f17858-138b-4199-be16-8b4edcdc516b", "Invisible" -> False, 
+     "c08814f1-f7bd-4c78-93ae-7146887c98ae", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "label = FrontProxy[{color, pos, text}, {\n  RGBColor[With[{h \
 = color}, {1-h, 0.2, h}]], \n  Text[text, pos, {0,0}]\n}, {color, \
 pos}];\n\nlabels = Table[\n  label[\n    0.9, \n    RandomReal[{-1,1}, 2], \n \
    RandomWord[]//Capitalize\n  ]\n, {200}];", "Display" -> "codemirror", 
-    "Hash" -> "8cf93468-4c92-49f2-9c58-8b869ec8fe2e", "Invisible" -> False, 
+    "Hash" -> "dd89e0ff-c1c5-4e53-b431-eec0ee81bbd2", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "(*VB[*)(StringForm[\"Initializing `1` indices ....\", \
 \"WordData\"])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KWlMIB4XkHBNySzJLwrLTC0PVgFy\
 lTzzMksyE3MyqzLz0hXC84tSXBJLEhUy81Iyk1OLFfSAQAmiGWRUUGlOajEHiJGamOKfl1MJFg0pK\
 k0FAHMgHWs=\"*)(*]VB*)", "Display" -> "print", 
-    "Hash" -> "e71da572-fd34-4e05-93a4-d651e09e02fc", "Invisible" -> False, 
+    "Hash" -> "5f1f0d57-dec7-4f50-b2ee-2fe34993d82b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nNow automate the calculations based on the user's mouse \
 and defined radius", "Display" -> "codemirror", 
-    "Hash" -> "a6ab22fa-1977-4a54-9383-6eba025a7b42", "Invisible" -> False, 
+    "Hash" -> "8cf33e58-dd83-4dda-b3aa-8f320cc81cf3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "Now automate the calculations based on the user's mouse and \
 defined radius", "Display" -> "markdown", 
-    "Hash" -> "7ad03267-8185-49b0-b883-c65b654e264a", "Invisible" -> False, 
+    "Hash" -> "6de35552-26ab-4789-8e7b-6e7c4e9c65d7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "spread[sigma_, hand_] := With[{},\n  With[{pos = \
 FrontProxyBuffer[label, 2]},\n  \n    With[{\n      v = Map[Total] @ Table[\n \
        gradient[\n          a[[1]], a[[2]], \n          b[[1]], b[[2]], \n    \
@@ -3077,26 +3077,26 @@ b[[1]], b[[2]], \n          sigma, 0.1\n        ]\n      , {b, pos}]\n    \
 Max[norm]];\n          FrontProxyBufferSet[label, 2, pos + velocity];\n       \
  ]\n      ]\n    ]\n  ];\n\n  FrontProxyDispatch[label];\n]", 
     "Display" -> "codemirror", "Hash" -> 
-     "014e5b54-c048-410b-98d2-28965ffbe979", "Invisible" -> False, 
+     "bd85defe-50f8-4738-8cc2-0250fce5e5f8", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> ".md\nNow let's arrange the scene and integrate all handlers \
 to facilitate interactive elements as users interact with the word \
 cloud.\n\n**evaluate this one after initialization cells**", 
     "Display" -> "codemirror", "Hash" -> 
-     "e2367c6a-a2f0-4c63-a8cb-286df72c5e8c", "Invisible" -> False, 
+     "3cf566e3-23a2-42b0-a330-a6ca1b2a7614", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "Now let's arrange the scene and integrate all handlers to \
 facilitate interactive elements as users interact with the word \
 cloud.\n\n**evaluate this one after initialization cells**", 
     "Display" -> "markdown", "Hash" -> 
-     "27caed97-0c4d-4565-9012-82bfc9127313", "Invisible" -> False, 
+     "a8ceb690-e3a9-4034-9add-06966adcd764", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>, 
+     "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>, 
    <|"Data" -> "trigger = 1;\n\nsigma = 0.2;\nEventHandler[InputRange[0.14, \
 0.5, 0.01, sigma, \"Label\"->\"Spread\"], Function[value, sigma = \
 value]]\n\nhand = {0.,0.};\nfps = 1;\ntime = \
@@ -3105,13 +3105,12 @@ hand];\n  With[{now = AbsoluteTime[]},\n    If[now - time >= 1.,\n      time \
 = now;\n      fps = Round[(*FB[*)((fps + trigger)(*,*)/(*,*)(2.0))(*]FB*)];\n \
      trigger = 0;\n    ,\n      trigger = trigger + 1;\n    ]\n  ];\n  \
 \n]];\n\nGraphics[{\n  Show @@ labels, \n  AnimationFrameListener[trigger // \
-Offload, \"Event\"->\"cycle\"],\n  EventHandler[Graphics`Canvas[], {\n    \
-\"mousemove\" -> Function[xy, hand = xy]\n  }],\n  Directive[FontSize->20], \
-Text[fps // Offload, {-0.8,-0.8}]\n}, \n  ImageSize->{500,300}, \n  \
-PlotRange->{{-1,1}, {-1,1}}, \n  TransitionType->None\n]", 
-    "Display" -> "codemirror", "Hash" -> 
-     "6e27d75b-d952-4a0b-a006-44477a4d910e", "Invisible" -> False, 
+Offload, \"Event\"->\"cycle\"],\n  EventHandler[Null, {\n    \"mousemove\" -> \
+Function[xy, hand = xy]\n  }],\n  Directive[FontSize->20], Text[fps // \
+Offload, {-0.8,-0.8}]\n}, \n  ImageSize->{500,300}, \n  PlotRange->{{-1,1}, \
+{-1,1}}, \n  TransitionType->None\n]", "Display" -> "codemirror", 
+    "Hash" -> "d9dacdd6-83e8-402e-a02e-ecfd385c0242", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> False|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "6b33b004-9d95-43c5-bb83-2b73c5d86b48"|>}, 
+    "Notebook" -> "8d7377f8-25e3-4a54-8acf-b5f4f72d043a"|>}, 
  "serializer" -> "jsfn4"|>

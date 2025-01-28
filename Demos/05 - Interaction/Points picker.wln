@@ -1,7 +1,7 @@
-<|"Notebook" -> <|"Controller" -> "dbf4d762-2454-41fe-85d4-894f4c2c54dc", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$1031], 
+<|"Notebook" -> <|"Controller" -> "fd526373-f517-4f08-91ba-7bd1bf9c5b45", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$785], 
    "MessangerChannel" -> Messanger, "ModalsChannel" -> 
-    "21883403-13d3-4cd4-acdb-b2ce2baa73ba", 
+    "0f882f57-c59a-4f3e-9da1-570dbe24c250", 
    "Objects" -> <|"5ab0432c-dacf-4683-9dff-6318b8451cf7" -> 
       <|"Public" -> Hold[Graphics[{{}, {{{}, {}, Annotation[{Hue[0.67, 0.6, 
                 0.6], Directive[PointSize[Rational[1, 360]], RGBColor[
@@ -11475,101 +11475,101 @@
                    #1[[2]]]} & )}}, PlotRange -> {{0, 165}, {-50, 800}}, 
            PlotRangeClipping -> True, PlotRangePadding -> {{0, 0}, {0, 0}}, 
            Ticks -> {Automatic, Automatic}}]]|>|>, 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/Demos/05 - \
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/05 - \
 Interaction/Points picker.wln", "ReadOnly" -> True, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Points picker", 
-      CellObj[JerryI`Notebook`CellObj`$1026]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$770]]}|>, 
  "Cells" -> 
   {<|"Data" -> 
      ".md\n# Points picker\nA widget to pick points from 2D graph into an \
 array", "Display" -> "codemirror", "Hash" -> 
-     "58dcfb03-fe40-4b08-8b59-2c288976f3d8", "Invisible" -> False, 
+     "6265f12e-4272-4703-b79b-e065c55793c0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> 
      "# Points picker\nA widget to pick points from 2D graph into an array", 
     "Display" -> "markdown", "Hash" -> 
-     "3f7856e1-f325-40bc-aa76-f15ca4077e2c", "Invisible" -> False, 
+     "4b271ef4-0401-4195-93d6-bbf968715df2", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> "ListLinePlot[(*VB[*)(Get[FileNameJoin[{\".iconized\", \
 \"iconized-48cd.wl\"}]])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KWlMIB4fkPBMzs/LrE\
 p1y8xJdcqvyFzBzsIAkQQpDSrNSQ1mBTJ8EpNSc4K5gazgxNyCnFSFlMSSRABEJBRS\"*)(*]VB*)\
 , \n  ImageSize->({1.2 500, 300}), \n  PlotRange->{{0,165}, {-50, 800}}, \n  \
 Epilog-> FrontInstanceReference[\"plt\"]\n]", "Display" -> "codemirror", 
-    "Hash" -> "267d0298-a39a-48ec-beed-d2ce40a4c644", "Invisible" -> False, 
+    "Hash" -> "b361cd7e-1973-4dd3-b5db-bd38c470a8c7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"5ab0432c-dacf-4683-9dff-6318b8451cf7\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKmyYmG\
 ZgYGyXrpiQmp+mamFkY61qmpKXpmhkbWiRZmJgaJqeZAwCLAhXZ\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "ca2f72af-2a56-45b1-81aa-7f104abcfa1b", "Invisible" -> False, 
+     "005c2835-37f0-4d82-885c-98e4e3b9bbb3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> 
      ".md\nRun this line of code and it will add crossbar on a graph", 
     "Display" -> "codemirror", "Hash" -> 
-     "aa2547bd-f2b3-4d72-8970-2079bee4ef67", "Invisible" -> False, 
+     "b49e1832-886f-47f3-b232-3cc5ab8a65eb", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> "Run this line of code and it will add crossbar on a graph", 
     "Display" -> "markdown", "Hash" -> 
-     "c7550ae3-68cb-4e46-b430-a5b063a7e9f2", "Invisible" -> False, 
+     "a9cc230b-f31b-4283-aab0-4a43ebb8fe3f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> "picker[\"plt\", {60,100}]", "Display" -> "codemirror", 
-    "Hash" -> "fad9f7e3-0fab-445a-8eaf-854e0b67d8f8", "Invisible" -> False, 
+    "Hash" -> "a7c94e41-383e-4272-9788-41e88ad4095e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "c79ef969-fd75-4fdd-aa93-46d1e6cf6917", "Invisible" -> False, 
+    "Hash" -> "efb922b3-d3c9-497e-9596-55daeadbbebe", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> ".md\n*Use Alt + Click to place a point on a graph*", 
     "Display" -> "codemirror", "Hash" -> 
-     "8f45cdbb-770f-4b9a-94b6-239247369fba", "Invisible" -> False, 
+     "0947c976-7448-49fb-adc0-94582a315d08", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> "*Use Alt + Click to place a point on a graph*", 
     "Display" -> "markdown", "Hash" -> 
-     "23f54fc5-f7ea-4b1c-ae2e-b6a4441676ee", "Invisible" -> False, 
+     "90a5c91e-0301-4465-8650-a007cc3c571c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "68515877-66cb-4f39-bd14-7d15f620923e", "Invisible" -> False, 
+    "Hash" -> "36b6033d-0758-4f32-90a5-b9a79d4fc96d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> ".md\nSource code", "Display" -> "codemirror", 
-    "Hash" -> "baeae998-2b5a-46aa-b78a-c95bf06e2330", "Invisible" -> False, 
+    "Hash" -> "9f2178ba-3d6c-4515-a8ae-beae7be8e750", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, <|"Data" -> "Source code", 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, <|"Data" -> "Source code", 
     "Display" -> "markdown", "Hash" -> 
-     "33175458-9fd1-479e-a177-acd1c1b74d80", "Invisible" -> False, 
+     "1c59c7ac-a417-4c1a-86f3-4ad97ed0cfc9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "4918592c-82d6-41bc-b040-1f7a00cd70de"|>, 
+     "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>, 
    <|"Data" -> "picker[marker_String, initial_:{40,1000}] := LeakyModule[{\n  \
 pointer = initial,\n  pts = {},\n  textPosition = \"...\",\n  instances\n},\n \
- With[{o = {EventHandler[Graphics`Canvas[], {\"mousemove\" -> Function[p,\n   \
- pointer = p;\n    textPosition = ToString[Round[p, 0.1]];\n  ],\n    \
-\"altclick\" -> Function[p,\n      pts = Append[pts, p];\n      Beep[];\n    \
-]\n  }],\n    Blue, PointSize[0.02], Point[pts // Offload], Green, \
-Line[With[{h = pointer[[2]]}, {{-200, h}, {200, h}}] // Offload], \
-Line[With[{h = pointer[[1]]}, {{h, -1000}, {h, 2 8200}}] // Offload]\n  }},\n \
-   instances = FrontInstanceGroup[];\n    FrontSubmit[o//instances, \
+ With[{o = {EventHandler[Null, {\"mousemove\" -> Function[p,\n    pointer = \
+p;\n    textPosition = ToString[Round[p, 0.1]];\n  ],\n    \"altclick\" -> \
+Function[p,\n      pts = Append[pts, p];\n      Beep[];\n    ]\n  }],\n    \
+Blue, PointSize[0.02], Point[pts // Offload], Green, Line[With[{h = \
+pointer[[2]]}, {{-200, h}, {200, h}}] // Offload], Line[With[{h = \
+pointer[[1]]}, {{h, -1000}, {h, 2 8200}}] // Offload]\n  }},\n    instances = \
+FrontInstanceGroup[];\n    FrontSubmit[o//instances, \
 FrontInstanceReference[marker]];\n  ];\n\n  With[{\n    cell = \
 ResultCell[],\n    eval = EvaluationCell[]\n  },\n     {\n      {\n        \
 EventHandler[InputButton[\"Done?\"], Function[Null,\n          \
@@ -11579,8 +11579,8 @@ EventHandler[InputButton[\"Reset\"], Function[Null,\n          pts = {};\n    \
       Beep[];\n        ]]\n      } // Row,\n\n      EditorView[\n        \
 textPosition // Offload\n      ]\n    } // Column\n  ]\n]", 
     "Display" -> "codemirror", "Hash" -> 
-     "37ed30fa-e96c-4657-9787-20941d55970c", "Invisible" -> False, 
+     "4d616264-8190-4d29-9fe8-3e74409303bd", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "4918592c-82d6-41bc-b040-1f7a00cd70de"|>}, 
+    "Notebook" -> "f06f1be1-ddd3-4d02-8918-fd0e7f107cb1"|>}, 
  "serializer" -> "jsfn4"|>

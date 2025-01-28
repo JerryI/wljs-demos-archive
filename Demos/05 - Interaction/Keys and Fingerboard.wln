@@ -1,7 +1,7 @@
-<|"Notebook" -> <|"Controller" -> "64cb1660-cb30-48a8-8c01-0f2274f72cff", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$589], 
+<|"Notebook" -> <|"Controller" -> "f4cb0d10-2b58-4df7-b12a-1316727d6db2", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$696], 
    "HaveToSaveAs" -> False, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "4efc770d-b0f4-441d-83a8-e16563754b37", 
+   "ModalsChannel" -> "ab68dab3-ab27-4e1b-b406-ef8cac1567d4", 
    "Objects" -> <|"159960d2-454d-45c9-a227-6b2958ecc9ce" -> 
       <|"Public" -> Hold[Graphics[{FrontInstanceReference[
             781764113315543900], {GrayLevel[1], EdgeForm[GrayLevel[0.5]], 
@@ -87,35 +87,6 @@
                 {9, 2.84}, {0, 0}]}}}}}, ImageSize -> {600, 120}, 
           "Controls" -> False, ImagePadding -> None, PlotRange -> 
            {{-0.5, 12.5}, {0, 6.5}}]]|>, 
-     "d47df2d3-2ee4-4420-a24d-43a329d8e885" -> 
-      <|"Public" -> Hold[Graphics[{{RGBColor[0.9215686274509803, 
-             0.49411764705882355, 0.43137254901960786], 
-            EdgeForm[Opacity[0.1]], Rectangle[{1, 0}, Offset[{-1, -1}, 
-              {2, 1}]]}, {RGBColor[1, 0.7215686274509804, 
-             0.2196078431372549], EdgeForm[Opacity[0.1]], Rectangle[{2, 0}, 
-             Offset[{-1, -1}, {3, 1}]]}, {RGBColor[0.9490196078431372, 
-             0.8627450980392157, 0.43529411764705883], 
-            EdgeForm[Opacity[0.1]], Rectangle[{3, 0}, Offset[{-1, -1}, 
-              {4, 1}]]}, {RGBColor[0.6705882352941176, 0.8784313725490196, 
-             0.9372549019607843], EdgeForm[Opacity[0.1]], Rectangle[{4, 0}, 
-             Offset[{-1, -1}, {5, 1}]]}, {RGBColor[0.3176470588235294, 
-             0.6549019607843137, 0.7529411764705882], EdgeForm[Opacity[0.1]], 
-            Rectangle[{5, 0}, Offset[{-1, -1}, {6, 1}]]}, 
-           {RGBColor[0.12941176470588237, 0.5176470588235295, 
-             0.6313725490196078], EdgeForm[Opacity[0.1]], Rectangle[{6, 0}, 
-             Offset[{-1, -1}, {7, 1}]]}, {RGBColor[0.09019607843137255, 
-             0.33725490196078434, 0.49411764705882355], 
-            EdgeForm[Opacity[0.1]], Rectangle[{7, 0}, Offset[{-1, -1}, 
-              {8, 1}]]}, {RGBColor[0.7058823529411765, 0.49411764705882355, 
-             0.5450980392156862], EdgeForm[Opacity[0.1]], Rectangle[{8, 0}, 
-             Offset[{-1, -1}, {9, 1}]]}, {RGBColor[0.5333333333333333, 
-             0.23529411764705882, 0.3058823529411765], 
-            EdgeForm[Opacity[0.1]], Rectangle[{9, 0}, Offset[{-1, -1}, 
-              {10, 1}]]}, {RGBColor[0.8941176470588236, 0.7098039215686275, 
-             0.7490196078431373], EdgeForm[Opacity[0.1]], Rectangle[{10, 0}, 
-             Offset[{-1, -1}, {11, 1}]]}}, {ImageSize -> 65, 
-           BaselinePosition -> Bottom, PlotRangePadding -> None, 
-           AspectRatio -> Rational[1, 10]}]]|>, 
      "8b30a46a-009e-4ed9-b4a3-f87e9574e93d" -> 
       <|"Public" -> Hold[Graphics[{FrontInstanceReference[
             125522456893570510], EventListener[Graphics`Canvas[], 
@@ -477,9 +448,38 @@
            SoundNote[{9, 13, 16, 21, 25, 28}], SoundNote[{9, 13, 16, 21, 25, 
              28}], SoundNote[{4, 8, 11, 16, 20, 23}], 
            SoundNote[{4, 8, 11, 16, 20, 23}], SoundNote[{4, 8, 11, 16, 20, 
-             23}], SoundNote[{4, 8, 11, 16, 20, 23}]}]]|>|>, 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/wljs_packages/wljs-dem\
-os-archive/Demos/05 - Interaction/Keys and Fingerboard.wln", "Quick" -> True, 
+             23}], SoundNote[{4, 8, 11, 16, 20, 23}]}]]|>, 
+     "d47df2d3-2ee4-4420-a24d-43a329d8e885" -> 
+      <|"Public" -> Hold[Graphics[{{RGBColor[0.9215686274509803, 
+             0.49411764705882355, 0.43137254901960786], 
+            EdgeForm[Opacity[0.1]], Rectangle[{1, 0}, Offset[{-1, -1}, 
+              {2, 1}]]}, {RGBColor[1, 0.7215686274509804, 
+             0.2196078431372549], EdgeForm[Opacity[0.1]], Rectangle[{2, 0}, 
+             Offset[{-1, -1}, {3, 1}]]}, {RGBColor[0.9490196078431372, 
+             0.8627450980392157, 0.43529411764705883], 
+            EdgeForm[Opacity[0.1]], Rectangle[{3, 0}, Offset[{-1, -1}, 
+              {4, 1}]]}, {RGBColor[0.6705882352941176, 0.8784313725490196, 
+             0.9372549019607843], EdgeForm[Opacity[0.1]], Rectangle[{4, 0}, 
+             Offset[{-1, -1}, {5, 1}]]}, {RGBColor[0.3176470588235294, 
+             0.6549019607843137, 0.7529411764705882], EdgeForm[Opacity[0.1]], 
+            Rectangle[{5, 0}, Offset[{-1, -1}, {6, 1}]]}, 
+           {RGBColor[0.12941176470588237, 0.5176470588235295, 
+             0.6313725490196078], EdgeForm[Opacity[0.1]], Rectangle[{6, 0}, 
+             Offset[{-1, -1}, {7, 1}]]}, {RGBColor[0.09019607843137255, 
+             0.33725490196078434, 0.49411764705882355], 
+            EdgeForm[Opacity[0.1]], Rectangle[{7, 0}, Offset[{-1, -1}, 
+              {8, 1}]]}, {RGBColor[0.7058823529411765, 0.49411764705882355, 
+             0.5450980392156862], EdgeForm[Opacity[0.1]], Rectangle[{8, 0}, 
+             Offset[{-1, -1}, {9, 1}]]}, {RGBColor[0.5333333333333333, 
+             0.23529411764705882, 0.3058823529411765], 
+            EdgeForm[Opacity[0.1]], Rectangle[{9, 0}, Offset[{-1, -1}, 
+              {10, 1}]]}, {RGBColor[0.8941176470588236, 0.7098039215686275, 
+             0.7490196078431373], EdgeForm[Opacity[0.1]], Rectangle[{10, 0}, 
+             Offset[{-1, -1}, {11, 1}]]}}, {ImageSize -> 65, 
+           BaselinePosition -> Bottom, PlotRangePadding -> None, 
+           AspectRatio -> Rational[1, 10]}]]|>|>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/05 - \
+Interaction/Keys and Fingerboard.wln", "Quick" -> True, 
    "Symbols" -> <|"iconTempSymbol$208120" -> 
       Graphics[{{}, {{}, {}, {GrayLevel[0.5], PointSize[0.125], 
           AbsoluteThickness[1.5], Style[Line[{{1, 1.0786974808168008}, 
@@ -524,39 +524,39 @@ os-archive/Demos/05 - Interaction/Keys and Fingerboard.wln", "Quick" -> True,
        PlotRangeClipping -> True, PlotRangePadding -> {{1, 1}, {1, 1}}, 
        Ticks -> {Automatic, Automatic}]|>, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Keys and Fingerboard", 
-      CellObj[JerryI`Notebook`CellObj`$436]], 
+      CellObj[JerryI`Notebook`CellObj`$673]], 
      Notebook`Editor`TOC`Private`heading[2, 
       "Helper function to work with notes and scales", 
-      CellObj[JerryI`Notebook`CellObj`$436]], 
+      CellObj[JerryI`Notebook`CellObj`$673]], 
      Notebook`Editor`TOC`Private`heading[2, "Piano view", 
-      CellObj[JerryI`Notebook`CellObj`$448]], 
+      CellObj[JerryI`Notebook`CellObj`$676]], 
      Notebook`Editor`TOC`Private`heading[3, "Testing", 
-      CellObj[JerryI`Notebook`CellObj`$441]], 
+      CellObj[JerryI`Notebook`CellObj`$685]], 
      Notebook`Editor`TOC`Private`heading[2, "Guitar Fingerboard", 
-      CellObj[JerryI`Notebook`CellObj`$450]], 
+      CellObj[JerryI`Notebook`CellObj`$689]], 
      Notebook`Editor`TOC`Private`heading[3, "Testing", 
-      CellObj[JerryI`Notebook`CellObj`$456]], 
+      CellObj[JerryI`Notebook`CellObj`$695]], 
      Notebook`Editor`TOC`Private`heading[2, "Explore chords", 
-      CellObj[JerryI`Notebook`CellObj`$568]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$699]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Keys and Fingerboard\nA notebook \
 demonstrating a custom `View` functions with a working toy-like piano and \
 guitar fingerboard. This covers basic graphics manipulation, sound emission \
 and working with dynamic graphics groups.\n\n<br/>\n\n## Helper function to \
 work with notes and scales\nDefine semintone converters ", 
     "Display" -> "codemirror", "Hash" -> 
-     "c3c7cbea-d8e8-48b2-89ad-eda1902f7f51", "Invisible" -> False, 
+     "9af3bc8a-2829-400a-9c2c-b88d31dc892b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "# Keys and Fingerboard\nA notebook demonstrating a custom \
 `View` functions with a working toy-like piano and guitar fingerboard. This \
 covers basic graphics manipulation, sound emission and working with dynamic \
 graphics groups.\n\n<br />\n\n## Helper function to work with notes and \
 scales\nDefine semintone converters ", "Display" -> "markdown", 
-    "Hash" -> "98157ebc-f38e-47b1-b85c-913b1afb1fe8", "Invisible" -> False, 
+    "Hash" -> "767ab051-34f2-41bf-9736-48a162cee227", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "semitone[\"C\"] = 0;\nsemitone[\"C#\"] = 1;\nsemitone[\"D\"] \
 = 2;\nsemitone[\"D#\"] = 3;\nsemitone[\"Eb\"] = 3;\nsemitone[\"E\"] = \
 4;\nsemitone[\"F\"] = 5;\nsemitone[\"F#\"] = 6;\nsemitone[\"Gb\"] = \
@@ -567,24 +567,24 @@ scales\nDefine semintone converters ", "Display" -> "markdown",
 semitone[c[[1]]] + (c[[2]] - 4) 12\n]\nconvertToSemitones[s_] := \
 s;\nconvertToSemitones[l_List] := convertToSemitones /@ l", 
     "Display" -> "codemirror", "Hash" -> 
-     "04887b33-f476-4fa4-b201-fedffc17847d", "Invisible" -> False, 
+     "e0ea9f0a-5de0-4457-b98d-87ac7197b1f4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\n## Piano view\nA view-function to visualize and play \
 `SoundNote` on a keyboard.\n\nHelper functions to generate keys", 
     "Display" -> "codemirror", "Hash" -> 
-     "1ef266a0-85ed-4840-a8d9-26eb9a3ed56b", "Invisible" -> False, 
+     "e4db73dd-9c7d-498d-8694-97ea4624ee1f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "## Piano view\nA view-function to visualize and play \
 `SoundNote` on a keyboard.\n\nHelper functions to generate keys", 
     "Display" -> "markdown", "Hash" -> 
-     "53cef467-c6a3-4997-8a00-a11df32a6ec4", "Invisible" -> False, 
+     "157f0b0b-793d-480e-8df0-aeb9a781ef9a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "keyLevels = {0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, \
 0};\n\ngenerateKeys[keyCount_] := Module[\n  {index = 1, position = 1, \
 keyWidth, keyOffset},\n  Table[\n    With[\n      {\n        cycleIndex = \
@@ -604,22 +604,22 @@ key}\n  ,\n    key\n  ]\n], skeys]\n\nseparateKeys[keys_] := Module[\n  \
 {annotatedKeys = annotateKeys[keys]},\n  {\n    Cases[annotatedKeys, \
 Annotation[_, 0, _]],\n    Cases[annotatedKeys, Annotation[_, 1, _]]\n  \
 }\n];", "Display" -> "codemirror", "Hash" -> 
-     "faf68626-6a7d-4173-8061-48aca8a363f0", "Invisible" -> False, 
+     "70f54e90-6853-4ce0-a835-162b00fce30b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\nA main function to construct a __piano view__", 
     "Display" -> "codemirror", "Hash" -> 
-     "65e09582-1be9-4157-8f4f-d4a4958cb154", "Invisible" -> False, 
+     "2c04d036-4a1e-49e9-8505-4d6317dc1be7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "A main function to construct a __piano view__", 
     "Display" -> "markdown", "Hash" -> 
-     "64aa5bd7-8264-4a52-8841-ec64af04cd6b", "Invisible" -> False, 
+     "7cfa440b-1601-4ae2-867d-5c7fef4b06fa", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "PianoView[] := \
 PianoView[SoundNote[{}]]\nPianoView[SoundNote[rawNotes_List], \
 OptionsPattern[]] := Module[{\n  keys, separated, scene,\n  highlighted, \
@@ -634,28 +634,27 @@ Mod[#, Length[keys]] + 1 &/@ notes;\n  annotations = Text[names[[Mod[#, \
 ];\n\n  Graphics[{scene,\n    {White, EdgeForm[Gray], \
 highlightNotes[separated[[1]], highlighted], Black//Lighter, \
 highlightNotes[separated[[2]],highlighted]},\n    {Yellow, Opacity[0.3]}, \
-{Black, annotations},\n  EventHandler[Graphics`Canvas[], {\"click\" -> \
-clicker[scene, separated, keys, notes, names]}]\n  }, \
-ImageSize->OptionValue[ImageSize], \
+{Black, annotations},\n  EventHandler[Null, {\"click\" -> clicker[scene, \
+separated, keys, notes, names]}]\n  }, ImageSize->OptionValue[ImageSize], \
 \"Controls\"->False]\n]\n\nOptions[PianoView] = {ImageSize->{500,200}, \
 \"Size\"->25, \"Mode\"->\"Play\"};", "Display" -> "codemirror", 
-    "Hash" -> "ed6f74b7-eb85-46d7-95ad-e059b436d768", "Invisible" -> False, 
+    "Hash" -> "dc10300f-f15f-455c-824a-9db774c35f06", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> 
      ".md\nDefine a handler for emitting sound and highlighting keys", 
     "Display" -> "codemirror", "Hash" -> 
-     "6cc2249a-5867-4f54-90df-6178bca92316", "Invisible" -> False, 
+     "52fc18f3-f9c2-4aca-b66c-2388a69d79cd", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "Define a handler for emitting sound and highlighting keys", 
     "Display" -> "markdown", "Hash" -> 
-     "4c4ce41d-6c3d-46ef-b459-ec9a971db43b", "Invisible" -> False, 
+     "617228b0-de1f-4a42-981e-484342fa223c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "ClearAll[clicker]\nclicker[scene_, separated_, keys_, \
 additional_:{}, notes_][xy_] := With[{\n  whiteMatch = \
 SelectFirst[separated[[1]], RegionMember[#[[1]], xy]  &],\n  blackMatch = \
@@ -669,50 +668,50 @@ Length[keys]-1] &/@ additional)+1, {key}], \n      Opacity[0.3], \
 keys[[Join[((Mod[#, Length[keys]-1]) &/@ additional)+1, {key}]]]\n    } // \
 group, scene];\n  \n    SetTimeout[Delete[group], 200];\n  ]\n]", 
     "Display" -> "codemirror", "Hash" -> 
-     "929f1d22-b32a-4aba-a86b-ab6a022ecb94", "Invisible" -> False, 
+     "8f78674b-414d-488d-82e8-8534fd2220f3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\n### Testing\nTime to play some chords", 
     "Display" -> "codemirror", "Hash" -> 
-     "09a731ce-5b68-4044-9812-98a28f86d023", "Invisible" -> False, 
+     "31062f11-8d12-4882-b174-d8c626b0e980", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "### Testing\nTime to play some chords", 
     "Display" -> "markdown", "Hash" -> 
-     "c54d1736-98b4-4a4e-8142-8fb98f3b158b", "Invisible" -> False, 
+     "ccc86a12-ec0d-4cf9-92a3-a1a83e0404b4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "SoundNote[{\"D4\", \"E5\", 7}] // PianoView ", 
     "Display" -> "codemirror", "Hash" -> 
-     "de3ed033-697f-4a95-9039-c485892185f5", "Invisible" -> False, 
+     "708f11e9-d292-460d-98f8-48cc0cb29b0e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"159960d2-454d-45c9-a227-6b2958ecc9ce\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKG5paW\
 poZpBjpmpiapACJZEvdRCMjc12zJCNLU4vU5GTL5FQActkVVQ==\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "407d2624-f63c-47b5-be77-367aaf002b26", "Invisible" -> False, 
+     "e48b5321-f6fe-46e0-93e5-609645d608d2", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\n## Guitar Fingerboard\nA view function to do the same, \
 but on the fingerboard of a guitar with an arbitary tuning", 
     "Display" -> "codemirror", "Hash" -> 
-     "8247e912-4299-410d-a564-1dd4c5fffb4a", "Invisible" -> False, 
+     "1b3c6080-22e5-47ed-b9fd-cf290505f862", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "## Guitar Fingerboard\nA view function to do the same, but on \
 the fingerboard of a guitar with an arbitary tuning", 
     "Display" -> "markdown", "Hash" -> 
-     "9d8de166-e444-44aa-978e-e012bab0e4b0", "Invisible" -> False, 
+     "f9e7e79d-7641-41fd-8079-bad5f04d0b8b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "GuitarView[SoundNote[rawNotes_List], OptionsPattern[]] := \
 Module[{\n  tuning = OptionValue[\"Tuning\"],\n  scene = \
 FrontInstanceReference[],\n names = {\"C\", \"C#\", \"D\", \"Eb\", \"E\", \
@@ -750,7 +749,7 @@ OmyZUI8ZbY77UC2Lr0/o8KHqOccrOKtKlCOM/X9+JBGZfGi/qMxK+gPONoNHg==\"*)(*]VB*)] \
 /@ Range[notes // Length],\n  Map[Function[place, \n    If[place[[1,1,1]] > \
 0.5,\n      {place, White, Text[place[[3]] , place[[1,1]]- {0,0.16}, \
 {0,0}]}\n    ,\n      place\n    ]\n  ], board[#]] &/@ \
-notes\n}//Transpose;\n\nGraphics[{\n  scene, EventHandler[Graphics`Canvas[], \
+notes\n}//Transpose;\n\nGraphics[{\n  scene, EventHandler[Null, \
 {\"click\"->plucker[scene, board, highlighted, notes]}],\n  Table[Line[{{0, \
 string}, {12, string}}], {string, Length[tuning]}],\n  Table[Line[{{i - 0.5, \
 1 - 0.2 }, {i - 0.5, Length[tuning] + 0.2}}], {i, 12}],\n  \
@@ -764,21 +763,21 @@ k, 0.3}, {0.15, 0.15 2.8 }/2], {k, 0, 6, 2}],\n    Disk[{0.5 + 2.5 + 8.9, \
 Length[tuning] + .5}}]\n]\n\nOptions[GuitarView] = {\"Tuning\"->({\"E4\", \
 \"A4\", \"D5\", \"G5\", \"B5\", \"E6\"}//Reverse), \"Mode\"->\"Play\"};", 
     "Display" -> "codemirror", "Hash" -> 
-     "3e26c621-6e76-4f16-861b-f7c9d4a34126", "Invisible" -> False, 
+     "c5702640-4504-4743-967e-7996aaf7f63d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\nA handler function to emit sound", 
     "Display" -> "codemirror", "Hash" -> 
-     "26b69ee2-0f96-4363-9ba5-939b9812c47b", "Invisible" -> False, 
+     "4e91a8af-6c28-42af-9c47-b3cc68873b25", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "A handler function to emit sound", "Display" -> "markdown", 
-    "Hash" -> "36c7b54b-f2cd-469a-aa36-35d32b6d736b", "Invisible" -> False, 
+    "Hash" -> "855e692a-f82d-43c2-a41e-1c5dfe79e9dd", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "plucker[scene_, board_, highlighted_, additional_][xy_] := \
 With[{\n  group = FrontInstanceGroup[],\n  match = \
 SelectFirst[board//Values//Flatten, With[{reg = Disk[#[[1,1]], #[[1,2]] * 2] \
@@ -787,70 +786,70 @@ With[{\n    notes = Join[additional, {match[[2]]}]//DeleteDuplicates\n  },\n  \
 \n    FrontSubmit[SoundNote[notes] // Sound];\n    FrontSubmit[{\n      \
 Opacity[0.7], highlighted[notes]\n    } // group, scene];\n  \n    \
 SetTimeout[Delete[group], 200];\n  ]  \n]", "Display" -> "codemirror", 
-    "Hash" -> "b5c409cc-8996-48a2-8f49-375da865310d", "Invisible" -> False, 
+    "Hash" -> "5503b833-f213-41f2-b9da-e8ff7a5fccaf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\n### Testing\nLet's play some guitar chords", 
     "Display" -> "codemirror", "Hash" -> 
-     "d9e293a8-b034-408b-99c6-3df0e4e676b6", "Invisible" -> False, 
+     "a94ff003-8b3f-4b1f-bdee-1f6129917c13", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "### Testing\nLet's play some guitar chords", 
     "Display" -> "markdown", "Hash" -> 
-     "9eada733-90cd-42d5-bc2d-e068684e9f29", "Invisible" -> False, 
+     "5ad2c447-666b-48b4-903f-1b940351134f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> 
      "SoundNote[{\"E4\", \"G5\", \"B4\", \"E5\", \"B5\"}] // GuitarView", 
     "Display" -> "codemirror", "Hash" -> 
-     "233092b8-5a21-4cb9-aa0c-80c5dfcc6713", "Invisible" -> False, 
+     "2a33f889-a984-4b4f-b0e1-94897294eceb", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"7692caba-70e0-4406-833f-3697781f9650\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm5tZG\
 iUnJiXqmhukGuiamBiY6VoYG6fpGptZmptbGKZZmpkaAAB6yhTD\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "f5b6664d-6e3b-456e-9099-e1bbfe0f6aeb", "Invisible" -> False, 
+     "d989b3b8-c158-4031-832a-34aaf4db55f9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\n## Explore chords\nLet's build chords in E Major. \
 Firstly we need to define scales", "Display" -> "codemirror", 
-    "Hash" -> "35d8987a-2c86-4f7d-9980-4b69d7763953", "Invisible" -> False, 
+    "Hash" -> "268adc13-fc8f-4adc-9e9e-9e85b286ca2d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "## Explore chords\nLet's build chords in E Major. Firstly we \
 need to define scales", "Display" -> "markdown", 
-    "Hash" -> "a61e2a74-2b80-42a7-ae58-19cc896ca8ca", "Invisible" -> False, 
+    "Hash" -> "1c19677f-974b-4de8-9d11-e9131ebd4c95", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "scale[\"Major\"] = {2,2,1,2,2,2,1};\nscale[\"Dorian\"] = \
 {2,1,2,2,2,1,2};\nscale[\"Lydian\"] = \
 {2,2,2,1,2,2,1};\n\nmakeScale[root_Integer, scale_List] := With[{base = \
 Accumulate[Join[{root}, scale]]},\n  (base[[Mod[#-1, Length[base]-1] + 1]] + \
 12 Floor[# / Length[base]]) &\n]\n\nmakeScale[root_String, scale_List] := \
 makeScale[convertToSemitones[root], scale]", "Display" -> "codemirror", 
-    "Hash" -> "29c96e69-40b6-4904-a922-edb83b1bacf0", "Invisible" -> False, 
+    "Hash" -> "54f0f94e-d2ad-43a9-a753-2c1406d0c6ec", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\nStructures for building chords", 
     "Display" -> "codemirror", "Hash" -> 
-     "da977a7e-0337-41ea-b55b-318c07536315", "Invisible" -> False, 
+     "52b4e6d4-259d-4159-a417-86309567b5f5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "Structures for building chords", "Display" -> "markdown", 
-    "Hash" -> "29b33250-83a8-48b5-af20-52c22aa3f6e9", "Invisible" -> False, 
+    "Hash" -> "1da1d59d-d019-4f03-b017-0226d6a96560", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "makeChord[root_, scalename_String, ext_Integer:3] := With[{s \
 = makeScale[root, scale[scalename]]},\n  chordObject[s, \
 ext]\n]\n\nNoteTranspose[SoundNote[l_List], i_Integer] := With[{c = \
@@ -864,29 +863,29 @@ mod:{__Rule}];\n\nchordObject[s_, ext_][offset_String] := chordObject[s, \
 ext][FromRomanNumeral[offset]-1]\n\nchordObject[s_, ext_][offset_Integer] := \
 SoundNote @ Table[  s[i + offset], {i, 1, 2 ext, 2}] ", 
     "Display" -> "codemirror", "Hash" -> 
-     "986a2583-633f-42aa-b09c-d0d7fd4f3270", "Invisible" -> False, 
+     "e3af4675-d469-45c9-ab1c-b4b2bc890694", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+    "Notebook" -> "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\nUse GuitarView to show all chords", 
     "Display" -> "codemirror", "Hash" -> 
-     "1eccf7d0-5863-4e83-8492-16c27c4d7c8f", "Invisible" -> False, 
+     "fe9438b0-5127-44a4-86e0-42fc37a5c05e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "Use GuitarView to show all chords", "Display" -> "markdown", 
-    "Hash" -> "a305a457-b6ac-4078-a60b-19a5bd390b8c", "Invisible" -> False, 
+    "Hash" -> "b22108b0-7938-4ca7-85f0-d291a232ced6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "With[{m = makeChord[\"E4\", \"Major\", 3]},\n  Table[{\n    \
 GuitarView[NoteMerge[m[r], NoteTranspose[m[r], 12]]], \n    Spacer[40], \
 Style[r, FontSize->20]\n  }, {r, {\"I\", \"II\", \"III\", \"IV\", \"V\", \
 \"VI\"}}] \n] // TableForm ", "Display" -> "codemirror", 
-    "Hash" -> "5fe080aa-75fd-464d-847c-4973433fba21", "Invisible" -> False, 
+    "Hash" -> "9243c3c0-5ff7-4b2c-be03-3b0359e3b144", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "(*GB[*){{(*VB[*)(FrontEndRef[\"8b30a46a-009e-4ed9-b4a3-f87e95\
 74e93d\"])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkN\
 VgEKWyQZGySamCXqGhhYpuqapKZY6iaZJBrrplmYp1qampukWhqnAACEGhWy\"*)(*]VB*)(*|*),\
@@ -927,49 +926,49 @@ YGAoZgESHvk5KRAeJ5AILkhMTi1yyq/I1ADyALJsCKU=\"*)(*]VB*)(*|*),(*|*)(*BB[*)(\"V\
 I\")(*,*)(*\"1:eJxTTMoPSmNiYGAo5gcSAUX5ZZkpqSn+BSWZ+XnFaYwgCRYg4ZGfkwLhcQKJ4J\
 KizLx0p/wKiE6QgqDSnNRiDiDDLT+vJDizKjVTBMhBlQ9mg+sFi4UUlaYCAHYQHT8=\"*)(*]BB*)\
 }}(*]GB*)", "Display" -> "codemirror", 
-    "Hash" -> "41cd6d1a-edd1-4e77-a479-186a3b243a00", "Invisible" -> False, 
+    "Hash" -> "addbcd25-b998-46d2-8103-b35db71cf63c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> 
      ".md\nA common *pop* progression could be like $I-V-VI-IV-I-...$ repeat"\
 , "Display" -> "codemirror", "Hash" -> 
-     "bc590216-c527-42ea-b932-8e6801d767a5", "Invisible" -> False, 
+     "b28affca-eea3-4fe1-8e0b-8e2e9f5e58ba", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> 
      "A common *pop* progression could be like $I-V-VI-IV-I-...$ repeat", 
     "Display" -> "markdown", "Hash" -> 
-     "a1b2e0db-9322-41eb-923e-4e6292eb0a0f", "Invisible" -> False, 
+     "428eba7e-8504-4a74-8480-da97f2ee02f6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "With[{m = makeChord[\"E4\", \"Major\", 3]},\n  Table[{\n    \
 NoteMerge[m[r], NoteTranspose[m[r], 12]],\n    NoteMerge[m[r], \
 NoteTranspose[m[r], 12]],\n    NoteMerge[m[r], NoteTranspose[m[r], 12]],\n    \
 NoteMerge[m[r], NoteTranspose[m[r], 12]]\n  }, {r, {\"I\", \"V\", \"VI\", \
 \"IV\", \"I\", \"V\", \"VI\", \"IV\", \"I\"}}] \n] // Flatten // Sound ", 
     "Display" -> "codemirror", "Hash" -> 
-     "1fd68492-eab6-4974-ab74-5d6f34a77092", "Invisible" -> False, 
+     "8446e52a-1955-4bb9-bfe3-1267065e0f85", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"467ab9f3-38b4-4357-940e-78b7d925e3b6\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm5iZJ\
 yZZphnrGlskmeiaGJua61qaGKTqmlskmadYGpmmGieZAQB6mxUr\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "feb446ed-95b3-4a6c-a293-38c3eb0f64cb", "Invisible" -> False, 
+     "7fbc1d69-fb00-49a1-b954-12d433073e81", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> ".md\n__Click to play__", "Display" -> "codemirror", 
-    "Hash" -> "55607e0a-03bf-4fd1-9755-96adc5163a95", "Invisible" -> False, 
+    "Hash" -> "51764f6f-0017-4ad7-8350-516686bd2c11", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>, 
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>, 
    <|"Data" -> "__Click to play__", "Display" -> "markdown", 
-    "Hash" -> "73980347-8fba-4230-a6c6-b19368e4676a", "Invisible" -> False, 
+    "Hash" -> "85a58ef6-b5f6-4f82-996f-e9bf2f7a716d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "1bb50373-8f9e-483e-8a24-f5557e066d19"|>}, "serializer" -> "jsfn4"|>
+     "65d9bd7f-d41b-4266-ae94-dac30e27a276"|>}, "serializer" -> "jsfn4"|>

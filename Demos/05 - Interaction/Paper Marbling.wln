@@ -1,7 +1,7 @@
-<|"Notebook" -> <|"Controller" -> "a571a814-a41d-4a6b-9531-51943303e4f9", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$981], 
+<|"Notebook" -> <|"Controller" -> "f4a7c9f5-2109-4652-8b6d-5e69d5cb85aa", 
+   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$763], 
    "HaveToSaveAs" -> False, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "7e5e6b0a-7cf5-442c-9491-e645ea5d63bd", 
+   "ModalsChannel" -> "007dbfe5-94b9-4ca1-bb43-93382ca0f5d5", 
    "Objects" -> <|"665e9bb4-f78e-4933-b07a-56ad7eeb9330" -> 
       <|"Public" -> Hold[Graphics[{{RGBColor[0.11532411115789332, 
              0.3454342931923804, 0.4583824764884181], 
@@ -12720,7 +12720,7 @@
                -1.9043335275058701}, {-0.1080704707809592, 
                -1.8890666107321552}, {-0.09397017104748656, 
                -1.8739256803144144}}]}}]]|>|>, "Path" -> "/Users/kirill/Githu\
-b/wolfram-js-frontend/Demos/05 - Interaction/Paper Marbling.wln", 
+b/wljs-demos-archive/Demos/05 - Interaction/Paper Marbling.wln", 
    "Quick" -> True, "Symbols" -> 
     <|"buffer" -> JSObject[1.606950588253502[-2.374345152067957][
          1.637582071973547[-2.3738882720843555], 1.6691712033481976[
@@ -16069,13 +16069,13 @@ b/wolfram-js-frontend/Demos/05 - Interaction/Paper Marbling.wln",
          (-1.6899118383212464)[-1.2362383952180993]]]]|>, 
    "TOC" -> {Notebook`Editor`TOC`Private`heading[1, 
       "Paper Marbling and Mathematical Marbling", 
-      CellObj[JerryI`Notebook`CellObj`$960]], 
+      CellObj[JerryI`Notebook`CellObj`$742]], 
      Notebook`Editor`TOC`Private`heading[2, "Original code", 
-      CellObj[JerryI`Notebook`CellObj`$962]], 
+      CellObj[JerryI`Notebook`CellObj`$744]], 
      Notebook`Editor`TOC`Private`heading[2, "Basic Examples", 
-      CellObj[JerryI`Notebook`CellObj`$965]], 
+      CellObj[JerryI`Notebook`CellObj`$747]], 
      Notebook`Editor`TOC`Private`heading[2, "Dynamic Example", 
-      CellObj[JerryI`Notebook`CellObj`$977]]}|>, 
+      CellObj[JerryI`Notebook`CellObj`$759]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Paper Marbling and Mathematical Marbling\nA \
 dynamic adaptation of generative art work of [Phileas \
 Dazeley-Gaist](https://community.wolfram.com/groups/-/m/t/3258063) at Wolfram \
@@ -16091,10 +16091,10 @@ bindings. In Turkey, the practice is called \
 \[OpenCurlyDoubleQuote]cloud-like\[CloseCurlyDoubleQuote].\n\n\n\n![](/attach\
 ments/Screenshot%202024-09-12%20at%2011.31.27-89c.png)\n\n\n\n\n", 
     "Display" -> "codemirror", "Hash" -> 
-     "f9848791-278d-49a1-9427-b639cd0cc516", "Invisible" -> False, 
+     "2fb9b421-f37d-49b5-b93a-7692c2216aef", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "# Paper Marbling and Mathematical Marbling\nA dynamic \
 adaptation of generative art work of [Phileas \
 Dazeley-Gaist](https://community.wolfram.com/groups/-/m/t/3258063) at Wolfram \
@@ -16110,23 +16110,23 @@ bindings. In Turkey, the practice is called \
 \[OpenCurlyDoubleQuote]cloud-like\[CloseCurlyDoubleQuote].\n\n\n\n![](/attach\
 ments/Screenshot%202024-09-12%20at%2011.31.27-89c.png)", 
     "Display" -> "markdown", "Hash" -> 
-     "477a2a34-13ba-4fc6-af43-20659c4a375f", "Invisible" -> False, 
+     "d8584a7f-e63d-4353-b568-d853e1242773", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\n## Original code\nCopied from the post published on \
 Wolfram Community", "Display" -> "codemirror", 
-    "Hash" -> "94e145ac-ae71-433e-a506-28d8adf88521", "Invisible" -> False, 
+    "Hash" -> "b09bc7ec-611b-42f6-8a37-590b73311923", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> 
      "## Original code\nCopied from the post published on Wolfram Community", 
     "Display" -> "markdown", "Hash" -> 
-     "0ce488b4-22d7-4e97-bd00-9ffb7c9c3d53", "Invisible" -> False, 
+     "a8fcfa5c-9eb0-44e2-aeec-65104ef479b9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "ClearAll[inkDrop]\ninkDrop[{x_, y_},r_,n_:10] := \
 Polygon[CirclePoints[{x, y}, r, n]] \n\nClearAll[marbleDisplace]\n(*Displace \
 a single \
@@ -16168,113 +16168,113 @@ hapes]/;(And@@(Head[#]==Polygon&/@shapes)) \
 s,zs,cs},!_List]]&&cs=!=0)\n\ncombLine[shapes_List,bs_List,ms_?(And@@Map[Nume\
 ricQ,#]&&SameQ[Length[#],2]&),zs_:20,cs_:1]:=combLine[shapes,bs,Table[ms,Leng\
 th[bs]],zs,cs]; ", "Display" -> "codemirror", 
-    "Hash" -> "805de6d6-40ef-4e2b-b753-750d88511075", "Invisible" -> False, 
+    "Hash" -> "05cc4e42-0333-48b0-b3f5-647e2819bb85", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True, "Fade" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+    "Notebook" -> "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\n## Basic Examples\nGenerate 12 randomly colored drops \
 with increasing radius spaced on a circle", "Display" -> "codemirror", 
-    "Hash" -> "59bdd334-01c0-422e-96c6-bffe0a3d3485", "Invisible" -> False, 
+    "Hash" -> "4af76082-4087-4452-b0f4-a9c027e57392", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "## Basic Examples\nGenerate 12 randomly colored drops with \
 increasing radius spaced on a circle", "Display" -> "markdown", 
-    "Hash" -> "98911bad-d348-4c44-b313-2a53dc6dce5e", "Invisible" -> False, 
+    "Hash" -> "e42a92a5-bfc9-4ecc-9cab-2cf77936a2d9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "dripDrops[{},CirclePoints[12],Range[12]/12]//Graphics[Thread[\
 {RandomColor[Length[#1]],#1}],ImageSize->Small]&", "Display" -> "codemirror", 
-    "Hash" -> "05957427-47b7-4e33-8455-2ddc7a052956", "Invisible" -> False, 
+    "Hash" -> "6569d299-fdc8-4a9e-a8b2-a84f462d7886", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"665e9bb4-f78e-4933-b07a-56ad7eeb9330\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm5mZp\
 lomJZnopplbpOqaWBob6yYZmCfqmpolppinpiYBBQwAhUAVsw==\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "a5d305f2-ff3c-4eed-a8bf-52e7d3ebb5f3", "Invisible" -> False, 
+     "537ad781-4bdf-4fa5-8ae5-dffae498d9b5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\nDrop 25 randomly colored identically sized drops \
 randomly dripped in a rectangular region of the marbling tank", 
     "Display" -> "codemirror", "Hash" -> 
-     "54988840-6b1c-4382-8b35-f8e00ce3c007", "Invisible" -> False, 
+     "5bd73150-2916-42a0-a926-ddbdea15d580", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "Drop 25 randomly colored identically sized drops randomly \
 dripped in a rectangular region of the marbling tank", 
     "Display" -> "markdown", "Hash" -> 
-     "600a4afc-e715-42cc-8c45-4d017ba06835", "Invisible" -> False, 
+     "17dfc07b-802d-4293-82fc-791b53cf0c59", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "dripDrops[{},RandomPoint[Rectangle[],25],.1]//Graphics[{EdgeF\
 orm[Black],White,Rectangle[{0,0}, {1,1}], \
 Thread[{RandomColor[Length[#1]],#1}]},ImageSize->Medium]& ", 
     "Display" -> "codemirror", "Hash" -> 
-     "57203aa9-d4c3-4775-abef-bb1bb849a173", "Invisible" -> False, 
+     "64f5925b-5b92-443b-8fd2-59af588718de", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"775b5b36-a280-4c8c-a908-696464b723a8\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm5ubJ\
 pkmGZvpJhpZGOiaJFsk6yZaGljomlmamZiZJJkbGSdaAAB5aBTx\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "7b2d9a0a-3f18-43b6-8f25-651f85724669", "Invisible" -> False, 
+     "5658e2e9-5a17-40a8-b5c6-6a19bcf13b69", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\nDistort by a tine line", "Display" -> "codemirror", 
-    "Hash" -> "4784002c-152a-47f8-8901-d9d03f0b7d2b", "Invisible" -> False, 
+    "Hash" -> "65421aa4-7863-4265-acef-63e99218e9ab", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "Distort by a tine line", "Display" -> "markdown", 
-    "Hash" -> "e7017741-dd0e-4dfa-9f06-baca8246cc40", "Invisible" -> False, 
+    "Hash" -> "73d7dc4e-c21e-427f-8534-dcd09ae1f81e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "combLine[dripDrops[{}, Table[{0, 0}, 10], 1, \
 \"InkDropDetail\" -> \
 500],{{0,0}},{AngleVector[-\\[Pi]/2-.1]},1,.5]//Graphics[Thread[{RandomSample\
 [Map[ColorData[\"CoffeeTones\"], Subdivide[0, Times[9, Power[10, -1]], \
 Plus[Length[Slot[1]], -1]]]], Slot[1]}]]& ", "Display" -> "codemirror", 
-    "Hash" -> "e246bd0f-ec02-4c65-8b47-3931b88401ec", "Invisible" -> False, 
+    "Hash" -> "dbce8ea9-56c7-47b9-bf1a-47c38179ece1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "(*VB[*)(FrontEndRef[\"a73b741e-6007-4be5-ae8c-e633cde9d0a2\"]\
 )(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKJ5obJ\
 5mbGKbqmhkYmOuaJKWa6iamWiTrppoZGyenpFqmGCQaAQCFBBX8\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "80de4758-d28b-46d6-97ce-51178c8198a8", "Invisible" -> False, 
+     "bd7301ac-458f-432c-bf41-efd1823fafa1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\n## Dynamic Example\nFirstly we need to optimize the \
 rendering of our canvas. It can be done by utilizing a single buffer array \
 used by all polygons on a canvas. If new polygons were added, we can append a \
 new dynamic polygon directly to the graphics canvas using `FrontSubmit`, \
 which kinda evaluates a symbol inside an instance of `Graphics`", 
     "Display" -> "codemirror", "Hash" -> 
-     "a4c756c7-d8d5-4f17-bc59-bb3ca4d11103", "Invisible" -> False, 
+     "dd210f8a-08bd-4bfb-a2a3-36110c61df75", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "## Dynamic Example\nFirstly we need to optimize the rendering \
 of our canvas. It can be done by utilizing a single buffer array used by all \
 polygons on a canvas. If new polygons were added, we can append a new dynamic \
 polygon directly to the graphics canvas using `FrontSubmit`, which kinda \
 evaluates a symbol inside an instance of `Graphics`", 
     "Display" -> "markdown", "Hash" -> 
-     "66aa4a3c-778d-4a04-b096-8375c4c13cc9", "Invisible" -> False, 
+     "a4961e87-a8d3-43e8-8f69-3ad92901d676", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "applyDiffs[buffer_, old_, new_, raw_, scene_] := Module[{\n  \
 newBuffer = Join[buffer, Table[{}, {i, Length[new]-Length[old]}]],\n  k\n},\n \
  MapIndexed[Function[{value, index}, With[{i = index[[1]]},\n    \
@@ -16283,30 +16283,30 @@ Length[new], k++, \n    newBuffer[[k+1]] = new[[k+1,1]];\n  ];\n\n  buffer = \
 newBuffer;\n  \n  For[k = Length[old], k < Length[new], k++,  With[{u=k+1},\n \
    FrontSubmit[{raw[[u,3]], Polygon[buffer[[u]]//Offload]}, scene]\n  \
 ]];\n]\n\nSetAttributes[applyDiffs, HoldFirst];", "Display" -> "codemirror", 
-    "Hash" -> "d6e17c2e-4ce2-47e0-b7a7-3c4d38468a7e", "Invisible" -> False, 
+    "Hash" -> "92c7f72a-0bee-4bed-8b00-550117072aac", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+    "Notebook" -> "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\nFor the rest we only need to listern to the events of a \
 cursor and recalculate all polygons as usual", "Display" -> "codemirror", 
-    "Hash" -> "33bff73d-0d40-4cbc-b112-a97f689c4446", "Invisible" -> False, 
+    "Hash" -> "0a7a48ab-64ee-412c-b0cf-50044196f907", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "For the rest we only need to listern to the events of a \
 cursor and recalculate all polygons as usual", "Display" -> "markdown", 
-    "Hash" -> "f148d5f4-5d26-4a70-b5d9-254fee5a7e92", "Invisible" -> False, 
+    "Hash" -> "a5da309b-2ab2-41dc-9d9f-03db02f96cde", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> "scene = FrontInstanceReference[];\nrawDrops = {};\n\ndrops = \
 {};\nbuffer = {};\ndrawing = Null;\nstreams = {};\n\ncell; \n\ncalc := \
 With[{},\n      With[{newDrops = combLine[dripDrops[{},rawDrops[[All,1]], \
 rawDrops[[All,2]]], streams[[All,1]], streams[[All,2]], 2., 0.3]},\n        \
 applyDiffs[buffer, drops, newDrops, rawDrops, scene];\n        drops = \
 newDrops;\n      ]\n]\n\nWith[{}, cell = ResultCell[]; Graphics[{\n  \
-EventHandler[Graphics`Canvas[], {\n    \"click\" -> Function[xy,\n      \
-rawDrops = Append[rawDrops, {xy, RandomReal[{0.1,0.9}], \
+EventHandler[Null, {\n    \"click\" -> Function[xy,\n      rawDrops = \
+Append[rawDrops, {xy, RandomReal[{0.1,0.9}], \
 ColorData[37][RandomInteger[{1,50}]]}];\n      \n      calc;\n      calc;\n   \
    (*Beep[];*)\n      drawing = Null;\n    ],\n\n    \"altclick\" -> \
 Function[xy,\n      If[ListQ[drawing] == True,\n        streams = \
@@ -16315,25 +16315,25 @@ calc;\n        drawing = Null;\n      ,\n        drawing = xy;\n      ];    \
 \n      \n    ]\n  }],\n\n  scene\n}, TransitionDuration->150, \
 PlotRange->{{-5,5}, {-5,5}}, Controls->False, ImagePadding->None] ]", 
     "Display" -> "codemirror", "Hash" -> 
-     "ac29dea5-8d70-4892-ab85-8aacbbfc1112", "Invisible" -> False, 
+     "771430e1-f1a8-4c8f-9469-001b229a1d0c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> ".md\nUse `Click` to add droplets and two `Alt` clicks to \
 define a tine line.", "Display" -> "codemirror", 
-    "Hash" -> "5c36704f-f4a8-44de-b04a-9335a43dd072", "Invisible" -> False, 
+    "Hash" -> "d91a956d-18d5-406b-baa5-dbdcf45d29c5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> 
      "Use `Click` to add droplets and two `Alt` clicks to define a tine \
 line.", "Display" -> "markdown", "Hash" -> 
-     "03cf67f7-fdbd-4eb7-9c69-cd670eab9a83", "Invisible" -> False, 
+     "95c621f0-b8e1-404f-a753-a3a10bfc429d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>, 
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "e1a544f5-03a6-4b5a-8af8-651606c0e052", "Invisible" -> False, 
+    "Hash" -> "21232906-767c-48b9-b8f5-c7c67e8e664a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "42ed9999-177b-46a5-8408-dc26cce9eeae"|>}, "serializer" -> "jsfn4"|>
+     "d7e09ff7-3743-45aa-bd92-1f6eaf9bf7d9"|>}, "serializer" -> "jsfn4"|>
