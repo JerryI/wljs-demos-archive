@@ -1,8 +1,9 @@
-BeginPackage["Notebook`DemosArchive`", {
-    "JerryI`Notebook`AppExtensions`",
+BeginPackage["CoffeeLiqueur`Extensions`DemosArchive`", {
     "JerryI`Misc`Events`",
     "JerryI`WLX`WebUI`"
 }];
+
+Needs["CoffeeLiqueur`Notebook`AppExtensions`" -> "AppExtensions`"];
 
 Begin["`Internal`"]
 
