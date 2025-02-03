@@ -1,70 +1,72 @@
-<|"Notebook" -> <|"Controller" -> "a947923b-6651-45ac-82a1-aa883902e136", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$66], 
+<|"Notebook" -> <|"Controller" -> "de2f356a-cffd-416a-97ca-1019357adda3", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$4779], 
    "MessangerChannel" -> Messanger, "ModalsChannel" -> 
-    "1a0d17b8-5d0c-42b0-b120-8c80ea59a57a", "Objects" -> <||>, 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/Demos/11 - Dynamic \
+    "d7dd102f-9837-48f0-a0fe-0f7cd04d4158", "Objects" -> <||>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/11 - Dynamic \
 decorations/Deffered decorations.wln", "ReadOnly" -> True, "Symbols" -> <||>, 
-   "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Deffered decorations", 
-      CellObj[JerryI`Notebook`CellObj`$65]]}|>, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, 
+      "Deffered decorations", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$4765]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Deffered decorations\nIt generates a unique \
 decoration for each widget's instace, unlike traditional way of using \
 `MakeBoxes`", "Display" -> "codemirror", 
-    "Hash" -> "a82db6ba-878b-4dc8-808e-5bbff9beb85b", "Invisible" -> False, 
+    "Hash" -> "df4d0c66-6694-481f-97e7-a02c9aeec96d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> "# Deffered decorations\nIt generates a unique decoration for \
 each widget's instace, unlike traditional way of using `MakeBoxes`", 
     "Display" -> "markdown", "Hash" -> 
-     "042be6c3-26f0-4518-b375-25d28706e8fa", "Invisible" -> False, 
+     "3f09214a-04db-4158-a358-eee1683e7f7f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> "dummy /: MakeBoxes[dummy[handler_], StandardForm] := With[{\n \
  uid = CreateUUID[]\n},\n  EventHandler[uid, {\"Mounted\" :> Function[ref,\n  \
   FrontSubmit[handler[], FrontInstanceReference[ref]];\n   ]\n  }];\n  \n  \
 ViewBox[Null, Null, \"Event\"->uid]\n]", "Display" -> "codemirror", 
-    "Hash" -> "00e95607-46e6-4528-96da-c8af7db12bb7", "Invisible" -> False, 
+    "Hash" -> "af389c95-30c3-46bd-99bb-da27d88d8c92", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> 
      ".md\nA handler function, that populates instance with a content", 
     "Display" -> "codemirror", "Hash" -> 
-     "0f215f79-af20-4d15-a864-2281160afbfd", "Invisible" -> False, 
+     "e0ab4752-25b9-46c6-850f-8fe232c61037", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> "A handler function, that populates instance with a content", 
     "Display" -> "markdown", "Hash" -> 
-     "4b850123-ce8c-4454-a729-ee6531daa241", "Invisible" -> False, 
+     "d84dcd9f-90d5-46ea-a1cf-952981fc7b48", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> "handler[] := With[{\n  g = With[{d = 2 \
 Pi/RandomInteger[{2,16}]}, \n Graphics[\n  Table[{EdgeForm[Opacity[.6]], \
 Hue[(-11 + q + 10 r)/72, 1, 1], \n    Polygon[{(8 - r) {Cos[d (q - 1)], \n    \
     Sin[d (q - 1)]}, (8 - r) {Cos[d (q + 1)], \n        Sin[d (q + 1)]}, (10 \
 - r) {Cos[d q], Sin[d q]}}]}, {r, 6}, {q,\n     12}], ImageSize->{50,50}, \
 ImagePadding->None]]\n},\n  g\n]", "Display" -> "codemirror", 
-    "Hash" -> "2644ba00-1b75-45d0-bb67-93f02b7b241e", "Invisible" -> False, 
+    "Hash" -> "8156de99-0aeb-4ab0-81fd-996598e6452b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> ".md\nEvaluate this and then try to copy and paste", 
     "Display" -> "codemirror", "Hash" -> 
-     "886fa5f0-044c-4d6a-bd1e-3ed04be3df65", "Invisible" -> False, 
+     "1506887b-fad8-4bce-ace0-001e39dff0b7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, 
    <|"Data" -> "Evaluate this and then try to copy and paste", 
     "Display" -> "markdown", "Hash" -> 
-     "3fed35b5-ebe1-4b42-a227-8fc5d895775a", "Invisible" -> False, 
+     "7217a6e9-c15e-46ad-b22e-2cf4e39b132d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>, <|"Data" -> "dummy[handler]", 
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>, <|"Data" -> "dummy[handler]", 
     "Display" -> "codemirror", "Hash" -> 
-     "dd15d5d3-ad19-4ee1-a335-c7f49bf8262a", "Invisible" -> False, 
+     "c661557b-9c9b-49f5-8f82-25a88bdea4b0", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c2017d40-90bb-43cc-b754-135a61e1abff"|>}, "serializer" -> "jsfn4"|>
+     "9da3b257-fcea-4b81-ab3d-c47390b92903"|>}, "serializer" -> "jsfn4"|>

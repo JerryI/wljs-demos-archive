@@ -1,107 +1,88 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$428], 
-   "Objects" -> <||>, "Path" -> "/users/kirill/Github/wolfram-js-frontend-dev\
-/Examples/Mixing languages/Metaballs WebGL.wln"|>, 
- "Cells" -> {<|"Data" -> ".md\n# WebGL Metaballs example\nShow some \
-demonstration on how WebGL can interact with WL Kernel using event-based \
-system.\nThe overall diagram is shown here", "Display" -> "codemirror", 
-    "Hash" -> "2e6de7e9-46eb-4797-bed2-4d88e62e6cd7", "Invisible" -> False, 
-    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
-    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
-   <|"Data" -> "\n# WebGL Metaballs example\nShow some demonstration on how \
-WebGL can interact with WL Kernel using event-based system.\nThe overall \
-diagram is shown here", "Display" -> "markdown", 
-    "Hash" -> "8b3d70b1-ae8f-4e67-8938-2b9c444eda59", "Invisible" -> False, 
-    "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
-    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
-   <|"Data" -> ".mermaid\nflowchart LR\n    subgraph Wolfram Kernel\n    \
-subgraph Event\n        H[Handler]\n        \n    end\n    \
-Calculations[/Calculations/]\n    \n\n    end\n    \n    subgraph Browser\n   \
-     subgraph JS interpreter\n            definedFunction[UpdateCanvas]\n     \
-       event[FireEvent]---> H[Handler]\n        end\n        definedFunction \
---> API\n        API -- each frame --> event\n        subgraph WebGL\n        \
-    API\n        end\n\n    end\n    \n\n    \
-H--->Calculations[/Calculations/]--WebSockets-->definedFunction", 
+<|"Notebook" -> <|"Controller" -> "cdf269df-29d4-47a1-aaa9-092ee5fc4755", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$4387], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "e72aee0e-377b-40e3-8cef-981c2f7f358c", "Objects" -> <||>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/09 - Mixing \
+languages/Metaballs WebGL.wln", "ReadOnly" -> True, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, 
+      "WebGL Metaballs example", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$4393]]}|>, 
+ "Cells" -> {<|"Data" -> ".md\n# WebGL Metaballs example\nA demonstration on \
+how WebGL can interact with WL Kernel using event-based system.", 
     "Display" -> "codemirror", "Hash" -> 
-     "f0a1dd92-cc35-43d5-8325-19e1f2aaaf40", "Invisible" -> False, 
+     "656588d7-4964-4204-a655-5312ee037c38", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
-   <|"Data" -> "\nflowchart LR\n    subgraph Wolfram Kernel\n    subgraph \
-Event\n        H[Handler]\n        \n    end\n    \
-Calculations[/Calculations/]\n    \n\n    end\n    \n    subgraph Browser\n   \
-     subgraph JS interpreter\n            definedFunction[UpdateCanvas]\n     \
-       event[FireEvent]---> H[Handler]\n        end\n        definedFunction \
---> API\n        API -- each frame --> event\n        subgraph WebGL\n        \
-    API\n        end\n\n    end\n    \n\n    \
-H--->Calculations[/Calculations/]--WebSockets-->definedFunction", 
-    "Display" -> "mermaid", "Hash" -> "c51fd798-917c-4fcc-9e36-280ea80304b0", 
-    "Invisible" -> False, "MetaOnly" -> False, 
-    "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", "Type" -> "Output", 
-    "UID" -> Null, "Notebook" -> "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
+   <|"Data" -> "# WebGL Metaballs example\nA demonstration on how WebGL can \
+interact with WL Kernel using event-based system.", "Display" -> "markdown", 
+    "Hash" -> "9a928eb9-ed75-47ad-a4c8-b372be87426d", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> ".md\nEverything goes asynchronous, therefore, you can still \
 operate with the cells. \n\nLet's define some basic 3-bodies system", 
     "Display" -> "codemirror", "Hash" -> 
-     "1fd8ac0f-5348-4289-a922-bfcdb7897f79", "Invisible" -> False, 
+     "1f97cdc2-30b2-470f-b150-132fb88507bf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "\nEverything goes asynchronous, therefore, you can still \
 operate with the cells. \n\nLet's define some basic 3-bodies system", 
     "Display" -> "markdown", "Hash" -> 
-     "2c1a24c0-6add-4d49-b39e-4faa7043252b", "Invisible" -> False, 
+     "fb4cab66-bc99-40cf-a586-8d32421d193a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "bodies  = NBodySimulation[\n  \"InverseSquare\", {\n  \
 <|\"Mass\" -> 1, \"Position\" -> {0, 2}, \"Velocity\" -> {0, .5}|>,\n  \
 <|\"Mass\" -> 1, \"Position\" -> {3, 0.4}, \"Velocity\" -> {+0.01, -.5}|>,\n  \
 <|\"Mass\" -> 1, \"Position\" -> {-1.1, 0.4}, \"Velocity\" -> {-2.11, \
 -.5}|>}, 1];", "Display" -> "codemirror", 
-    "Hash" -> "b7e5495e-842c-469b-aeb5-1f8e5712e839", "Invisible" -> False, 
+    "Hash" -> "be64ae4b-69ad-4b45-8018-168f0c8f9285", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False, "init" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+    "Notebook" -> "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> ".md\nThen define some parameters and create an `EventObject` \
 to be used for the interconnection with JS", "Display" -> "codemirror", 
-    "Hash" -> "1071bd1c-d5d6-429c-9b24-8c9741742dcb", "Invisible" -> False, 
+    "Hash" -> "6d979db6-fe9f-4d45-910a-1d211aad5b8a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "\nThen define some parameters and create an `EventObject` to \
 be used for the interconnection with JS", "Display" -> "markdown", 
-    "Hash" -> "9818817c-22e5-43d3-aeb0-0561f04d604a", "Invisible" -> False, 
+    "Hash" -> "c96887a2-0eba-46af-ab42-bfe97c7b50f9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "width = 500;\nheight = 500;\nt = 0;\n\ngetScaled[t_] := \
 Module[{max,min, pos = bodies[All, \"Position\", t]},\n  max = 1.5 \
 Max[pos//Flatten] {1,1};\n  min = 1.5 Min[pos//Flatten] {1,1};\n\n  ( {width, \
 height}  (# - min) / (max - min))& /@ pos\n];\nupdate = \
 \"reCompute\";\nupdate", "Display" -> "codemirror", 
-    "Hash" -> "f734633a-6875-4097-8dac-f3373f8e8b02", "Invisible" -> False, 
+    "Hash" -> "41c5f6d0-8dab-4fa5-a8af-425bb8a42b23", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False, "init" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+    "Notebook" -> "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "\"reCompute\"", "Display" -> "codemirror", 
-    "Hash" -> "e9054e8b-4c98-4ea8-aa07-be2e03b7833e", "Invisible" -> False, 
+    "Hash" -> "34df3bab-ce85-4044-b469-2d3f9cfadbc6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> ".md\nNow JS part comes with some basic shaders, which returns \
 a DOM element", "Display" -> "codemirror", 
-    "Hash" -> "dbdaf6be-5dd1-4109-affd-f1a3b7e6911b", "Invisible" -> False, 
+    "Hash" -> "36209eb8-d36d-44d6-b0f1-ad77c4386a96", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> 
      "\nNow JS part comes with some basic shaders, which returns a DOM \
 element", "Display" -> "markdown", "Hash" -> 
-     "cdee2f0f-d290-449d-9904-c63cdb300479", "Invisible" -> False, 
+     "5d475cbd-a6f8-48a7-be2e-d248d6d925a2", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> ".js\nconst canvas = document.createElement('canvas');\nvar gl \
 = canvas.getContext(\"webgl\", {depth: false});\n\nvar height = 500;\nvar \
 width = 500;\n\ncanvas.width = width;\ncanvas.height = height;\n\nvar \
@@ -143,42 +124,41 @@ gl.uniform2f(\n    u_ball2,\n    coords[1][0],\n    coords[1][1]\n  );\n  \
 gl.uniform2f(\n    u_ball3,\n    coords[2][0],\n    coords[2][1]\n  );\n  \
 gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);  \n\n  \
 requestAnimationFrame(animate);\n}\n\nfunction animate() {\n  \
-server.kernel.emitt('reCompute', 'True');\n}\n\nconst uid = \
+server.kernel.io.fire('reCompute', true);\n}\n\nconst uid = \
 requestAnimationFrame(animate);\nthis.ondestroy = function() \
 {cancelAnimationFrame(uid)};\n\nreturn canvas;", "Display" -> "codemirror", 
-    "Hash" -> "c9b8d4e2-3061-48c7-9b28-2c6026a80686", "Invisible" -> False, 
+    "Hash" -> "cb62447a-05cf-41ce-b7f7-b16c498037d1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False, "init" -> True, 
       "Fade" -> True|>, "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+    "Notebook" -> "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> ".md\nStop the simulation", "Display" -> "codemirror", 
-    "Hash" -> "5764413c-59f8-46ec-b6fe-0044538738f6", "Invisible" -> False, 
+    "Hash" -> "c481f983-5bf9-4ee9-a4e1-fdd0d4d668bb", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "\nStop the simulation", "Display" -> "markdown", 
-    "Hash" -> "aedc34f7-ef01-4b5e-bc23-b8d6b6794407", "Invisible" -> False, 
+    "Hash" -> "39613a83-3eae-4c4a-8531-337b9482a3ff", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "EventRemove[update]; ", "Display" -> "codemirror", 
-    "Hash" -> "c8ad84ad-a64c-4009-b7d5-26c159ec22bb", "Invisible" -> False, 
+    "Hash" -> "d1a4e6e5-4a8f-43c2-b4e0-95f0cbc38c11", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> ".md\nStart the simulation", "Display" -> "codemirror", 
-    "Hash" -> "20953c22-7e31-4596-b865-2414c61cea7a", "Invisible" -> False, 
+    "Hash" -> "6a850914-ee47-42ca-9783-33689fc57f59", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "\nStart the simulation", "Display" -> "markdown", 
-    "Hash" -> "3831379f-8120-4977-b49d-72ad364c870c", "Invisible" -> False, 
+    "Hash" -> "287e42dd-7aaa-4d8d-97a0-cd152404ce54", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
-   <|"Data" -> "With[{win = CurrentWindow[]},\n  EventHandler[update, \
-Function[data,\n \n    FrontSubmit[UpdateCanvas[getScaled[t]], \
-\"Window\"->win];\n    t = t + 0.01;\n    If[t > 1.0, t = 0;\n      (* \
-regenerate it! *)\n      bodies  = NBodySimulation[\n        \
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
+   <|"Data" -> "With[{},\n  EventHandler[update, Function[data,\n \n    \
+FrontSubmit[UpdateCanvas[getScaled[t]]];\n    t = t + 0.01;\n    If[t > 1.0, \
+t = 0;\n      (* regenerate it! *)\n      bodies  = NBodySimulation[\n        \
 \"InverseSquare\", {\n        <|\"Mass\" -> 1, \"Position\" -> \
 RandomReal[{-3,3},2], \"Velocity\" -> RandomReal[{-3,3},2]|>,\n        \
 <|\"Mass\" -> 1, \"Position\" -> RandomReal[{-3,3},2], \"Velocity\" -> \
@@ -186,12 +166,12 @@ RandomReal[{-3,3},2]|>,\n        <|\"Mass\" -> 1, \"Position\" -> \
 RandomReal[{-3,3},2], \"Velocity\" -> RandomReal[{-3,3},2]|>}, 1]  \n    ];\n \
  ]];\n];\n\n(* kickstarter *)\nFrontSubmit[UpdateCanvas[getScaled[t]]]", 
     "Display" -> "codemirror", "Hash" -> 
-     "45512b3d-0ad8-4f4c-8516-f06b895f7410", "Invisible" -> False, 
+     "69540f0f-7f6b-40d1-9a21-7c2fe8407589", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False, "init" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>, 
+    "Notebook" -> "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>, 
    <|"Data" -> "0", "Display" -> "codemirror", 
-    "Hash" -> "a1970104-525b-4b52-a4fa-9f64893d4734", "Invisible" -> False, 
+    "Hash" -> "7c8ba510-7bec-4171-b3c5-d06bbaa452c7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "76e487d4-e54f-41f0-a0cb-d422fa22a3cc"|>}, "serializer" -> "jsfn4"|>
+     "f07a1fdd-b610-4379-9680-26cbd8830d2b"|>}, "serializer" -> "jsfn4"|>

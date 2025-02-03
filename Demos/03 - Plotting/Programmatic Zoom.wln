@@ -1,5 +1,9 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$48], 
-   "Objects" -> <|"7e7ec602-3971-421d-8977-b740be0cc6d6" -> 
+<|"Notebook" -> <|"Controller" -> "5b080611-e4f1-4c27-9475-0cdeac2fcb13", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$2187], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "958768c7-e12b-479f-ab18-0108a47d7879", 
+   "Objects" -> <|"9456a8f1-21bb-42b7-87bd-a0070b5ecae0" -> 
       <|"Public" -> Hold[Graphics[Annotation[
            {{{{}, {}, Annotation[{Directive[Opacity[1], RGBColor[0.368417, 
                   0.506779, 0.709798], AbsoluteThickness[2]], 
@@ -96,19 +100,18 @@
               "GCFlag" -> False], "Meta" -> Association["DefaultHighlight" -> 
                {"Dynamic", None}, "Index" -> {}, "Function" -> Plot, 
               "GroupHighlight" -> False]], "DynamicHighlight"], 
-          {DisplayFunction -> Identity, DisplayFunction -> Identity, 
-           Ticks -> {Automatic, Automatic}, AxesOrigin -> {0, 0}, 
-           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
-           GridLines -> {None, None}, DisplayFunction -> Identity, 
-           PlotRangePadding -> {{Scaled[0.02], Scaled[0.02]}, 
-             {Scaled[0.05], Scaled[0.05]}}, PlotRangeClipping -> True, 
-           ImagePadding -> All, DisplayFunction -> Identity, 
+          {DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
+           AxesOrigin -> {0, 0}, FrameTicks -> {{Automatic, Automatic}, 
+             {Automatic, Automatic}}, GridLines -> {None, None}, 
+           DisplayFunction -> Identity, PlotRangePadding -> 
+            {{Scaled[0.02], Scaled[0.02]}, {Scaled[0.05], Scaled[0.05]}}, 
+           PlotRangeClipping -> True, ImagePadding -> All, 
            AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
            AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
-           DisplayFunction :> Identity, Epilog -> {MetaMarker["plo"]}, 
-           Frame -> {{False, False}, {False, False}}, FrameLabel -> 
-            {{None, None}, {None, None}}, FrameTicks -> 
-            {{Automatic, Automatic}, {Automatic, Automatic}}, 
+           DisplayFunction :> Identity, Epilog -> {FrontInstanceReference[
+              1810129442768195300]}, Frame -> {{False, False}, 
+             {False, False}}, FrameLabel -> {{None, None}, {None, None}}, 
+           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
            GridLines -> {None, None}, GridLinesStyle -> 
             Directive[GrayLevel[0.5, 0.4]], Method -> 
             {"DefaultBoundaryStyle" -> Automatic, 
@@ -126,47 +129,51 @@
              {0, 0.9999999795918367}}, PlotRangeClipping -> True, 
            PlotRangePadding -> {{Scaled[0.02], Scaled[0.02]}, 
              {Scaled[0.02], Scaled[0.02]}}, Ticks -> {Automatic, 
-             Automatic}}]]|>|>, "Path" -> "/users/kirill/Github/wolfram-js-fr\
-ontend-dev/Examples/test/lopsided.wln"|>, 
+             Automatic}}]]|>|>, "Path" -> "/Users/kirill/Github/wljs-demos-ar\
+chive/Demos/03 - Plotting/Programmatic Zoom.wln", "ReadOnly" -> True, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[2, 
+      "Zooming in/out", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$2182]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n## Zooming in/out\nUsing `FrontSubmit`", 
     "Display" -> "codemirror", "Hash" -> 
-     "5ce9aaac-949e-4623-baa5-9cbddf6c1cb1", "Invisible" -> False, 
+     "42cc19f6-97e4-43aa-9a10-b3fc633f99c9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>, 
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>, 
    <|"Data" -> "## Zooming in/out\nUsing `FrontSubmit`", 
     "Display" -> "markdown", "Hash" -> 
-     "47ce446e-a139-4754-a773-d0cc076fa69e", "Invisible" -> False, 
+     "6d44d70e-4d0c-4283-8e2c-f57325341959", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>, 
-   <|"Data" -> "Plot[x, {x,0,1}, Epilog->{MetaMarker[\"plo\"]}]", 
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>, 
+   <|"Data" -> 
+     "ref = FrontInstanceReference[];\nPlot[x, {x,0,1}, Epilog->{ref}]", 
     "Display" -> "codemirror", "Hash" -> 
-     "1fdf709a-ec59-4971-99c8-bdd452b1fda4", "Invisible" -> False, 
+     "7f685158-2cef-4bd6-949d-59a342dadb5f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>, 
-   <|"Data" -> "(*VB[*)(FrontEndRef[\"7e7ec602-3971-421d-8977-b740be0cc6d6\"]\
-)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm6eap\
-yabGRjpGluaG+qaGBmm6FpYmpvrJpmbGCSlGiQnm6WYAQB58BVO\"*)(*]VB*)", 
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>, 
+   <|"Data" -> "(*VB[*)(FrontEndRef[\"9456a8f1-21bb-42b7-87bd-a0070b5ecae0\"]\
+)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKW5qYm\
+iVapBnqGhkmJemaGCWZ61qYJ6XoJhoYmBskmaYmJ6YaAAB/XRXD\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "008ec2be-850a-4d34-9450-2119cc5be5b2", "Invisible" -> False, 
+     "18813c5f-0a0f-4871-a185-a2289a3ed32f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>, 
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>, 
    <|"Data" -> ".md\nNow we can do it from code", "Display" -> "codemirror", 
-    "Hash" -> "c4741d9f-1e37-4f0e-bd11-b0af3ba95d72", "Invisible" -> False, 
+    "Hash" -> "7547ff45-5385-4eea-b79f-3b2ee19a5c72", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>, 
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>, 
    <|"Data" -> "Now we can do it from code", "Display" -> "markdown", 
-    "Hash" -> "aee31248-be1c-4f0b-a446-48156a9d69cb", "Invisible" -> False, 
+    "Hash" -> "b2329ef1-7a3c-4a7a-b12c-65ad9555e1e1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>, 
-   <|"Data" -> "FrontSubmit[ZoomAt[1.2, {-0.1,0.0}], MetaMarker[\"plo\"]] ", 
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>, 
+   <|"Data" -> "FrontSubmit[ZoomAt[1.2, {0.6,0.6}], ref] ", 
     "Display" -> "codemirror", "Hash" -> 
-     "2ae5eb86-bc89-431d-a1dd-29489768fd2b", "Invisible" -> False, 
+     "948fd94b-d77e-4541-b8ad-fbd490b311de", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "6b67c48a-4138-464e-9fcc-4a8b87e27fcd"|>}, "serializer" -> "jsfn4"|>
+     "cae4daf7-6d60-4828-94fd-1522b71d7e52"|>}, "serializer" -> "jsfn4"|>

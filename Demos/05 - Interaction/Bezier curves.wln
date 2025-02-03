@@ -1,4 +1,8 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$180], 
+<|"Notebook" -> <|"Controller" -> "6072a7fb-2d6a-4adf-8bef-6eff202ea9ef", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$3158], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "7c322e76-5a50-40a7-b85b-a3c1568eb117", 
    "Objects" -> <|"3c27d476-8451-404e-91b9-f22b333474ed" -> 
       <|"Public" -> Hold[Graphics[{RGBColor[0, 0, 1], 
            {Line[Offload[With[{pc$ = pc$157265, pi$ = pi$157265, 
@@ -36,103 +40,102 @@
               "5cf6262f-1183-4388-99f2-131d3e8f065d"}], EventListener[
             Point[{0.6, 0.1}], {"drag" -> 
               "d1927e61-5b62-4dcc-8fad-95930598b80e"}]}]]|>|>, 
-   "Path" -> "/users/kirill/Library/CloudStorage/OneDrive-Personal/\:0414\
-\:043e\:043a\:0443\:043c\:0435\:043d\:0442\:044b/\:041a\:043e\:043d\:0444\
-\:0435\:0440\:0435\:043d\:0446\:0438\:0438/YandexJAM2024/Bezier curves.wln"|>\
-, "Cells" -> {<|"Data" -> ".md\n# Bezier curves\nAn demo on how to utilize \
-the power of WLJS Interpreter", "Display" -> "codemirror", 
-    "Hash" -> "05fbad2d-2eb0-44a1-aa34-b82a6c47ce26", "Invisible" -> False, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/05 - \
+Interaction/Bezier curves.wln", "ReadOnly" -> True, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, "Bezier curves", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$3137]]}|>, 
+ "Cells" -> {<|"Data" -> ".md\n# Bezier curves\nAn demo on how to utilize the \
+power of WLJS Interpreter", "Display" -> "codemirror", 
+    "Hash" -> "58581aa3-12e9-4853-9739-c18a670deb3d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> 
      "# Bezier curves\nAn demo on how to utilize the power of WLJS \
 Interpreter", "Display" -> "markdown", 
-    "Hash" -> "74809b38-c51d-47f1-a11c-125877d1d989", "Invisible" -> False, 
+    "Hash" -> "3696dbcf-56b6-4616-a434-80c854d5fe51", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> ".md\nGenerate intermediate points right on the frontend", 
     "Display" -> "codemirror", "Hash" -> 
-     "f1940483-2454-4c09-988a-9be415c98b67", "Invisible" -> False, 
+     "e157b8f9-fd4b-404f-827b-2afa54eaf05e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> "Generate intermediate points right on the frontend", 
     "Display" -> "markdown", "Hash" -> 
-     "4d1a4cd3-6a6a-492b-af48-d5c8c6fc47d2", "Invisible" -> False, 
+     "e4a68a9d-0804-48f4-81c2-c81c52c59add", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> "autoLine[t_, p1_, p2_, p3_] := \n Line[\n   With[{pc = p2, pi \
 = p1, pf = p3}, \n     {pi + t (pc - pi), pc + t (pf - pc)}\n   ] // \
 Offload\n ]\n\nSetAttributes[autoLine, HoldRest]", "Display" -> "codemirror", 
-    "Hash" -> "66d9c04e-2d81-4b16-84da-dcfc4972e169", "Invisible" -> False, 
+    "Hash" -> "01e20445-232d-4f2d-8cd7-10f8f9e6aaf7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+    "Notebook" -> "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> ".md\nNow we can plot it with draggable points", 
     "Display" -> "codemirror", "Hash" -> 
-     "9868d39f-9086-4a9f-83dc-40803bf3c9d4", "Invisible" -> False, 
+     "019fa0e6-7e15-4ae9-a321-fe0cbee79c7f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> "Now we can plot it with draggable points", 
     "Display" -> "markdown", "Hash" -> 
-     "674e55c7-6fc4-4361-bf52-84602c00c5e0", "Invisible" -> False, 
+     "846fdb6b-7961-4dd4-98a2-1b0429209bd7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> "curve[p1_, p2_, p3_] := LeakyModule[{pi = p1, pc = p2, pf = \
 p3},\n  {\n    Blue, Table[autoLine[t, pi, pc, pf], {t, 0, 1, 0.1}],\n    \
 PointSize[0.06], Red, \n\n    EventHandler[Point[pi], {\"drag\" -> \
 Function[xy, pi = xy]}],\n    EventHandler[Point[pc], {\"drag\" -> \
 Function[xy, pc = xy]}],\n    EventHandler[Point[pf], {\"drag\" -> \
 Function[xy, pf = xy]}]\n  }\n]", "Display" -> "codemirror", 
-    "Hash" -> "04c49b7b-e52a-4ab4-8a2a-1e09cc9e7bf9", "Invisible" -> False, 
+    "Hash" -> "0140784f-a920-4a24-a052-43b4ca414444", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+    "Notebook" -> "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> ".md\n__Draw__", "Display" -> "codemirror", 
-    "Hash" -> "c697ca02-8915-4ff3-b9a0-01624db431d8", "Invisible" -> False, 
+    "Hash" -> "f82188aa-2191-4535-949a-a2cb948cc2f9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, <|"Data" -> "__Draw__", 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, <|"Data" -> "__Draw__", 
     "Display" -> "markdown", "Hash" -> 
-     "aa674417-c2c5-473f-a4af-3e57c100220b", "Invisible" -> False, 
+     "9de586e2-3cff-4a10-8d1f-9d3437ca0f83", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> "curve[{0.2,0.2}, {0.3,0.5}, {0.6,0.1}] // Graphics", 
     "Display" -> "codemirror", "Hash" -> 
-     "3d6bc075-e41d-42a2-9d63-5af294875662", "Invisible" -> False, 
+     "5663ef45-b76e-4a42-b271-3611336438d4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
-   <|"Data" -> "(*VB[*)(FrontEndRef[\"3c27d476-8451-404e-91b9-f22b333474ed\"]\
-)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKGycbm\
-aeYmJvpWpiYGuqaGJik6loaJlnqphkZJRkbG5uYm6SmAABzRhTo\"*)(*]VB*)", 
-    "Display" -> "codemirror", "Hash" -> 
-     "d201dd7b-c095-4619-a135-917d2b79b59b", "Invisible" -> False, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
+   <|"Data" -> "", "Display" -> "codemirror", 
+    "Hash" -> "90856bf3-6c6f-41c3-8397-8ca76e05314c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
-    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> ".md\nNote, that actual calculation of the intermediate blue \
 line happens on frontend's side, i.e. in the browser. Kernel is only updating \
 the positions of three points `p1`, `p2`, `p3`.", "Display" -> "codemirror", 
-    "Hash" -> "436fd8a7-f19f-4d48-9055-316d98d76987", "Invisible" -> False, 
+    "Hash" -> "95836fc8-7680-4686-a6e2-4fb24687e151", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> "Note, that actual calculation of the intermediate blue line \
 happens on frontend's side, i.e. in the browser. Kernel is only updating the \
 positions of three points `p1`, `p2`, `p3`.", "Display" -> "markdown", 
-    "Hash" -> "a64975ec-77b5-4e7a-8232-5e1efb57db04", "Invisible" -> False, 
+    "Hash" -> "a926c6f8-10fc-4cfd-861a-f387419a9ed1", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>, 
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "4a737091-4901-44ef-8979-840173b9de0b", "Invisible" -> False, 
+    "Hash" -> "ca4c0681-ce80-4230-8337-d2cb72fca993", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "61330279-7e21-4f27-8894-4e0e92932ff2"|>}, "serializer" -> "jsfn4"|>
+     "704dd5ac-0281-4076-bb57-8901ed49735a"|>}, "serializer" -> "jsfn4"|>

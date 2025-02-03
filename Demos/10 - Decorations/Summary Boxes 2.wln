@@ -1,49 +1,60 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$35], 
-   "Objects" -> <||>, "Path" -> "/Users/kirill/Github/wolfram-js-frontend-dev\
-/Examples/Decorations/Summary box test.wln"|>, 
+<|"Notebook" -> <|"Controller" -> "61c918b0-6f1c-4efe-ba72-42258d9de309", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$4734], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "87ea373b-adec-42c6-83dc-3234fb80d4e0", 
+   "Objects" -> <|"fa14a343-95c9-4cd6-9cd9-2e9eaa68e042" -> 
+      <|"Public" -> Hold[Graphics[{RGBColor[Rational[1, 3], 1, 1], 
+           Disk[{0, 0}, 1], RGBColor[0, 1, 1], Disk[{0, 0}, 0.8]}, 
+          ImageSize -> {50, 50}, ImagePadding -> None, Controls -> False, 
+          PlotRange -> {{-1, 1}, {-1, 1}}]]|>|>, "Path" -> "/Users/kirill/Git\
+hub/wljs-demos-archive/Demos/10 - Decorations/Summary Boxes 2.wln", 
+   "ReadOnly" -> True, "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[
+      2, "Summary box test", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$4717]]}|>, 
  "Cells" -> 
   {<|"Data" -> 
      ".md\n## Summary box test\nLet's create a special symbol to decorate", 
     "Display" -> "codemirror", "Hash" -> 
-     "63fb79eb-2f05-4a22-8789-3f5b94a380de", "Invisible" -> False, 
+     "6506205b-f596-4809-845b-e367a117954d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> 
      "## Summary box test\nLet's create a special symbol to decorate", 
     "Display" -> "markdown", "Hash" -> 
-     "d2c22938-a1bf-42de-a357-c0ff820eb5e4", "Invisible" -> False, 
+     "ddd2a1a6-958a-43e3-ba7a-7e733840bd14", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> 
      "specialSymbol[<|\"Date\"->Now, \"Color\"->Red, \"State\"->True|>]", 
     "Display" -> "codemirror", "Hash" -> 
-     "26ad78e5-4675-4d16-b80e-3d9ff8cb1ab5", "Invisible" -> False, 
+     "c7618310-575e-4551-8fa0-355668fe9f28", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
-   <|"Data" -> "specialSymbol[<|\"Date\"->(*VB[*)(DateObject[{2024,5,4,12,45,\
-29.721241`8.22564192053111},\"Instant\",\"Gregorian\",2.`])(*,*)(*\"1:eJxTTMo\
-PSmNkYGAoZgESHvk5KRCeEJBwSSxJ9U/KSk0uCUnNLcgB8oIlgcJKwYklCiYKvomVCkYGRiYKhkZW\
-JqZWRpZKAJucEc0=\"*)(*]VB*),\"Color\"->(*VB[*)(RGBColor[1, 0, \
-0])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeGJAIcndyzs/JLwouTyxJzghJzS3ISSxJTWM\
-GyXMgyRcxgMEHeyiDgQHOAAALpBNd\"*)(*]VB*),\"State\"->True|>]", 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
+   <|"Data" -> "specialSymbol[<|\"Date\"->(*VB[*)(DateObject[{2025,2,3,10,48,\
+47.321725`8.42763554374884},\"Instant\",\"Gregorian\",1.`])(*,*)(*\"1:eJxTTMo\
+PSmNiYGAo5gUSYZmp5S6pyflFiSX5RcEsQBGXxJLUYEkgQ8k3P0/BWMEtNUnByMDIVMHQwMrEwsrE\
+XAkAEDMPTw==\"*)(*]VB*),\"Color\"->(*VB[*)(RGBColor[1, 0, \
+0])(*,*)(*\"1:eJxTTMoPSmNiYGAo5gUSYZmp5S6pyflFiSX5RcEsQBHn4PCQNGaQPAeQCHJ3cs7\
+PyS8qYgCDD/ZQBgMDnAEA4iUPRg==\"*)(*]VB*),\"State\"->True|>]", 
     "Display" -> "codemirror", "Hash" -> 
-     "df8394f8-ddc8-4776-a0f7-0d6d6beb6964", "Invisible" -> False, 
+     "7bf16e8c-8271-43f1-a738-4f7a524271a3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> ".md\nLet us decorate it", "Display" -> "codemirror", 
-    "Hash" -> "2fd1c03e-0b8f-48b6-81e2-bc7ef165c1b2", "Invisible" -> False, 
+    "Hash" -> "e72aebc5-3b56-4198-a6b1-514281595fa4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "Let us decorate it", "Display" -> "markdown", 
-    "Hash" -> "53634ba9-8f4a-4a70-8ffa-fd86ce643956", "Invisible" -> False, 
+    "Hash" -> "7f522af7-59ca-408e-a33f-01a287955258", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "specialSymbol /: MakeBoxes[obj : \
 specialSymbol[asc_Association], StandardForm] := \n    Module[{above, \
 below},\n        above = { \n          {BoxForm`SummaryItem[{\"Date: \", \
@@ -55,20 +66,20 @@ asc[\"State\"]}]}\n        };\n\n        BoxForm`ArrangeSummaryBox[\n         \
 below must be in a format suitable for Grid or Column *)\n           above,   \
  (* always shown content *)\n           Null (* expandable content. Currently \
 not supported!*)\n        ]\n    ];", "Display" -> "codemirror", 
-    "Hash" -> "70522fb5-b69d-44d9-ab76-a26817980006", "Invisible" -> False, 
+    "Hash" -> "4a3f5201-45f8-4c97-bf9a-c5fd32b5bef9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> ".md\nThen check it agait", "Display" -> "codemirror", 
-    "Hash" -> "d5da5cf0-b1bb-429f-ae1f-52f03515da2c", "Invisible" -> False, 
+    "Hash" -> "669e6690-2c09-48b9-bb0f-7ad1240f16ac", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "Then check it agait", "Display" -> "markdown", 
-    "Hash" -> "ea45573f-dc62-4659-b67a-c29a614c4b22", "Invisible" -> False, 
+    "Hash" -> "035736fd-3b72-4d63-b823-a4d72569aef7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "specialSymbol[<|\"Date\"->(*VB[*)(DateObject[{2024,5,4,12,45,\
 29.721241`8.22564192053111},\"Instant\",\"Gregorian\",2.`])(*,*)(*\"1:eJxTTMo\
 PSmNkYGAoZgESHvk5KRCeEJBwSSxJ9U/KSk0uCUnNLcgB8oIlgcJKwYklCiYKvomVCkYGRiYKhkZW\
@@ -76,46 +87,46 @@ JqZWRpZKAJucEc0=\"*)(*]VB*),\"Color\"->(*VB[*)(RGBColor[1, 0, \
 0])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeGJAIcndyzs/JLwouTyxJzghJzS3ISSxJTWM\
 GyXMgyRcxgMEHeyiDgQHOAAALpBNd\"*)(*]VB*),\"State\"->True|>]", 
     "Display" -> "codemirror", "Hash" -> 
-     "7087d26e-bfe9-4c7f-bcca-e5340fd35591", "Invisible" -> False, 
+     "f9d82fdf-c391-4983-97e0-9ddfddc088a4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "specialSymbol[(*VB[*) <|\"Date\" -> DateObject[{2024, 5, 4, \
 12, 45, 29.721241`8.22564192053111}, \"Instant\", \"Gregorian\", 2.], \
 \"Color\" -> RGBColor[1, 0, 0], \"State\" -> True|> \
-(*,*)(*\"1:eJy9Ul1vmzAUzb61vexx0p46nhKE0uAmW1OpD0ApifPVYZosiSqFgkNZwM6MSUKm/Y\
-H9vP2iGdjWalKl7mWSdXXvPeeeax/53TW1l48rlUryWoQLRjehj/3RmoeUJMsnOfBWBJ3uzimLFxp\
-jLgmwj9I4dlkm2stHv4fPGSXcJP44ZDx1oxJ4KkKHRn6RDCnBpWZe9cOE35KKqrjImzv7fu3pchyP\
-Q7xFzwV25nJ8clByX4lg+iGnrIB/iLIqj/W5XKvmtNH1Z+zx+VfQAE2lpTQVFSjNlgLa9Q9ABU11c\
-VwHoPW+qbZBo3Wkquo3ReqShLuES4pkMRxQFrpEUkB9cVWryorQlSX1BMOd4wzoBYqHq6ml0Vlgos\
-5m1erZBjahvkVoB9uXhz20aqTGJRn2vUA/pt0o8GBvO11FRjjtbWg8NsS0LfKb1WwCv8wm9nrW02D\
-qmV7jVMp3XY11uVY+NTfJTiOMXuYJdv1sRKKsaDssxf/q5AuBGTSi7B4rv9+x0rb0gjpXlYOGOA+1\
-woJa1yN+tk8OYX9LUyfbwX1wA/foqJtb5EwGVvZpEGS2twsGZgdn4VnwsTPSNK2/1of+f7AA8ft/0\
-x/dhywvP3gaRX+xn+WaG0z4bfYTZs3s9A==\"*)(*]VB*)]", "Display" -> "codemirror", 
-    "Hash" -> "182cccc1-4896-4b4e-91ef-9b46127f0f07", "Invisible" -> False, 
+(*,*)(*\"1:eJzFVEuPmzAQTt+PS4+VemoP3mOEDeTRG6+QRCHhEdAmpzrgIBqwt4Zow3/sj6oN2+\
+0eemi1lSrBNzOfh/lGMzKfDiw8PhsMBvUHASa7zBivvhicY5qTLDpXFeatoI9PZM47ATPOaOPQLCl\
+4c8Zlf/BcwJyVWeesGSV9TRmtirr5ldRFT2X0/oHenc6iIVVSkNvopTizcUM+f+xz3wpwsqJhXB73\
+1V4J2ByPJcNZT7wREIcrm6QsI9GV4ACaAGQkJtBNYQGaCkKW3Ry+krSR7NhECtIAsnTxSguRdGSEp\
+sMxgkiDYKRMhgjpIw1OkaKrEEIwtkUGQGhB6wbTRnh97HKSM15g2jNoKD4Gut1Ldz1Y9510DoJANc\
+jyst16zI+qdbFzDabncbTbVzd6NLppj+WsiK71MHXqwHSvL8tVvHNOedCetDremqHnqHWyMlvPXoT\
+ePGg97kCPL+L8ZDiH1N/nQLXlIxt6oKzbyd1Q+hHL5YTnkkSvpUNwtqFl27FbfiZ/u0C5HIuVjD9i\
+g98Hv99g6JpdacHBbp6K8tP8w0nPqeZbwdrFgW+QwJov1bQe+200+bbLLVvozPaBmXs2NRxDK2I//\
+G9zjprH3ZR77T/or34h/wC4rMkPnRYNqQ==\"*)(*]VB*)]", "Display" -> "codemirror", 
+    "Hash" -> "0a33748a-3b86-4121-a275-7fa79ba0de27", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "c31cc954-1d7f-4c32-b9c2-f8d2827492ef", "Invisible" -> False, 
+    "Hash" -> "ed7200be-27bd-4bfd-bf1c-5231420c815e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "470bee0e-30e6-4527-90db-5df68ea64a24", "Invisible" -> False, 
+    "Hash" -> "111f172f-f874-4579-9136-0c0a12e64930", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> ".md\nOne can also modify an icon", "Display" -> "codemirror", 
-    "Hash" -> "3b05d131-84b3-405c-b788-968d293cd622", "Invisible" -> False, 
+    "Hash" -> "c6494c72-2a63-48f1-8314-a63e5f363fc5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "One can also modify an icon", "Display" -> "markdown", 
-    "Hash" -> "2eb62563-1b30-4e26-97ca-9a26b208e68a", "Invisible" -> False, 
+    "Hash" -> "a817571f-5a3b-467f-b911-17bef56e9de7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "specialSymbol /: MakeBoxes[obj : \
 specialSymbol[asc_Association], StandardForm] := \n    Module[{above, below, \
 icon},\n        above = { \n          {BoxForm`SummaryItem[{\"Date: \", \
@@ -132,43 +143,43 @@ if not needed *)\n             (* above and below must be in a format \
 suitable for Grid or Column *)\n             above,    (* always shown \
 content *)\n             Null (* expandable content. Currently not \
 supported!*)\n          ]\n        ]\n    ];", "Display" -> "codemirror", 
-    "Hash" -> "46e306a3-8af6-4ca6-b96b-3af4bc3b1316", "Invisible" -> False, 
+    "Hash" -> "f69df301-1d15-4a6f-9c18-5818d6a7ed55", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, <|"Data" -> ".md\nCheck it", 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, <|"Data" -> ".md\nCheck it", 
     "Display" -> "codemirror", "Hash" -> 
-     "dfc6fc7b-c0c5-4cce-9578-56c56166dbd5", "Invisible" -> False, 
+     "ed156dfa-643f-4750-ac05-76fb3b1da00e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, <|"Data" -> "Check it", 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, <|"Data" -> "Check it", 
     "Display" -> "markdown", "Hash" -> 
-     "cb721562-a299-486a-afb1-989ed1bd88e3", "Invisible" -> False, 
+     "2f34cc16-dbb3-4d16-8c1e-b27330a6c2db", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "specialSymbol[<|\"Date\"->(*VB[*)(DateObject[{2024,5,4,12,45,\
 29.721241`8.22564192053111},\"Instant\",\"Gregorian\",2.`])(*,*)(*\"1:eJxTTMo\
 PSmNkYGAoZgESHvk5KRCeEJBwSSxJ9U/KSk0uCUnNLcgB8oIlgcJKwYklCiYKvomVCkYGRiYKhkZW\
 JqZWRpZKAJucEc0=\"*)(*]VB*),\"Color\"->Cyan,\"State\"->True|>]", 
     "Display" -> "codemirror", "Hash" -> 
-     "ae67f2f6-4393-48d3-b92c-00b284b357d5", "Invisible" -> False, 
+     "31ba3652-b640-471f-b353-1640baf3948d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>, 
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>, 
    <|"Data" -> "specialSymbol[(*VB[*) <|\"Date\" -> DateObject[{2024, 5, 4, \
 12, 45, 29.721241`8.22564192053111}, \"Instant\", \"Gregorian\", 2.], \
 \"Color\" -> RGBColor[0, 1, 1], \"State\" -> True|> \
-(*,*)(*\"1:eJy9Ustum0AUdZs+lG66qip1laAubIQcg01jR8oCKCHGr5TBdm0rkjGMCTHMuMNgg6\
-v+QD+vX9QBt01UKVK6qTS6OnfOuY85muMFtpZPS6VS/JqFK4I3gQe9wZoGGMXLg5x4x4KK0wtMorl\
-CiIN86IEkihySsevlk9/FFwQjqiNvFBCaOOGeeMbCJQ69+A0DgYuRDaM1yKIFDt+Lcr152toPyXXd\
-IKZ3VUVWbPb23gK/BrcpjEYB3IIXjPvoUHh2tNe+YkH3AopJQf9gaZkfqTO+Us5lg8UtdOnsq1STG\
-oIsNARREhqyILWqp5IoNcR5sypJ8oeG2JJqcl0UxW8C10YxdRDlBM4g0MckcBAnSNX5daXMC6wvz4\
-ln0Extu4evQNRfTQwFT30dXG5WcsfSoG6qWwBSszU86YBVLdGGqN91fbWJ26Hvmp3tZBVqwaSzwdF\
-IY9UWwzer6dj8Mh1b62lHMRNXd2vnXD7reqTylf1Tc5OsJITgMAfQ8bIBCrPi2iYJ/FcnXzJOwyEm\
-D1j5/Z6VlqEW0llNOBLZeawVhqm0XeRlu/jE7G5xYmepufNvzB2ot3OL7HHPyD73/Mxy00+KMWy6O\
-tz5iqKk2+Gtcv4/LAD04d/0p+9jhhegn4ThX+rnec8NRPQO/QSG9/KC\"*)(*]VB*)]", 
-    "Display" -> "codemirror", "Hash" -> 
-     "ae351163-70a9-4bc9-9ecb-a4d43c0b7df6", "Invisible" -> False, 
+(*,*)(*\"1:eJzFVEmPmzAUTvflUqmXSj210ri3RNhAEubGlq0hYQnRJKc6YBAN4BlDNOH/9YfVDt\
+Mohx5aTaVK8JbvPZ4/vU/m8476ybNOp1N95MagxxFlxTedMVymJA4ORYFZw+Hkieh5x82I0bK2y3i\
+dsfqA87bw/qJgH0l0qPEuJ8EVhxMMFSwrcldTI62rRHG/q0Wx1kVEIxj3h0RSUMvgOTfzrKrbkefs\
+qcg+XLB7YDWtSbHOyH3wktcsXJPrT23vW27sOKspE+V22itulkmSUxy3wBtuQn9ukYjGJPjCMYCGA\
+OlrA6gG9wBpHBBjl7vvJKoFOjCQhBSATJW/wkMkApEhrTdAECkQ9KVhDyG1r0ANSaoMIQQDi3cAhK\
+ZlVeOy5lGbjxlJKctw2SKoxz8GqtUefeJgnpmcAgSBrJPZcbVyqBsUi2wz1qmahsFmW9yqQf+2SfJ\
+RFtyofmRXnjG+Oc7m4cbep16zV6pwZfiOLVfrudE41tR3Jl7jMBs6bBqme93eRe42BbIlHkHo4mTV\
+Wj8spV2xEMc/cIVfi4DgeFnmzQldsQP5WwGFOCbNKXuEgj86v1fQHxun0RyTTvuU4C/3Dzc9KRXX9\
+BZj7Lk68czJTI6qgdsEw7sN1c2vy6Xlbu8NfVHE9iT8L/sN6sfdkPPZf8CveiF+BzivyE8WZBmv\"\
+*)(*]VB*)]", "Display" -> "codemirror", 
+    "Hash" -> "eb3ae9e9-8605-49c2-8833-7e6fa0881578", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "c878afdc-236e-4ea7-b2d2-3b64ad9c3682"|>}, "serializer" -> "jsfn4"|>
+     "39d31afb-bcae-4c1a-802d-348756b4c5a6"|>}, "serializer" -> "jsfn4"|>

@@ -1,0 +1,83 @@
+<|"Notebook" -> <|"Controller" -> "4e5b47c9-58e1-4b23-8723-0945c1cde6ed", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$1273], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "99bc9627-1f90-400d-86ba-ce42f5f47b71", "Path" -> "/Users/kirill/Github/w\
+ljs-demos-archive/Demos/05 - Interaction/Paint3D.wln", 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, "Paint3D", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$1224]]}|>, 
+ "Cells" -> 
+  {<|"Data" -> ".md\n# Paint3D\n*Using marching cubes and `Graphics3D`*", 
+    "Display" -> "codemirror", "Hash" -> 
+     "15f590cb-5f6d-4dea-9266-89b4645b06f6", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> "# Paint3D\n*Using marching cubes and `Graphics3D`*", 
+    "Display" -> "markdown", "Hash" -> 
+     "5dcce8eb-f925-40ef-8bae-00b72ff220e9", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> ".md\nImport external library, since built-in methods do not \
+suit well realtime calculations", "Display" -> "codemirror", 
+    "Hash" -> "0c94188f-dd8e-4cfa-b599-b90f878451b2", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> "Import external library, since built-in methods do not suit \
+well realtime calculations", "Display" -> "markdown", 
+    "Hash" -> "9110b5cf-a86f-42a1-97d5-fab12965f2e2", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> "PacletRepositories[{\n    Github -> \
+\"https://github.com/JerryI/wl-marching-cubes\" -> \
+\"master\"\n}]\n\n<<JerryI`MarchingCubes`", "Display" -> "codemirror", 
+    "Hash" -> "e1b7a196-baff-450b-b5f2-f433ab94bb40", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> ".md\nSetting up the scene", "Display" -> "codemirror", 
+    "Hash" -> "0c3edfe9-8dfb-4beb-b892-fe51ce343a24", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> "Setting up the scene", "Display" -> "markdown", 
+    "Hash" -> "426c13e9-2560-4442-afcd-0fc039e0eb48", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> "vertices = Table[{0.,0.,0.}, {30000}];\nnormals = \
+Table[{0.,0.,0.}, {30000}];\nrange = 0;\n\nGraphics3D[{\n  \
+GraphicsComplex[Offload[vertices, \"Static\"->True], {\n    Polygon[1, \
+range//Offload]\n  }, VertexNormals->Offload[normals]], \n  {Opacity[0.2], \
+Cuboid[{0,0,0}, {100,100,100}]}, \n  EventHandler[Sphere[{0,0,0}], \
+{\"transform\"->handler}]\n}, ImageSize->800]", "Display" -> "codemirror", 
+    "Hash" -> "f507f057-440f-467a-b0d7-f7643ed68003", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> ".md\nDefine handlers", "Display" -> "codemirror", 
+    "Hash" -> "09bd9e1c-88c4-49c2-94ec-92eeae9bcf26", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, <|"Data" -> "Define handlers", 
+    "Display" -> "markdown", "Hash" -> 
+     "6eb9f392-bf8b-4fda-90a8-e5bc394f844c", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>, 
+   <|"Data" -> "img = Table[0., {i,100}, {j,100}, {k,100}];\nhandler = \
+Function[assoc,\n  With[{coords = assoc[\"position\"]}, Do[\n    With[{i = \
+Clip[Round[coords[[3]]+m], {1,100}], j = Clip[Round[ coords[[2]]+u], \
+{1,100}], k = Clip[Round[coords[[1]]+v], {1,100}]},\n      img[[i,j,k]] = \
+img[[i,j,k]] + Exp[- (m^2 + u^2 + v^2)/10.0] 0.5; \n    ]\n  , {m, -5,5,0.7}, \
+{u, -5,5,0.7}, {v, -5,5,0.7}]];\n\n  With[{d = CMarchingCubes[img, 0.8]},\n   \
+ range = Length[d[[1]]];     \n    {vertices, normals} = d;\n  ];\n];", 
+    "Display" -> "codemirror", "Hash" -> 
+     "be185759-52f1-4c3f-be22-740d1ad260ad", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "91ab2cc2-d398-4d58-87af-d25c8aa6f371"|>}, "serializer" -> "jsfn4"|>

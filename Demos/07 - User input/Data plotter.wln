@@ -1,6 +1,10 @@
-<|"Notebook" -> <|"FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$1184], 
-   "Objects" -> <||>, "Path" -> "/Users/kirill/Github/wolfram-js-frontend-dev\
-/Demos/07 - User input/Data plotter.wln", "ReadOnly" -> True, 
+<|"Notebook" -> <|"Controller" -> "b2a74006-de28-4bd8-b35d-27e939785e27", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$3821], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "3ca2a60e-06cd-4857-9441-8264396db498", "Objects" -> <||>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/07 - User \
+input/Data plotter.wln", "ReadOnly" -> True, 
    "Symbols" -> <|"datap" -> {{"cm-1", "", ""}, {"", "8 K", ""}, 
        {0, 0.353508}, {0.964223, 0.369552}, {1.92845, 0.245597}, 
        {2.89267, 0.238635}, {3.85689, 0.200621}, {4.82112, 0.321856}, 
@@ -2768,29 +2772,30 @@
        {7992.45, 0.139344}, {7993.41, 0.145463}, {7994.38, 0.143961}, 
        {7995.34, 0.136027}, {7996.3, 0.130721}, {7997.27, 0.13284}, 
        {7998.23, 0.141806}, {7999.2, 0.153455}, {8000.16, 0.161682}}|>, 
-   "TOC" -> {Notebook`Editor`TOC`Private`heading[2, "Data plotter", 
-      CellObj[JerryI`Notebook`CellObj`$1183]]}|>, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[2, "Data plotter", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$3820]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n## Data plotter\nEvaluate the cell and drag a \
 `.dat` TSV file with a list of 2D curve", "Display" -> "codemirror", 
-    "Hash" -> "7f7a4965-964b-48b1-81d5-c9d69f14e870", "Invisible" -> False, 
+    "Hash" -> "127491d1-bcdc-4c3e-b1ff-69cf896c2143", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "afac4d1a-be91-4940-a5bc-6437840d51a1"|>, 
+     "075702f9-51a2-462f-a7df-852b96149722"|>, 
    <|"Data" -> "\n## Data plotter\nEvaluate the cell and drag a `.dat` TSV \
 file with a list of 2D curve", "Display" -> "markdown", 
-    "Hash" -> "cf05ca57-9721-401b-be89-396bc9838faa", "Invisible" -> False, 
+    "Hash" -> "0eae0650-307f-47a9-b343-fea3872b6784", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "afac4d1a-be91-4940-a5bc-6437840d51a1"|>, 
+     "075702f9-51a2-462f-a7df-852b96149722"|>, 
    <|"Data" -> "plot = \
 Plotly[<|\"type\"->\"line\"|>]\n\nEventHandler[InputFile[], {\"File\" -> \
 Function[file,\n  Module[{},\n    imported = \
 Drop[ImportByteArray[file[\"Data\"]//BaseDecode, \"CSV\"], 3];\n    (* try \
 different encoding *)\n    If[!NumberQ[imported[[1,1]]], imported = \
 Drop[ImportByteArray[file[\"Data\"]//BaseDecode, \"TSV\"], 3]];\n\n    \
-Plotly`addTraces[plot, {<|\"x\" -> imported[[All,1]], \"y\" -> \
+PlotlyAddTraces[plot, {<|\"x\" -> imported[[All,1]], \"y\" -> \
 imported[[All,2]]|>}];\n  ]\n  \n]}]", "Display" -> "codemirror", 
-    "Hash" -> "d700294d-89c3-442b-bc86-376d9805e561", "Invisible" -> False, 
+    "Hash" -> "559b51b9-68a3-4a90-a303-954d3136e581", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "afac4d1a-be91-4940-a5bc-6437840d51a1"|>}, "serializer" -> "jsfn4"|>
+     "075702f9-51a2-462f-a7df-852b96149722"|>}, "serializer" -> "jsfn4"|>

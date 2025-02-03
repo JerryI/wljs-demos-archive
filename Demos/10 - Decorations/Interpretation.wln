@@ -1,24 +1,31 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$593], 
+<|"Notebook" -> <|"Controller" -> "f5976953-760c-4f24-b35a-106547801ff4", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$4582], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "f256d637-42fd-485b-b52d-361652c514d8", 
    "Objects" -> <|"e4bf505c-3bc4-4b14-9e9d-e1b02aae3ced" -> 
       <|"Public" -> Hold[Graphics3D[Cuboid[{0, 0, 0}], ImageSize -> 
-           100]]|>|>, "Path" -> "/users/kirill/Github/wolfram-js-frontend-dev\
-/Examples/05 - Decorations/Interpretation.wln"|>, 
+           100]]|>|>, "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demo\
+s/10 - Decorations/Interpretation.wln", "ReadOnly" -> True, "TOC" -> {}|>, 
  "Cells" -> 
   {<|"Data" -> "Interpretation[Graphics3D[Cuboid[], ImageSize->100], 1]", 
     "Display" -> "codemirror", "Hash" -> 
-     "15c3f5df-a36c-44cb-a90c-12d45c09b0b1", "Invisible" -> False, 
+     "482525b3-f805-4018-ad5c-79f81389a4fb", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4688b675-1fa3-4aba-9d8c-93e510cfcbd2"|>, 
-   <|"Data" -> "(*VB[*)(1)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HN\
-S3GtSE0uLUlMykkNVgEKp5okpZkamCbrGiclm+iaJBma6FqmWqbophomGRglJqYaJ6emAACO8RaD\
-\"*)(*]VB*) - 1", "Display" -> "codemirror", 
-    "Hash" -> "93dd1f14-7a0c-4dec-bf1d-42730ca5a619", "Invisible" -> False, 
+     "a8f85034-d010-4b33-b9c0-e0a97d322552"|>, 
+   <|"Data" -> "(*VB[*)(1)(*,*)(*\"1:eJwlj91qg0AQhaX0ovQpbK7UWjD056LQwm40xgST\
+klWTKF5sdJOIu67Rbv5K364P1rWFw8ecYQ7DuVvz+eZKUZT2VsLJi0/eRAU5oh9pNSOCiaFrboPrX\
+ZG1j3YyEGte5MmXZaqdvlNT9RjeElRciPrwrvYtK9U1w5Qpo9d/JeNTEPj8A7FpuXIBj7cOGh3K58\
+mC+h58WpYjcJBR7+wcxbTCcO8C22lfKNqweLKofB9a9ywLKQsHGIRDYAM4hvWS1TC+gB0jYlXV+8y\
+NIyzvQ0AAtMmQeW+97n8aQUP/L3ctMReUoJtuIDifVfT8tw0aQX4BQd5Mig==\"*)(*]VB*) - 1"\
+, "Display" -> "codemirror", "Hash" -> 
+     "a8772f7b-f895-4fd2-894e-4dfd43871d75", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "4688b675-1fa3-4aba-9d8c-93e510cfcbd2"|>, 
+     "a8f85034-d010-4b33-b9c0-e0a97d322552"|>, 
    <|"Data" -> "0", "Display" -> "codemirror", 
-    "Hash" -> "e5b8ce74-7000-4ce5-afd1-dbe4bdc7f38e", "Invisible" -> False, 
+    "Hash" -> "f3c1b1b1-3eac-439d-8855-9874c2b3123a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "4688b675-1fa3-4aba-9d8c-93e510cfcbd2"|>}, "serializer" -> "jsfn4"|>
+     "a8f85034-d010-4b33-b9c0-e0a97d322552"|>}, "serializer" -> "jsfn4"|>

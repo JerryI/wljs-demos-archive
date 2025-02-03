@@ -1,8 +1,9 @@
-<|"Notebook" -> <|"Controller" -> "87e32522-98b5-4b02-a44e-4161a31ae0ba", 
-   "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$665], 
-   "HaveToSaveAs" -> True, "MessangerChannel" -> Messanger, 
-   "ModalsChannel" -> "e41c6b58-f5db-497c-b800-cfe36ae6235f", 
-   "Objects" -> <|"c0b62cfb-27ef-4993-83e2-d75287e9cf32" -> 
+<|"Notebook" -> <|"Controller" -> "5968c501-babd-4abf-a99d-26e504b6e7c6", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$2627], "HaveToSaveAs" -> True, 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "51d5ceb8-0408-41b5-b919-aabb55ce9ffc", 
+   "Objects" -> <|"9f5ea6a7-2274-4927-9036-5022adc6cfa5" -> 
       <|"Public" -> Hold[HTMLView["<div class=\"relative shrink-0 gap-y-3 \
 pb-2 flex flex-col sm-controls\"><div class=\"flex gap-x-5 \
 sm-controls\"><label for=\"default-range\" class=\"block mb-2 text-sm \
@@ -19,20 +20,21 @@ document.getElementById('r-#instanceId');\n\n        let harpticQ = true;\n\n \
        function isNumber(value) { return typeof value === 'number'}\n\n       \
  num.addEventListener('input', (event)=> {\n            if (isNaN(num.value)) \
 return;\n            ran.value = num.value;\n            \
-server.kernel.emitt('71ccc26d-f0ed-4835-8928-515472e0d889', num.value, \
+server.kernel.emitt('556b9ad1-e134-4d19-8802-03dc55ade20a', num.value, \
 'Default');      \n        });\n\n        ran.addEventListener('input', \
 (event)=> {\n            if (isNaN(ran.value)) return;\n            num.value \
 = ran.value;\n            \
-server.kernel.emitt('71ccc26d-f0ed-4835-8928-515472e0d889', ran.value, \
+server.kernel.emitt('556b9ad1-e134-4d19-8802-03dc55ade20a', ran.value, \
 'Default');   \n            if (harpticQ) {\n                if \
 (!window.electronAPI) {harpticQ = false; return}\n                if \
 (!window.electronAPI.harptic) {harpticQ = false; return}\n                \
 window.electronAPI.harptic();\n            }               \n        \
-});</script>", Prolog -> HTMLView`TemplateProcessor[Association[
-             "instanceId" -> CreateUUID[]]]]]|>|>, 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/Demos/04 - \
+});</script>", Prolog -> 
+           CoffeeLiqueur`Extensions`InputsOutputs`Tools`TemplateProcessor[
+            Association["instanceId" -> CreateUUID[]]]]]|>|>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/04 - \
 Animation/Dynamic Plot3D.wln", "Quick" -> True, 
-   "Symbols" -> <|"vertices$549415" -> 
+   "Symbols" -> <|"vertices$3251143" -> 
       JSObject[(-1)[-4.487989505700769*^-7, -4.487989505700316*^-7][
         (-0.9009687009939574)[-0.43388408570661186, -4.487989505700316*^-7], 
         (-0.6234895512265152)[-0.7818316823406176, -4.487989505700316*^-7], 
@@ -795,7 +797,7 @@ Animation/Dynamic Plot3D.wln", "Quick" -> True,
         (-1.0062878385616623)[4.5162092591790487*^-7, -0.11196490615254479], 
         (-1.0062878385616623)[-4.5162092591790487*^-7, 0.11196490615254479], 
         (-0.9937121614383366)[0.11196490615255607, 4.487989505700316*^-7]]], 
-     "normals$549415" -> JSObject[0.9999999999997795[4.6957557255339683*^-7, 
+     "normals$3251143" -> JSObject[0.9999999999997795[4.6957557255339683*^-7, 
          -4.695755725535429*^-7][0.9009686922367229[0.43388410389069276, 
          -4.6883198339548094*^-7], 0.6234895370556481[0.7818316936412285, 
          -4.7075334186811316*^-7], 0.22252067017275975[0.9749279723885481, 
@@ -1574,7 +1576,7 @@ Animation/Dynamic Plot3D.wln", "Quick" -> True,
         0.9937121588380945[-4.2155203606982017*^-7, -0.11196492922855773], 
         0.993712163829083[4.6839115354122576*^-7, 0.11196488493229691], 
         0.9937121638291039[-0.11196488493227558, 4.2718990418468846*^-7]]], 
-     "indices$549415" -> JSObject[569[226, 2][577[237, 6], 579[240, 7], 
+     "indices$3251143" -> JSObject[569[226, 2][577[237, 6], 579[240, 7], 
         587[252, 11], 583[246, 9], 581[243, 8], 575[234, 5], 284[250, 24], 
         282[247, 23], 286[253, 25], 573[231, 4], 585[249, 10], 272[232, 18], 
         274[235, 19], 591[258, 13], 278[241, 21], 276[238, 20], 571[227, 3], 
@@ -1906,39 +1908,39 @@ Animation/Dynamic Plot3D.wln", "Quick" -> True,
         540[766, 511], 506[761, 207], 765[769, 15], 764[768, 1], 
         775[767, 225], 509[749, 195], 766[770, 211], 566[767, 538], 
         767[771, 225], 764[772, 568], 765[773, 267], 767[775, 567]]]|>, 
-   "TOC" -> {Notebook`Editor`TOC`Private`heading[1, 
-      "Dynamic parameteric plot 3D", 
-      CellObj[JerryI`Notebook`CellObj`$1290]]}|>, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, 
+      "Dynamic parameteric plot 3D", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$2621]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Dynamic parameteric plot 3D\n*A low-level \
 example of working with indexed geometry*\n\nHere we will make an adapter for \
 `ParametericPlot3D` to work dynamically morph one shape into another one. \
 Since it naturally does not support dynamic updates, we need to manually wire \
 dynamic symbols to each primitive supplying vertices, normals and indexes.", 
     "Display" -> "codemirror", "Hash" -> 
-     "109b9901-77db-4b79-bd20-7fea89af1181", "Invisible" -> False, 
+     "706b37c3-6559-484a-8106-839e7699964c", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, 
    <|"Data" -> "# Dynamic parameteric plot 3D\n*A low-level example of \
 working with indexed geometry*\n\nHere we will make an adapter for \
 `ParametericPlot3D` to work dynamically morph one shape into another one. \
 Since it naturally does not support dynamic updates, we need to manually wire \
 dynamic symbols to each primitive supplying vertices, normals and indexes.", 
     "Display" -> "markdown", "Hash" -> 
-     "01cbb658-82a0-4db4-8784-f2d0722075a0", "Invisible" -> False, 
+     "2aa2d671-cdf0-41f2-9a4a-1b02555fa3ff", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, <|"Data" -> ".md\nOur shapes", 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, <|"Data" -> ".md\nOur shapes", 
     "Display" -> "codemirror", "Hash" -> 
-     "8dc244ba-097b-4f62-842a-424ecfea820c", "Invisible" -> False, 
+     "986bd351-d647-4898-9826-3814e39c63f9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, <|"Data" -> "Our shapes", 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, <|"Data" -> "Our shapes", 
     "Display" -> "markdown", "Hash" -> 
-     "c09ae38b-d8ba-40f9-aaff-03d9ae802d26", "Invisible" -> False, 
+     "d426072c-e10b-40b8-a9dc-5c1731dcd3af", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, 
    <|"Data" -> "sample[t_] := With[{\n   complex = ParametricPlot3D[\n     (1 \
 - t) * {\n       (2 + Cos[v]) * Cos[u],\n       (2 + Cos[v]) * Sin[u],\n      \
  Sin[v]\n     } + t * {\n       1.16^v * Cos[v] * (1 + Cos[u]),\n       \
@@ -1947,22 +1949,22 @@ dynamic symbols to each primitive supplying vertices, normals and indexes.",
 MaxRecursion -> 2,\n     Mesh -> None\n   ][[1, 1]]\n   },\n  {\n   \
 complex[[1]],\n   Cases[complex[[2]], _Polygon, 6] // First // First,\n   \
 complex[[3, 2]]\n  }\n]", "Display" -> "codemirror", 
-    "Hash" -> "556a1712-1c27-4c11-bbbb-b11ecd973bf9", "Invisible" -> False, 
+    "Hash" -> "3bfaaac9-938d-47ca-9c67-d69f5e15c141", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, 
    <|"Data" -> ".md\nThen we can use the output of this function to feed data \
 into our `GraphicsComplex`", "Display" -> "codemirror", 
-    "Hash" -> "ef6cf445-644b-4f6e-91a6-4261f16e1b05", "Invisible" -> False, 
+    "Hash" -> "1031b062-c2c2-4fa3-925a-fda2c444beaf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, 
    <|"Data" -> "Then we can use the output of this function to feed data into \
 our `GraphicsComplex`", "Display" -> "markdown", 
-    "Hash" -> "db86e55e-03ec-44ab-93dd-68b006632f7a", "Invisible" -> False, 
+    "Hash" -> "cf0b2fe4-857d-4b33-b024-9cb34be69805", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, 
    <|"Data" -> "LeakyModule[{\n    vertices, normals, indices\n  },\n    {\n  \
     EventHandler[InputRange[0,1,0.1,0], Function[value,\n        With[{res  = \
 sample[value]},\n          normals = res[[3]];\n          indices = \
@@ -1974,29 +1976,30 @@ PointLight[Magenta, {10,10,10}],\n        GraphicsComplex[vertices // \
 Offload, {\n          Polygon[indices // Offload]\n        }, \
 VertexNormals->Offload[normals, \"Static\"->True]]\n      }, \
 Lighting->None]\n    } // Column // Panel \n]", "Display" -> "codemirror", 
-    "Hash" -> "6e0be30c-b72e-489f-9b03-03f65de1fe74", "Invisible" -> False, 
+    "Hash" -> "162a28ee-a0b7-4662-8e25-15bb734509d9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>, 
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>, 
    <|"Data" -> "(*BB[*)(Panel[(*GB[*){{(*VB[*)(EventObject[<|\"Id\" -> \
-\"71ccc26d-f0ed-4835-8928-515472e0d889\", \"Initial\" -> 0, \"View\" -> \
-\"c0b62cfb-27ef-4993-83e2-d75287e9cf32\"|>])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHv\
-k5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKJxskmRklpyXpGpmnpumaWFoa61oYpxrpppibGlm\
-Yp1ompxkbAQCKmhW3\"*)(*]VB*)}(*||*),(*||*){(*VB[*)(Graphics3D[{MeshMaterial[M\
+\"556b9ad1-e134-4d19-8802-03dc55ade20a\", \"Initial\" -> 0, \"View\" -> \
+\"9f5ea6a7-2274-4927-9036-5022adc6cfa5\"|>])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHv\
+k5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKW6aZpiaaJZrrGhmZm+iaWBqZ61oaGJvpmhoYGSW\
+mJJslpyWaAgB6hBVI\"*)(*]VB*)}(*||*),(*||*){(*VB[*)(Graphics3D[{MeshMaterial[M\
 eshToonMaterial[]], GrayLevel[0.5], SpotLight[RGBColor[1, 0, 0], {5, 5, 5}], \
 SpotLight[RGBColor[0, 0, 1], {-5, -5, 5}], SpotLight[RGBColor[0, 1, 0], {5, \
 -5, 5}], PointLight[RGBColor[1, 0, 1], {10, 10, 10}], \
-GraphicsComplex[Offload[vertices$549415], {Polygon[Offload[indices$549415]]}, \
-VertexNormals -> Offload[normals$549415, \"Static\" -> True]]}, Lighting -> \
-None])(*,*)(*\"1:eJyVkU1uwjAQhQ39gVb9u0IlLlAVFl1VKpXoIkAVUPcusRNLxhPZBsFte48u\
-Uo/dJCigirJ4Im8m37zM3H9CzFuEEHPq5A1kwtv4dOlkpGmeiYV5fOWdsiMSxob+KydjZrIxtUwLK\
-jlB9+7XnQOoquL7LwJxG7E1k5r439dzmIa1WQ42Emlm+QlaXSfx6GUIErRAgCClhIYyjThDv5LjgB\
-XLoxvA76IogvwT2PorYQOIC34HoY745gMR8e1aQvF252RDWOaSbcLm8XhTziXQxDetmbZiwUxv0H/\
-qPwzq89fH7fh0cpuC2mfc4FyV7CLaJSJeSWau3Z8PN4RtJqCXVJpQbzJUKB5kzM5x4Za6oN6b6xVr\
-TOn6xG55QqXenYBiPz6TnbI=\"*)(*]VB*)}}(*]GB*)])(*,*)(*\"1:eJxTTMoPSmNkYGAoZgES\
-Hvk5KWlMIB4/kAgoyi/LTElN8S8oyczPK05jAElwgCQS81JznPIrIEpBGoNKc1KDwSakJqYEs8LUA\
-ADiShU/\"*)(*]BB*)", "Display" -> "codemirror", 
-    "Hash" -> "c9815a96-98ff-4d96-a961-9d1b2c96ec32", "Invisible" -> False, 
+GraphicsComplex[Offload[vertices$3251143], \
+{Polygon[Offload[indices$3251143]]}, VertexNormals -> \
+Offload[normals$3251143, \"Static\" -> True]]}, Lighting -> \
+None])(*,*)(*\"1:eJyVkd1OwkAQhRf8AY1GX8HEF8DqtYmY4EVBUwj3K91tJ1l2mt2FwNv6Hl7U\
+/bGtFmKQixN6ZvrN6czNOya8QwjRx1ZeUKS8657OrYwULXJY6OiZ96qOGLQJ/RdWxkznY2qYAio4c\
+e71tztDlHXF958F4jZmayYU8b+PxzDN1aYFmhiy3PAjZ/WtJKOnIQpU4ABAKgkNVRo4cX4thwFrlk\
+e3gJ9lWQb5J7DzV8IW0C34DUEe8M17Irq3GwnFqx8nG+KyEGwTNu+O98q5QJr6+6yZMrBg+ja6exg\
+M7qPm/s11ez6e2GYodyFuEsj0F6NbMZKVYPrS/pnbMWwzQbWkQod6GyJDcT9keup2bqjN6r2ZWrHW\
+mL7PbPcHMvPuBCX7Avoonio=\"*)(*]VB*)}}(*]GB*)])(*,*)(*\"1:eJxTTMoPSmNiYGAo5gcS\
+AUX5ZZkpqSn+BSWZ+XnFaYwgCV4gEZaZWu6SmpxflFiSXxTMClKamJeaA9HJAiSCSnNSg0EMj9TEF\
+IQCAH5qF00=\"*)(*]BB*)", "Display" -> "codemirror", 
+    "Hash" -> "954c1617-4ec7-4710-96d3-4a5c465bd4ab", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "be879207-7e7e-4bc2-ab4b-ecd3b5f4a196"|>}, "serializer" -> "jsfn4"|>
+     "f6a6c722-3dee-44b5-b75c-090c26303dca"|>}, "serializer" -> "jsfn4"|>

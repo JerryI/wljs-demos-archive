@@ -1,59 +1,67 @@
-<|"Notebook" -> <|"FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$96], 
-   "Objects" -> <|"978217d7-a2eb-447d-8880-d2bcf0875f1a" -> 
-      <|"Public" -> Hold[ArrayDraw[{{1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 
-            0, 1, 1, 1, 0, 0, 1}, {1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 
-            0, 0, 0, 0, 0, 0}, {1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 
-            1, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 
-            0, 0, 1, 1}, {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
-            0, 0, 0}, {0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 
-            0, 0}, {0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-            0}, {0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0}, 
-           {0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0}, 
-           {0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0}, 
-           {1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0}, 
-           {1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0}, 
-           {0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0}, 
-           {0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0}, 
-           {0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0}, 
-           {0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0}, 
-           {0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0}, 
-           {0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0}, 
-           {1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1}, 
-           {0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0}}]]|>, 
-     "fe664e4f-e702-4eba-9144-9827eeae36f7" -> 
+<|"Notebook" -> <|"Controller" -> "082bf5c9-8426-469d-85bb-a9bd5c251d53", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$68], "MessangerChannel" -> 
+    Messanger, "ModalsChannel" -> "c2bd96fd-d1d7-45a8-9bdb-bf885c08abcb", 
+   "Objects" -> <|"626198af-e4dc-4b40-8660-ca52546dda1c" -> 
+      <|"Public" -> Hold[ArrayDraw[{{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 
+            0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 
+            0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 
+            1, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+            1, 1, 0, 0}, {0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 
+            0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
+            0, 0}, {1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 
+            0}, {1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0}, 
+           {1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0}, 
+           {0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1}, 
+           {1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0}, 
+           {1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1}, 
+           {0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, 
+           {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0}, 
+           {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, 
+           {0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1}, 
+           {0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1}, 
+           {0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1}, 
+           {0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0}, 
+           {0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1}}]]|>, 
+     "b0641dff-d96f-4317-a329-3bd99544f69c" -> 
       <|"Public" -> Hold[ArrayDraw[Offload[sboard]]]|>|>, 
-   "Path" -> "/Users/kirill/Github/wolfram-js-frontend/Demos/12 - Frontend \
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/12 - Frontend \
 interpreter/Array plotter.wln", "ReadOnly" -> True, 
-   "Symbols" -> <|"sboard" -> JSObject[0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-         0, 0, 0, 0, 0, 0, 1][0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-         1, 1, 1, 0], 0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 
-         0], 0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0], 
-        0[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0], 
-        0[0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0], 
+   "Symbols" -> <|"sboard" -> JSObject[0[0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 
+         0, 0, 0, 0, 0, 0, 0][0[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 
+         0, 0, 0, 0], 0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 
+         0], 0[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        0[0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
         0[0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0], 
-        0[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0], 
-        0[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]]]|>, 
-   "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Frontend functions", 
-      CellObj[JerryI`Notebook`CellObj`$66]], 
-     Notebook`Editor`TOC`Private`heading[2, "Animated array plotter", 
-      CellObj[JerryI`Notebook`CellObj`$66]], 
-     Notebook`Editor`TOC`Private`heading[2, "Cleanning up method", 
-      CellObj[JerryI`Notebook`CellObj`$74]], 
-     Notebook`Editor`TOC`Private`heading[2, "Update method", 
-      CellObj[JerryI`Notebook`CellObj`$82]], 
-     Notebook`Editor`TOC`Private`heading[3, "Animation", 
-      CellObj[JerryI`Notebook`CellObj`$93]]}|>, 
+        0[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0], 
+        0[1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        0[1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]|>, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, 
+      "Frontend functions", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$35]], 
+     CoffeeLiqueur`Extensions`TOC`Private`heading[2, 
+      "Animated array plotter", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$35]], 
+     CoffeeLiqueur`Extensions`TOC`Private`heading[2, "Cleanning up method", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$43]], 
+     CoffeeLiqueur`Extensions`TOC`Private`heading[2, "Update method", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$50]], 
+     CoffeeLiqueur`Extensions`TOC`Private`heading[3, "Animation", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$64]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Frontend functions\n## Animated array \
 plotter\nIn this small session we will show how to write our own raw function \
 for the frontend, that allows to visualize an array of data in a unique \
@@ -62,10 +70,10 @@ way.\n\n<br/>\n\nIt is important to note, that here it does not rely on \
 to Wolfram Language.\n\n<br/>\n\nThis __will be the fastest way of handling \
 the data from WL to a browser's screen__. Most in-build components are made \
 in this way.", "Display" -> "codemirror", 
-    "Hash" -> "f9f79d97-def3-495c-bb67-17a4cded4f77", "Invisible" -> False, 
+    "Hash" -> "98088845-fb2e-493c-8d9b-13428de4d43d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\n# Frontend functions\n## Animated array plotter\nIn this \
 small session we will show how to write our own raw function for the \
 frontend, that allows to visualize an array of data in a unique \
@@ -74,30 +82,30 @@ way.\n\n<br/>\n\nIt is important to note, that here it does not rely on \
 to Wolfram Language.\n\n<br/>\n\nThis __will be the fastest way of handling \
 the data from WL to a browser's screen__. Most in-build components are made \
 in this way.", "Display" -> "markdown", 
-    "Hash" -> "a93523a3-d86c-4bd9-b6d6-f76933ecde5e", "Invisible" -> False, 
+    "Hash" -> "6844e881-63e8-48b6-95af-d83751efdc85", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\nLet's sketch a plan!\n1. The size of an array is \
 determined in a runtime.\n2. It should use `canvas` element of HTML5.\n3. It \
 will be animated independently from the incomming data with a nice fading \
 effect.\n4. It should be synced to the framerate of the browser.\n\nIt sound \
 complicated, however using a modern Javascript thing are going much easier", 
     "Display" -> "codemirror", "Hash" -> 
-     "722501fc-33fe-4626-b134-06871f5805b3", "Invisible" -> False, 
+     "7306179e-c7bd-4911-8012-f26e29411f81", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\nLet's sketch a plan!\n1. The size of an array is determined \
 in a runtime.\n2. It should use `canvas` element of HTML5.\n3. It will be \
 animated independently from the incomming data with a nice fading effect.\n4. \
 It should be synced to the framerate of the browser.\n\nIt sound complicated, \
 however using a modern Javascript thing are going much easier", 
     "Display" -> "markdown", "Hash" -> 
-     "162ec498-df01-4de3-b7fc-a989a5f2d1a0", "Invisible" -> False, 
+     "40a65a1b-8e3f-4358-aa70-22b29d04c7ce", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".js\ncore.ArrayDraw = async (args, env) => {\n  const canvas \
 = document.createElement('canvas');\n  \n  //fixed, but one can use \
 core._getRules(args, env) to derive the ImageSize option\n  canvas.width = \
@@ -141,10 +149,10 @@ older\n      particles[i].lifetime = particles[i].lifetime + 0.2;\n\n      \
 env.local.uid = requestAnimationFrame(animate);\n  }\n\n  //kickstarter\n  \
 requestAnimationFrame(animate);\n}\n\ncore.ArrayDraw.virtual = true;", 
     "Display" -> "codemirror", "Hash" -> 
-     "28aae6cf-9cdf-4a5f-83ba-3c8694c46f10", "Invisible" -> False, 
+     "7dda4285-1681-4ff3-bb35-b489079e7e71", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "core.ArrayDraw = async (args, env) => {\n  const canvas = \
 document.createElement('canvas');\n  \n  //fixed, but one can use \
 core._getRules(args, env) to derive the ImageSize option\n  canvas.width = \
@@ -187,72 +195,72 @@ older\n      particles[i].lifetime = particles[i].lifetime + 0.2;\n\n      \
 //and store the ID of a request to cancel it later if needed\n    \
 env.local.uid = requestAnimationFrame(animate);\n  }\n\n  //kickstarter\n  \
 requestAnimationFrame(animate);\n}\n\ncore.ArrayDraw.virtual = true;", 
-    "Display" -> "js", "Hash" -> "43726fac-4ee3-477d-a25a-53a9075cbe1f", 
+    "Display" -> "js", "Hash" -> "a1c180d6-4b8a-4c0e-863b-3d7af620381c", 
     "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
     "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
-    "Notebook" -> "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+    "Notebook" -> "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "9c8a6386-bf36-4510-a7a1-fe5bddda6260", "Invisible" -> False, 
+    "Hash" -> "b5303f46-1464-420e-a866-235a44d0cb95", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\n## Cleanning up method\nOnce you delete this widget or \
 object (i dunno how to call it), __we should take care about animation \
 loop__, otherwise it will continue to run in the background", 
     "Display" -> "codemirror", "Hash" -> 
-     "4acd75ef-007c-4384-b0cc-421d74f4e59c", "Invisible" -> False, 
+     "33998ca9-1ba5-4624-bc87-36b829f586dc", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\n## Cleanning up method\nOnce you delete this widget or \
 object (i dunno how to call it), __we should take care about animation \
 loop__, otherwise it will continue to run in the background", 
     "Display" -> "markdown", "Hash" -> 
-     "38be8468-7715-4c3a-bdee-c7129395bdfa", "Invisible" -> False, 
+     "415976eb-d808-477d-a388-265097f2ace6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".js\ncore.ArrayDraw.destroy = async (args, env) => {\n  \
 //remove animation loop\n  cancelAnimationFrame(env.local.uid);\n  //make \
 shure that all other nested object will do the same\n  await \
 interpretate(args[0], env);\n}", "Display" -> "codemirror", 
-    "Hash" -> "d116d316-7dc8-4e57-a635-282174a5fca0", "Invisible" -> False, 
+    "Hash" -> "757ec0f4-cb54-4452-baa1-ef0de5eb17a6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "core.ArrayDraw.destroy = async (args, env) => {\n  //remove \
 animation loop\n  cancelAnimationFrame(env.local.uid);\n  //make shure that \
 all other nested object will do the same\n  await interpretate(args[0], \
 env);\n}", "Display" -> "js", "Hash" -> 
-     "c592ade2-2f6a-4f1f-8d05-d72e12953630", "Invisible" -> False, 
+     "d923ec06-f203-42b1-b4f9-2f508c6ede85", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\nNow the second important method", 
     "Display" -> "codemirror", "Hash" -> 
-     "54146ed3-ea16-4a17-aa68-6b8253dc1700", "Invisible" -> False, 
+     "78a54318-cb24-4a1e-b832-54d55de9f740", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\nNow the second important method", "Display" -> "markdown", 
-    "Hash" -> "eef111ab-d663-4506-b40d-8fe1f8857f3c", "Invisible" -> False, 
+    "Hash" -> "3e06ad6b-c8b4-435e-b100-30b070f6d691", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\n## Update method\nWhen the dependent variables changes, \
 we should update the canvas without reevaluating cells", 
     "Display" -> "codemirror", "Hash" -> 
-     "0549773e-53d9-49fb-88da-6f8b78ed915f", "Invisible" -> False, 
+     "57e81fbb-9220-4e24-8c4e-a378bfc64eb9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\n## Update method\nWhen the dependent variables changes, we \
 should update the canvas without reevaluating cells", 
     "Display" -> "markdown", "Hash" -> 
-     "bbcc34ad-bb4a-48c7-997e-c20b7dc9a885", "Invisible" -> False, 
+     "4c0235e5-f376-4d56-91f9-29e19c46e0bf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".js\ncore.ArrayDraw.update = async (args, env) => {\n  const \
 innerData = env.local.innerData;\n\n  //get the provided data from WL\n  let \
 array = await interpretate(args[0], env);\n  if (array instanceof \
@@ -260,122 +268,122 @@ NumericArrayObject) {\n    array = array.normal();\n  }\n  if (array.length \
 != env.local.array.length) return;\n  if (array[0].length != \
 env.local.array[0].length) return;\n  env.local.array = array;\n}", 
     "Display" -> "codemirror", "Hash" -> 
-     "dec067ae-eac4-4dc9-9b3f-204d5d00ea47", "Invisible" -> False, 
+     "fe54f91f-5aed-42e2-b126-bd692cd3a503", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "core.ArrayDraw.update = async (args, env) => {\n  const \
 innerData = env.local.innerData;\n\n  //get the provided data from WL\n  let \
 array = await interpretate(args[0], env);\n  if (array instanceof \
 NumericArrayObject) {\n    array = array.normal();\n  }\n  if (array.length \
 != env.local.array.length) return;\n  if (array[0].length != \
 env.local.array[0].length) return;\n  env.local.array = array;\n}", 
-    "Display" -> "js", "Hash" -> "cc0ad251-ed88-41e7-8c23-99cb5caf476c", 
+    "Display" -> "js", "Hash" -> "0f533ace-17e0-4f36-9cd5-fb052dffe358", 
     "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
     "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
-    "Notebook" -> "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+    "Notebook" -> "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\nNow all data is stored inside the `env.local` variable, \
 which is unique for each instance.\n\nThen to call it like a proper Wolfram \
 Function, we need to wrap it into", "Display" -> "codemirror", 
-    "Hash" -> "2bc86765-b636-4a55-99cf-376c1da30d76", "Invisible" -> False, 
+    "Hash" -> "b2a9bd3c-270d-4693-881c-ec158eeb4f73", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\nNow all data is stored inside the `env.local` variable, \
 which is unique for each instance.\n\nThen to call it like a proper Wolfram \
 Function, we need to wrap it into", "Display" -> "markdown", 
-    "Hash" -> "10092b56-55bd-4991-a8d6-2926db55aecc", "Invisible" -> False, 
+    "Hash" -> "62abd7ee-eb93-4904-a955-7ef5998e8cde", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "gameOfLife = {224, {2, {{2, 2, 2}, {2, 1, 2}, {2, 2, 2}}}, \
 {1, 1}};\nbboard = RandomInteger[1, {20, 20}];\nCreateFrontEndObject[\n  \
 ArrayDraw[bboard = Last[CellularAutomaton[gameOfLife, bboard, {{0, 1}}]]]\n]"\
 , "Display" -> "codemirror", "Hash" -> 
-     "d761cca5-44ef-4fcc-b375-22bce18e7eae", "Invisible" -> False, 
+     "638905c8-b879-4498-8ac9-d9126769a4c5", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
-   <|"Data" -> "(*VB[*)(FrontEndRef[\"978217d7-a2eb-447d-8880-d2bcf0875f1a\"]\
-)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKW5pbG\
-Bmap5jrJhqlJumamJin6FpYWBjophglJacZWJibphkmAgB8lBWC\"*)(*]VB*)", 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
+   <|"Data" -> "(*VB[*)(FrontEndRef[\"626198af-e4dc-4b40-8660-ca52546dda1c\"]\
+)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKmxmZG\
+VpaJKbpppqkJOuaJJkY6FqYmRnoJieaGpmamKWkJBomAwB/0RWf\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "24e2cd33-efdd-4048-9579-0e0ca1e12b22", "Invisible" -> False, 
+     "ba6363d8-f448-4b01-8500-6ca973892870", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "", "Display" -> "codemirror", 
-    "Hash" -> "fb239605-a4f9-4c3c-97fe-97938778d394", "Invisible" -> False, 
+    "Hash" -> "eb9eb93e-0c86-47d6-92e5-0cf58e7bd903", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\nYou __can copy and paste__, since this is a proper \
 frontend object.\n\nHowever, there is much more we need to do as well. ", 
     "Display" -> "codemirror", "Hash" -> 
-     "bc210cdf-9cde-4d94-b1f6-f9495f87ad35", "Invisible" -> False, 
+     "8cdf2ae2-16c3-4539-8fd5-8563a60a1fac", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\nYou __can copy and paste__, since this is a proper frontend \
 object.\n\nHowever, there is much more we need to do as well. ", 
     "Display" -> "markdown", "Hash" -> 
-     "897a35db-8cdf-4576-9add-af74fb2ebbc7", "Invisible" -> False, 
+     "9ecb154e-a425-4fd7-b9b8-733931941ae7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\n### Animation", "Display" -> "codemirror", 
-    "Hash" -> "121744c5-75c0-4f71-a762-cc4a956f3cf6", "Invisible" -> False, 
+    "Hash" -> "a9fe023c-5628-4cc8-ac35-117050aa1384", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, <|"Data" -> "\n### Animation", 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, <|"Data" -> "\n### Animation", 
     "Display" -> "markdown", "Hash" -> 
-     "a0c7c2b7-5e52-4c83-9611-0e3cc97cc476", "Invisible" -> False, 
+     "fc391863-5821-4bf2-b6c2-b07708c0c83e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\nNow we can check the result by rewritting the update \
 cycle in WL in a much shorter way", "Display" -> "codemirror", 
-    "Hash" -> "2af02fc1-434c-4c32-b428-ffad2d829a77", "Invisible" -> False, 
+    "Hash" -> "e6bbfabc-e2ca-490d-816d-ec9a4be79a55", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\nNow we can check the result by rewritting the update cycle \
 in WL in a much shorter way", "Display" -> "markdown", 
-    "Hash" -> "f4a5419e-9a89-47c5-97df-2776469ad3c3", "Invisible" -> False, 
+    "Hash" -> "d8cf90e8-fd53-4883-86de-d17be3914aa6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\ngameOfLife = {224, {2, {{2, 2, 2}, {2, 1, 2}, {2, 2, 2}}}, \
 {1, 1}};\nsboard = RandomInteger[1, {20, \
 20}];\nCreateFrontEndObject[ArrayDraw[sboard // Offload]]\n\nDo[\n  sboard = \
 Last[CellularAutomaton[gameOfLife, sboard, {{0, 1}}]];\n  Pause[0.2];\n, {i, \
 1, 30}]", "Display" -> "codemirror", 
-    "Hash" -> "6630e5d5-ded5-47e8-be00-a7a7fe8ae66c", "Invisible" -> False, 
+    "Hash" -> "f30fcac9-f7a5-47ae-99de-d9a634a6c79d", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
-   <|"Data" -> "(*VB[*)(FrontEndRef[\"fe664e4f-e702-4eba-9144-9827eeae36f7\"]\
-)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKp6Wam\
-ZmkmqTpppobGOmapCYl6loampjoWloYmaemJqYam6WZAwCK3hXp\"*)(*]VB*)", 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
+   <|"Data" -> "(*VB[*)(FrontEndRef[\"b0641dff-d96f-4317-a329-3bd99544f69c\"]\
+)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKJxmYm\
+RimpKXppliapemaGBua6yYaG1nqGielWFqampikmVkmAwCFFBWH\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "93b5dec7-2de4-4082-be54-3944dc497965", "Invisible" -> False, 
+     "5bd7b88c-8d98-4a03-ae9c-3e40062bedee", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> ".md\nSo it just updates our variable `sboard` without \
 thinking of redrawing the canvas", "Display" -> "codemirror", 
-    "Hash" -> "be7a87fd-220f-49c1-8232-fdb8e0b2c82e", "Invisible" -> False, 
+    "Hash" -> "a1611524-9a2f-4874-88a8-5706391770ef", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> "\nSo it just updates our variable `sboard` without thinking \
 of redrawing the canvas", "Display" -> "markdown", 
-    "Hash" -> "bdddbe2c-204d-4423-9e18-fdfda21d6836", "Invisible" -> False, 
+    "Hash" -> "e0fffb7d-945e-4180-98a6-f4edc2212fbc", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>, 
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "df0e75a8-251e-4f4a-9cfa-c5f7aaa285cb", "Invisible" -> False, 
+    "Hash" -> "208e2745-0c95-4275-8176-aa972d38d89e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "cbfa8344-4c2a-4a47-af98-c275ca3cc3d9"|>}, "serializer" -> "jsfn4"|>
+     "ef2a4980-efc9-4205-8a1c-b287ab9da933"|>}, "serializer" -> "jsfn4"|>

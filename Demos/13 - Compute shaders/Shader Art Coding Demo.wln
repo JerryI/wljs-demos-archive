@@ -1,40 +1,45 @@
-<|"Notebook" -> <|"FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$50], 
-   "Objects" -> <||>, "Path" -> "/users/kirill/Github/wolfram-js-frontend/Dem\
-os/13 - Compute shaders/Shader Art Coding Demo.wln", "Symbols" -> <||>, 
-   "TOC" -> {Notebook`Editor`TOC`Private`heading[1, "Shader Art Coding Demo", 
-      CellObj[JerryI`Notebook`CellObj`$33]]}|>, 
+<|"Notebook" -> <|"Controller" -> "d48303d9-a926-4b2f-9c12-cda8ab1c0721", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$482], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "00b3047c-2ed6-4482-9b18-6011fefa1eb1", "Objects" -> <||>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/13 - Compute \
+shaders/Shader Art Coding Demo.wln", "Symbols" -> <||>, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, 
+      "Shader Art Coding Demo", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$467]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Shader Art Coding Demo\nThis is an \
 adaptation of [@kishimisu](https://www.shadertoy.com/view/mtyGWy) at \
 ShaderToy. A generative art using compute shaders. Please run initialization \
 cells and the last one in the notebook to see it in action", 
     "Display" -> "codemirror", "Hash" -> 
-     "0479cdc7-57fd-4281-86ed-d475378584b4", "Invisible" -> False, 
+     "88db7f21-12d2-429f-abf4-debe30cab299", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "# Shader Art Coding Demo\nThis is an adaptation of \
 [@kishimisu](https://www.shadertoy.com/view/mtyGWy) at ShaderToy. A \
 generative art using compute shaders. Please run initialization cells and the \
 last one in the notebook to see it in action", "Display" -> "markdown", 
-    "Hash" -> "7e7fc6f9-187e-48d1-8724-ef793f2bce6f", "Invisible" -> False, 
+    "Hash" -> "73b299e6-a35b-4848-874d-30552bdd1c2b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "Needs[\"OpenCLLink`\"]", "Display" -> "codemirror", 
-    "Hash" -> "ba879ec3-e951-48f5-b462-0a0f973265ab", "Invisible" -> False, 
+    "Hash" -> "ffb62052-9601-453c-b11f-6c605138c0cf", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+    "Notebook" -> "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> ".md\nShader code", "Display" -> "codemirror", 
-    "Hash" -> "fa92d718-898f-4452-8686-456d83ad26f0", "Invisible" -> False, 
+    "Hash" -> "78502d70-7457-4f95-9893-a216e4c986ab", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, <|"Data" -> "Shader code", 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, <|"Data" -> "Shader code", 
     "Display" -> "markdown", "Hash" -> 
-     "bf1c158b-8ca5-4557-94d3-8f7262d20e8b", "Invisible" -> False, 
+     "1743f26b-2aba-47eb-8e0a-27e3f2a93da7", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "art.cl\n\nfloat3 palette( float t ) {\n    float3 a = \
 (float3)(0.5, 0.5, 0.5);\n    float3 b = (float3)(0.5, 0.5, 0.5);\n    float3 \
 c = (float3)(1.0, 1.0, 1.0);\n    float3 d = (float3)(0.263,0.416,0.557);\n\n \
@@ -56,74 +61,73 @@ finalcolor += col * d;\n    }\n\n    //clamp to 8bits for each channel\n    \
 rgba.y=(uchar)(finalcolor.y*255.0);\n    \
 rgba.z=(uchar)(finalcolor.z*255.0);\n    rgba.w=255;\n\n    \
 output[work_item_id] = rgba;\n}", "Display" -> "codemirror", 
-    "Hash" -> "f87152e9-ddde-4dcf-8289-fb61c7008fc8", "Invisible" -> False, 
+    "Hash" -> "1cbfcade-0c8b-4a1b-8139-69bdbbe51af4", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
-   <|"Data" -> "/users/kirill/Github/wolfram-js-frontend/Demos/13 - Compute \
+    "Notebook" -> "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
+   <|"Data" -> "/Users/kirill/Github/wljs-demos-archive/Demos/13 - Compute \
 shaders/art.cl", "Display" -> "fileprint", 
-    "Hash" -> "abe9498a-c37c-43b5-bd01-fb05c6970e5b", "Invisible" -> False, 
+    "Hash" -> "2a650517-880c-44d0-bba3-f9ac2bbce3ea", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> ".md\nAllocate memory", "Display" -> "codemirror", 
-    "Hash" -> "e81d33f4-123a-4b97-b6f0-6d36b6a25586", "Invisible" -> False, 
+    "Hash" -> "329a342e-f0a1-4b71-961f-c650eb59f358", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, <|"Data" -> "Allocate memory", 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, <|"Data" -> "Allocate memory", 
     "Display" -> "markdown", "Hash" -> 
-     "03a990e3-2892-4e65-bb8a-d4fb198d197a", "Invisible" -> False, 
+     "388ab34b-28fd-418c-80f9-c73ec9b3f13a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "image = OpenCLMemoryLoad[Table[{0, 0, 0, 0}, {i, 512}, {j, \
 512}], \"UnsignedByte[4]\"];", "Display" -> "codemirror", 
-    "Hash" -> "0a3ffd23-4df5-454c-9986-eec97b1f4dab", "Invisible" -> False, 
+    "Hash" -> "f18ebfe2-d022-41e1-9c47-71b0cd73e2e9", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+    "Notebook" -> "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> ".md\nCompile", "Display" -> "codemirror", 
-    "Hash" -> "ff7891cf-ca9b-4327-a594-51766ba7f5c4", "Invisible" -> False, 
+    "Hash" -> "d3f37dcc-8cd5-4efb-a855-af923310f89f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, <|"Data" -> "Compile", 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, <|"Data" -> "Compile", 
     "Display" -> "markdown", "Hash" -> 
-     "1ddc2548-8abe-4f9c-a0c2-5de5b79e615c", "Invisible" -> False, 
+     "2d9c227e-b6d1-4f0e-8909-cc22cbb00728", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "render = OpenCLFunctionLoad[File[\"art.cl\"], \n  \"render\", \
 {{\"UnsignedByte[4]\", _, \"Output\"}, _Integer, _Integer, \"Float\"}, 256, \
 \"ShellOutputFunction\"->Print];", "Display" -> "codemirror", 
-    "Hash" -> "afc96241-d08d-4251-a386-9ff2cfdce77a", "Invisible" -> False, 
+    "Hash" -> "91018640-6afe-4c5d-b588-8963e7269011", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"InitGroup" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+    "Notebook" -> "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "\" \"", "Display" -> "print", 
-    "Hash" -> "2659ab27-cbd4-4468-8537-371cc8855d58", "Invisible" -> False, 
+    "Hash" -> "bd225d06-6f31-4dc6-9fe0-56444d1b1328", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> ".md\nAnimation cycle\n\n__Run this one at the very last__", 
     "Display" -> "codemirror", "Hash" -> 
-     "089e37f1-3547-4aa0-9f47-1080fc048650", "Invisible" -> False, 
+     "00a6fe2c-03c6-46ac-a9f5-0cacbd3c9748", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "Animation cycle\n\n__Run this one at the very last__", 
     "Display" -> "markdown", "Hash" -> 
-     "054a9478-5c1a-4a39-a57f-ed78b256c49d", "Invisible" -> False, 
+     "0b9e7b29-fe06-4a60-84e7-3ef064a587c3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>, 
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>, 
    <|"Data" -> "Module[{buffer, t=0.0, ev = CreateUUID[]},\n  \
 EventHandler[ev, Function[Null,\n    render[image, 512, 512, t, 512 512];\n   \
  buffer = NumericArray[image // OpenCLMemoryGet, \"UnsignedInteger8\"];\n    \
-t += 0.1;\n  ]];\n\n  EventFire[ev, True];\n\n  Graphics[{\n    \
-Inset[Image[buffer // Offload, \"Byte\"], {0,0}, ViewMatrix->None],\n    \
-AnimationFrameListener[buffer // Offload, \"Event\"->ev]\n  }, \
-ImageSize->{512, 512}]\n]", "Display" -> "codemirror", 
-    "Hash" -> "1ea57b0e-233b-4d7d-aca0-13f19af75998", "Invisible" -> False, 
+t += 0.1;\n  ]];\n\n  EventFire[ev, True];\n\n  Image[buffer // Offload, \
+\"Byte\", Epilog->{\n    AnimationFrameListener[buffer // Offload, \
+\"Event\"->ev]\n  }]\n]", "Display" -> "codemirror", 
+    "Hash" -> "16e853ec-6bab-4f03-9d37-25a7d1c9d082", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "d6f0d0e5-bbf2-4e2c-a1fe-bd17603d2411"|>}, "serializer" -> "jsfn4"|>
+     "874caefd-b67c-4d54-b2e4-636d5bc78ad4"|>}, "serializer" -> "jsfn4"|>

@@ -1,19 +1,26 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$251], 
-   "Objects" -> <||>, "Path" -> "/users/kirill/Github/wolfram-js-frontend-dev\
-/Examples/Dynamics/Animation/Parametric curve animator.wln"|>, 
+<|"Notebook" -> <|"Controller" -> "63e7d18c-4f36-4ba1-94b2-883ecb8930d2", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$2771], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "3161a615-2e37-4da4-b091-d97094f6a409", "Objects" -> <||>, 
+   "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demos/04 - \
+Animation/Parametric curve animator.wln", "ReadOnly" -> True, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[2, 
+      "Parametric curve animator", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$2769]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n## Parametric curve animator\nProvide a curve \
 equation as a function of the angle and the ranges", 
     "Display" -> "codemirror", "Hash" -> 
-     "7d7f840a-7635-4e1c-a93b-728ffe5920c8", "Invisible" -> False, 
+     "0b667d21-af77-4033-834c-26355c9b46f6", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "84784ea0-d871-44d3-bb59-3d724f4c1733"|>, 
+     "6f3c838e-cfab-4a5b-9f38-9154aac1e028"|>, 
    <|"Data" -> "\n## Parametric curve animator\nProvide a curve equation as a \
 function of the angle and the ranges", "Display" -> "markdown", 
-    "Hash" -> "827e0738-9b7d-45cf-bfad-d03a46b1081b", "Invisible" -> False, 
+    "Hash" -> "abd645a6-9c35-4c16-901c-1b0cbd938ec8", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "84784ea0-d871-44d3-bb59-3d724f4c1733"|>, 
+     "6f3c838e-cfab-4a5b-9f38-9154aac1e028"|>, 
    <|"Data" -> "ParametricAnimator[equation_, variable_:t, range_:{0, \
 Infinity, 0.1}] := LeakyModule[{time = range[[1]], task, scale = 1, array = \
 {}, scaledArray={}, cell = ResultCell[]},\n\n    (* sample the equation each \
@@ -30,13 +37,26 @@ Print[\"removed\"]]}];\n\n\tGraphics[{Red, PointSize[0.05], Point[pointer // \
 Offload],\n Opacity[0.5], Line[scaledArray // Offload]\n  }, \
 \"TransitionDuration\"->50, \"TransitionType\"->\"Linear\", Controls->True, \
 PlotRange->{{-1,1}, {-1,1}}]\n]", "Display" -> "codemirror", 
-    "Hash" -> "c4eb7159-7875-4687-a5dd-f38bf00ed907", "Invisible" -> False, 
+    "Hash" -> "7c9b5147-4472-4868-9923-0758243ccd5a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False, "init" -> True|>, 
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
-    "Notebook" -> "84784ea0-d871-44d3-bb59-3d724f4c1733"|>, 
+    "Notebook" -> "6f3c838e-cfab-4a5b-9f38-9154aac1e028"|>, 
    <|"Data" -> "ParametricAnimator[Exp[Sin[t]] - 2 Cos[4t] + Sin[(2t - \
 Pi)/24], t, {0,16, 0.05}]", "Display" -> "codemirror", 
-    "Hash" -> "e7f849e9-d642-4b58-a7e8-e036afb17c1e", "Invisible" -> False, 
+    "Hash" -> "1768bdaa-ddc6-491d-90ba-ce3abca69e45", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "84784ea0-d871-44d3-bb59-3d724f4c1733"|>}, "serializer" -> "jsfn4"|>
+     "6f3c838e-cfab-4a5b-9f38-9154aac1e028"|>, 
+   <|"Data" -> "(*VB[*)(Graphics[{RGBColor[1, 0, 0], PointSize[0.05], \
+Point[Offload[pointer]], Opacity[0.5], Line[Offload[scaledArray$130494]]}, \
+\"TransitionDuration\" -> 50, \"TransitionType\" -> \"Linear\", Controls -> \
+True, PlotRange -> {{-1, 1}, {-1, \
+1}}])(*,*)(*\"1:eJx1UEtOwzAQNZ8C3bDoDZB6AArdsKpKK5VFJaokFxgSG0ayPNHYWYSbwA24F\
+TcBj0PUBsQsnj3vvfHnXT1RZo6UUv40wgPZyoyku4iwYahfsPQdI/oWfTAnvZ5t7ldkiVHmUfXQHT\
+eOsCN0IcdXze9vUh+LThv1WteeR3g0xhJUaV+LpPlArKHE0LJK9bnYP3iLTv89ZCJECVZXS2Zop7P\
+b6/nd3Bz3U1ljdS6mgsF5DEhu3TDIijfyg6HzcuAs2lrnZz93Aw+9KZcVucBkfWILbvQvT4rGUsjA\
+PR9oKdxBh1+xUrr/8d/l6Gp0\"*)(*]VB*)", "Display" -> "codemirror", 
+    "Hash" -> "6421258e-d76c-4484-a1e3-aa54cb4e5e07", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "6f3c838e-cfab-4a5b-9f38-9154aac1e028"|>}, "serializer" -> "jsfn4"|>

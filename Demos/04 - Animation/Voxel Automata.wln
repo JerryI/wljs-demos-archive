@@ -1,117 +1,138 @@
-<|"Notebook" -> <|"ReadOnly"->True, "FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$32], 
+<|"Notebook" -> <|"Controller" -> "33f1e042-a05d-4e81-87a2-d045664dea4b", 
+   "FocusedCell" -> CoffeeLiqueur`Notebook`Cells`CellObj[
+     CoffeeLiqueur`Notebook`Cells`CellObj`$3059], 
+   "MessangerChannel" -> Messanger, "ModalsChannel" -> 
+    "f6cf814a-4bd1-4b3a-825e-84137e33643a", 
    "Objects" -> <|"076f0378-38d3-45b8-9697-933daacb7120" -> 
       <|"Public" -> Hold[Graphics3D[{Cuboid[{1, 1, 0}], 
            MetaMarker["marker"]}, "Lighting" -> None, "Lightmap" -> "https://\
 raw.githubusercontent.com/JerryI/Mathematica-ThreeJS-graphics-engine/master/a\
 ssets/PureSky.hdr", "ViewProjection" -> "Perspective", ImageSize -> 
-           500]]|>|>, "Path" -> "/users/kirill/Library/Application \
-Support/wljs-notebook/Examples/02 - Dynamics/Animation/VoxelAutomata.wln"|>, 
+           500]]|>|>, "Path" -> "/Users/kirill/Github/wljs-demos-archive/Demo\
+s/04 - Animation/Voxel Automata.wln", "ReadOnly" -> True, 
+   "TOC" -> {CoffeeLiqueur`Extensions`TOC`Private`heading[1, 
+      "Terrain generation", CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$3054]], 
+     CoffeeLiqueur`Extensions`TOC`Private`heading[2, 
+      "An example of WLJS-WL realtime communication", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$3054]], 
+     CoffeeLiqueur`Extensions`TOC`Private`heading[3, "Initialization cells", 
+      CoffeeLiqueur`Notebook`Cells`CellObj[
+       CoffeeLiqueur`Notebook`Cells`CellObj`$3062]]}|>, 
  "Cells" -> {<|"Data" -> ".md\n# Terrain generation\n## An example of WLJS-WL \
 realtime communication\n\n<span style=\"color: red\">Please, run \
 initialization cells first!</span>\n\nLive generation of voxel cellular \
 automaton", "Display" -> "codemirror", 
-    "Hash" -> "b8528202-ebd1-4b0f-9ace-5efdbf8ee0b2", "Invisible" -> False, 
+    "Hash" -> "d50e4126-bd98-48e0-b3fb-a9ab14a1a369", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "\n# Terrain generation\n## An example of WLJS-WL realtime \
 communication\n\n<span style=\"color: red\">Please, run initialization cells \
 first!</span>\n\nLive generation of voxel cellular automaton", 
     "Display" -> "markdown", "Hash" -> 
-     "bbb1fc51-130b-451a-89b6-0a51a7580349", "Invisible" -> False, 
+     "6bbbb5ba-4ffa-4755-8505-c6a6f75b6269", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
-   <|"Data" -> "Graphics3D[{Cuboid[{1,1,0}], MetaMarker[\"marker\"]}, \
-\"Lighting\"->None, \
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
+   <|"Data" -> "Graphics3D[{Cuboid[{1,1,0}], \
+FrontInstanceReference[\"marker\"]}, \"Lighting\"->None, \
 \"Lightmap\"->\"https://raw.githubusercontent.com/JerryI/Mathematica-ThreeJS-\
 graphics-engine/master/assets/PureSky.hdr\", \
 \"ViewProjection\"->\"Perspective\", ImageSize->500]", 
     "Display" -> "codemirror", "Hash" -> 
-     "47946302-9567-449e-8865-51aefc329530", "Invisible" -> False, 
+     "bb6a0459-c0a4-48a2-94fd-d86f2b8faa3f", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
-   <|"Data" -> "(*VB[*)(FrontEndRef[\"076f0378-38d3-45b8-9697-933daacb7120\"]\
-)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKG5ibp\
-RkYm1voGlukGOuamCZZ6FqaWZrrWhobpyQmJieZGxoZAAByRxTw\"*)(*]VB*)", 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
+   <|"Data" -> "(*VB[*)(Graphics3D[{Cuboid[{1, 1, 0}], \
+FrontInstanceReference[\"marker\"]}, \"Lighting\" -> None, \"Lightmap\" -> \
+\"https://raw.githubusercontent.com/JerryI/Mathematica-ThreeJS-graphics-engin\
+e/master/assets/PureSky.hdr\", \"ViewProjection\" -> \"Perspective\", \
+ImageSize -> \
+500])(*,*)(*\"1:eJx1UMlOwzAQDatYJI7c+YDUB25cQUAqQFGMuDvOeKG1HY0nVOW7+QAmTRGoE\
+od5em/mabarNjVmryiKfMjwmJadORrVGcMDqt55na/vzP6P48lnmvzHDLdDm3xnDv5W/VidgKOYzJ\
+cM95giVTGTihoaMIDARI59gsIF4O+UZliCPNk0tI58tJvsS4rwnyeoXhoWjqjPN0KgWs2sJze0Qwb\
+UPBkizXQKYg6I60o8K3IQFHmtyleHAHNZ2u3BJUTrI4igMgEKlTNQFvWAIBfrmet2N71g8uZhVWN6\
+B00+RXnOqRow96P+2Fk7nzKpgrIg/Sf4L37RN16DaR8=\"*)(*]VB*)", 
     "Display" -> "codemirror", "Hash" -> 
-     "c3a197f9-a84f-4fa6-a655-32706208332f", "Invisible" -> False, 
+     "b9e193ff-048f-45b8-be2f-c6f38e78e2a3", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> ".md\nEvaluate this line __after you did run an initializtion \
 cells group__", "Display" -> "codemirror", 
-    "Hash" -> "26b1b9f4-6d46-4428-b1ec-1a6f40829f5f", "Invisible" -> False, 
+    "Hash" -> "79db6bf3-b246-49ec-964b-693d39525a9e", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> 
      "\nEvaluate this line __after you did run an initializtion cells \
 group__", "Display" -> "markdown", "Hash" -> 
-     "86258da2-4d0a-4d02-b36a-af87a96adc4a", "Invisible" -> False, 
+     "39572f3f-2805-44c1-8d6c-697d57a45f58", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "Do[iterate //Quiet;, {i,1,10}];", "Display" -> "codemirror", 
-    "Hash" -> "d6068318-57e8-4a33-b775-a2536ba14aa3", "Invisible" -> False, 
+    "Hash" -> "3c0325ed-39bc-4d8e-b805-862a7b6a4175", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> " ", "Display" -> "codemirror", 
-    "Hash" -> "d0da63c7-5085-4764-a750-aa0ec3612463", "Invisible" -> False, 
+    "Hash" -> "a74ed58f-69ed-494b-abda-2b2cfe7f602b", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> ".md\n### Initialization cells", "Display" -> "codemirror", 
-    "Hash" -> "f791671f-1142-48f2-9097-35eb917e8a0e", "Invisible" -> False, 
+    "Hash" -> "a3b4079e-b81b-45e1-b572-d4fd68e75ffe", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "\n### Initialization cells", "Display" -> "markdown", 
-    "Hash" -> "0785cd1e-0564-4ec7-97b2-f8ea3a2fc84a", "Invisible" -> False, 
+    "Hash" -> "f8496a56-8f23-47ec-b69d-78485a98bc21", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> ".md\nCellular Automata", "Display" -> "codemirror", 
-    "Hash" -> "5de7bdb5-1b05-4245-be76-9eeb848e078f", "Invisible" -> False, 
+    "Hash" -> "302100f8-4676-4db7-93ab-b16ab28fa88a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "\nCellular Automata", "Display" -> "markdown", 
-    "Hash" -> "069957cb-3242-4251-a494-d434f25a060b", "Invisible" -> False, 
+    "Hash" -> "8e43319a-38e0-4a21-bde8-28ab3a46894a", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "size = {10,10};\nboard = CellularAutomaton[{6, {2, 1}, {1, \
 1}}, {{{1}}, 0}, 50]//First;\nsize = board//Dimensions\n\nz = 0;\n\niterate \
 := (\n board = CellularAutomaton[{6, {2, 1}, {1, 1}}, board];\n\n Table[\n  \
 If[board[[i+size[[1]]/2 // Floor,j+size[[2]]/2 // Floor]] > 0, \n    \
 With[{cube = Cuboid[{i,j,z}, {i+1,j+1,z+0.8}], color = \
 {1+i/100,1+i/100,(z+10)/10}},\n      FrontSubmit[{ RGBColor@color, cube}, \
-MetaMarker[\"marker\"]];\n      Pause[0.02];\n    ]\n  ];\n , {i, \
+FrontInstanceReference[\"marker\"]];\n      Pause[0.02];\n    ]\n  ];\n , {i, \
 -size[[1]]/2//Floor, size[[1]]/2//Floor}, {j, -size[[2]]/2//Floor, \
 size[[2]]/2//Floor}];\n z = z - 0.8;\n);", "Display" -> "codemirror", 
-    "Hash" -> "9e937339-1e9b-4bf9-b4dc-c8d9596c9915", "Invisible" -> False, 
+    "Hash" -> "2d44306c-d29d-4742-b92e-0eb6ac931325", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False, "init" -> True, 
       "InitGroup" -> True|>, "State" -> "Idle", "Type" -> "Input", 
-    "UID" -> Null, "Notebook" -> "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+    "UID" -> Null, "Notebook" -> "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "{101,101}", "Display" -> "codemirror", 
-    "Hash" -> "d4a82ca4-ff10-4f95-a287-84f411c45892", "Invisible" -> False, 
+    "Hash" -> "87aa3e98-7b7e-43d0-aa7b-6faffbf51953", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> ".md\nIn a nutshell, it uses `FrontSubmit` expression to \
 evaluate the desired element inside the instace marked using `MetaMarker`.", 
     "Display" -> "codemirror", "Hash" -> 
-     "1e1b493a-6534-4627-88ae-6301834a8e73", "Invisible" -> False, 
+     "143e8a81-5144-4850-8b31-4da383c3fcea", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
     "Type" -> "Input", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>, 
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>, 
    <|"Data" -> "\nIn a nutshell, it uses `FrontSubmit` expression to evaluate \
 the desired element inside the instace marked using `MetaMarker`.", 
     "Display" -> "markdown", "Hash" -> 
-     "6f592f4d-9129-4311-bb00-fddc02761c9a", "Invisible" -> False, 
+     "26ae149d-5471-413f-9d4a-52cbf3e37d88", "Invisible" -> False, 
     "MetaOnly" -> False, "Props" -> <|"Hidden" -> False|>, "State" -> "Idle", 
     "Type" -> "Output", "UID" -> Null, "Notebook" -> 
-     "5bff8b04-f4b8-47cc-9384-04b2ccbfa431"|>}, "serializer" -> "jsfn4"|>
+     "fee72f95-fbe4-4f14-8dc0-f0441667ae75"|>}, "serializer" -> "jsfn4"|>
